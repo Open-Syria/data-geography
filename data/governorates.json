@@ -1,1 +1,354 @@
-[]
+[
+  {
+    "id": "sy-al-hasakah",
+    "name": {
+      "en": "Hasakah Governorate",
+      "ar": "محافظة الحسكة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Hasakah",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Hasaka Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-HA",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q233914",
+      "geonames": "173813"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo",
+    "name": {
+      "en": "Aleppo Governorate",
+      "ar": "محافظة حلب"
+    },
+    "aliases": [
+      {
+        "value": "Aleppo",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-HL",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q214064",
+      "geonames": "170062"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-as-suwayda",
+    "name": {
+      "en": "Suwayda Governorate",
+      "ar": "محافظة السويداء"
+    },
+    "aliases": [
+      {
+        "value": "Suwayda",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "as-Suwayda Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "al-Suwayda Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-SU",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q236797",
+      "geonames": "172410"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-damascus",
+    "name": {
+      "en": "Damascus Governorate",
+      "ar": "محافظة دمشق"
+    },
+    "aliases": [],
+    "iso31662": "SY-DI",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q2007044",
+      "geonames": "167541"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-daraa",
+    "name": {
+      "en": "Daraa Governorate",
+      "ar": "محافظة درعا"
+    },
+    "aliases": [
+      {
+        "value": "Daraa",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-DR",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q1689560",
+      "geonames": "170903"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor",
+    "name": {
+      "en": "Deir ez-Zor Governorate",
+      "ar": "محافظة دير الزور"
+    },
+    "aliases": [
+      {
+        "value": "Deir ez-Zor",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Dayr az-Zawr",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-DY",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q232387",
+      "geonames": "170792"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-hama",
+    "name": {
+      "en": "Hama Governorate",
+      "ar": "محافظة حماة"
+    },
+    "aliases": [
+      {
+        "value": "Hama",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Hamah Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-HM",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q232355",
+      "geonames": "170015"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs",
+    "name": {
+      "en": "Homs Governorate",
+      "ar": "محافظة حمص"
+    },
+    "aliases": [
+      {
+        "value": "Homs",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Hims Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-HI",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q214094",
+      "geonames": "169575"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib",
+    "name": {
+      "en": "Idlib Governorate",
+      "ar": "محافظة إدلب"
+    },
+    "aliases": [
+      {
+        "value": "Idlib",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-ID",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q233218",
+      "geonames": "169387"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia",
+    "name": {
+      "en": "Latakia Governorate",
+      "ar": "محافظة اللاذقية"
+    },
+    "aliases": [
+      {
+        "value": "Latakia",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-LA",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q233236",
+      "geonames": "173578"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-quneitra",
+    "name": {
+      "en": "Quneitra Governorate",
+      "ar": "محافظة القنيطرة"
+    },
+    "aliases": [
+      {
+        "value": "Quneitra",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-QU",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q219690",
+      "geonames": "173336"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-raqqa",
+    "name": {
+      "en": "Raqqa Governorate",
+      "ar": "محافظة الرقة"
+    },
+    "aliases": [
+      {
+        "value": "Raqqa",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Al-Raqqah Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Raqqah",
+        "language": "en",
+        "type": "alternate_spelling"
+      }
+    ],
+    "iso31662": "SY-RA",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q235563",
+      "geonames": "172957"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq",
+    "name": {
+      "en": "Rif Dimashq Governorate",
+      "ar": "محافظة ريف دمشق"
+    },
+    "aliases": [
+      {
+        "value": "Rif-dimashq",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Governorate of the Countryside of Damascus",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "Damascus Surroundings",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-RD",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q232399",
+      "geonames": "170652"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus",
+    "name": {
+      "en": "Tartus Governorate",
+      "ar": "محافظة طرطوس"
+    },
+    "aliases": [
+      {
+        "value": "Tartus",
+        "language": "en",
+        "type": "alias"
+      }
+    ],
+    "iso31662": "SY-TA",
+    "centroid": null,
+    "externalIds": {
+      "wikidata": "Q232382",
+      "geonames": "163342"
+    },
+    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceStatus": "seed"
+  }
+]

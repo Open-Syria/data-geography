@@ -1,0 +1,37 @@
+{
+  "sourceId": "wikidata",
+  "sourceTitle": "Wikidata",
+  "sourceUrl": "https://query.wikidata.org/",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-governorates/wikidata-governorates-query.sparql",
+      "sha256": "b093dee23a3b2d2134ace2d3bc632f56fa9ba14fa93d6c4d8da13ffde200acda",
+      "notes": "SPARQL query for Syrian governorates by ISO 3166-2 code."
+    },
+    {
+      "name": "imports/raw/2026-06-27-governorates/wikidata-governorates-result.json",
+      "sha256": "b9e7cff58e7e2b7e257fbd261009da1829dac28de3f7ea8e9cc4fcd04914a58f",
+      "notes": "Raw Wikidata Query Service JSON result."
+    }
+  ],
+  "importedFields": [
+    "name.en",
+    "name.ar",
+    "aliases",
+    "iso31662",
+    "externalIds.wikidata",
+    "externalIds.geonames"
+  ],
+  "targetFiles": ["data/governorates.json"],
+  "transforms": [
+    "Queried Wikidata records by ISO 3166-2 codes for Syria governorates.",
+    "Removed duplicate rows caused by multiple coordinate statements before normalization.",
+    "Used Wikidata English labels as canonical English governorate names and Arabic labels as canonical Arabic names.",
+    "Excluded coordinate statements from canonical centroids until the coordinate policy is reviewed."
+  ],
+  "reviewNotes": "Seeded Wikidata QIDs, Arabic labels, English labels, ISO 3166-2 codes, and selected English aliases for all 14 Syrian governorates."
+}

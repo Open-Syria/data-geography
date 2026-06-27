@@ -1,0 +1,24 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/admin1CodesASCII.txt",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-governorates/geonames-admin1-sy.txt",
+      "sha256": "c85fe3ca6d1bbb02084ee09ea367dbb6805017945ed77f605e78e1949d5e3d50",
+      "notes": "Filtered admin1CodesASCII rows where the code starts with SY."
+    }
+  ],
+  "importedFields": ["name.en", "aliases", "externalIds.geonames"],
+  "targetFiles": ["data/governorates.json"],
+  "transforms": [
+    "Filtered GeoNames admin-1 rows to records with an SY prefix.",
+    "Matched GeoNames rows to Wikidata records by shared GeoNames IDs and ISO 3166-2 subdivision codes.",
+    "Used GeoNames names as English aliases where they differ from the canonical governorate display name."
+  ],
+  "reviewNotes": "Seeded the 14 Syria admin-1 rows from GeoNames and cross-checked identifiers against Wikidata. GeoNames coordinates were not imported as centroids in this pass."
+}
