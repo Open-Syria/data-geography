@@ -1,0 +1,36 @@
+{
+  "sourceId": "geoboundaries-syr",
+  "sourceTitle": "geoBoundaries Syrian Arab Republic Administrative Boundaries",
+  "sourceUrl": "https://www.geoboundaries.org/api/current/gbOpen/SYR/ADM2/",
+  "license": "CC BY 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-districts/geoboundaries-syr-adm2-api.json",
+      "sha256": "ea0228777177e7355b2682c4c0279e82b0ba661b34cd3b081076d8d68738ca67",
+      "notes": "geoBoundaries API metadata for Syria ADM2 gbOpen."
+    },
+    {
+      "name": "imports/raw/2026-06-27-districts/geoboundaries-syr-adm2.geojson",
+      "sha256": "74358b107af7368c206aca32beeb70051433a66fc0fe14d6499bfe810e061b09",
+      "notes": "Syria ADM2 boundary GeoJSON downloaded from geoBoundaries."
+    },
+    {
+      "name": "imports/raw/2026-06-27-districts/geoboundaries-syr-adm2-derived-areas-and-matches.json",
+      "sha256": "f3f4d73fa6508d4e16fad74fd94dff3afd9b0e3f11c159273df5b18f31945edc",
+      "notes": "Local point-in-polygon matches between GeoNames ADM2 coordinates and geoBoundaries ADM2 polygons, with derived area values."
+    }
+  ],
+  "importedFields": ["area", "aliases", "externalIds.geoboundaries"],
+  "targetFiles": ["data/districts.json", "data/sources.json"],
+  "transforms": [
+    "Downloaded geoBoundaries Syria ADM2 API metadata and boundary GeoJSON.",
+    "Matched each GeoNames ADM2 record to exactly one geoBoundaries ADM2 polygon using the GeoNames representative coordinate.",
+    "Calculated polygon area from GeoJSON coordinates with a spherical polygon area formula using mean Earth radius 6371008.8 metres.",
+    "Rounded derived district areas to three decimal places in square kilometres.",
+    "Stored geoBoundaries shape IDs as external identifiers."
+  ],
+  "reviewNotes": "Used geoBoundaries for ADM2 shape IDs and derived area values. The current seed does not publish geometry files; GeoJSON generation remains blocked until geometry and boundary release policy is finalized."
+}

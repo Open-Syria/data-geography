@@ -1,0 +1,38 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-districts/geonames-sy-adm2-records.tsv",
+      "sha256": "3960c74d21758e98d1bed1fca7da174d9651ef392211331a459f0a621054bb1e",
+      "notes": "Filtered SY.txt rows where feature class is A and feature code is ADM2."
+    },
+    {
+      "name": "imports/raw/2026-06-27-districts/normalized-district-records.json",
+      "sha256": "d2d85f188b7b78520474baeb9ac6a73e431b46984a0441c8c05ed80cae34f4f1",
+      "notes": "Local normalized district records after source matching and review cleanup."
+    }
+  ],
+  "importedFields": [
+    "governorateId",
+    "name.en",
+    "name.ar",
+    "aliases",
+    "centroid",
+    "externalIds.geonames"
+  ],
+  "targetFiles": ["data/districts.json", "data/sources.json"],
+  "transforms": [
+    "Filtered GeoNames Syria dump to ADM2 administrative records.",
+    "Mapped GeoNames admin1 codes to existing OpenSyria governorate IDs.",
+    "Removed English administrative suffixes such as District from canonical names.",
+    "Used GeoNames latitude and longitude as seed representative centroids.",
+    "Used Arabic names from GeoNames where Wikidata did not provide a suitable Arabic label."
+  ],
+  "reviewNotes": "Seeded 61 district records from GeoNames ADM2 features. GeoNames population values were not imported because they are mostly zero or undated in the dump."
+}

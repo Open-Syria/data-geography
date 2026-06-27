@@ -1,0 +1,30 @@
+{
+  "sourceId": "wikidata",
+  "sourceTitle": "Wikidata",
+  "sourceUrl": "https://query.wikidata.org/",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-districts/wikidata-districts-query.sparql",
+      "sha256": "bbf2b6d03dad18e56aa355957c66bf37157fc9066bbeec10f579651eac4c70d3",
+      "notes": "SPARQL query for Wikidata items by GeoNames ADM2 IDs."
+    },
+    {
+      "name": "imports/raw/2026-06-27-districts/wikidata-districts-result.json",
+      "sha256": "53a0e685b2b0ff79f5f415afacc8b9457573e21d98aa368dbbc45b09d52847f7",
+      "notes": "Raw Wikidata Query Service JSON result for district labels, aliases, and QIDs."
+    }
+  ],
+  "importedFields": ["name.ar", "aliases", "externalIds.wikidata"],
+  "targetFiles": ["data/districts.json"],
+  "transforms": [
+    "Matched Wikidata records to districts by GeoNames ID.",
+    "Used Wikidata Arabic labels where they aligned with the GeoNames and geoBoundaries ADM2 feature.",
+    "Added Wikidata QIDs to matching district records.",
+    "Skipped Wikidata-derived Arabic label for Al-Suqaylabiyah because the matching Wikidata item is labelled Al-Ghab while GeoNames and geoBoundaries use Al-Suqaylabiyah."
+  ],
+  "reviewNotes": "Wikidata matched 60 of 61 GeoNames ADM2 records. Ariha has no Wikidata ID from this GeoNames-ID query and remains sourced from GeoNames and geoBoundaries."
+}

@@ -1,1 +1,2664 @@
-[]
+[
+  {
+    "id": "sy-al-hasakah-al-hasakah",
+    "governorateId": "sy-al-hasakah",
+    "name": {
+      "en": "Al-Hasakah",
+      "ar": "الحسكة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Hasakah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al-Hasakeh",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Hasakah District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "مركز الحسكة",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة الحسكة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.22578,
+      "longitude": 40.73446
+    },
+    "area": {
+      "value": 12643.802,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4702479",
+      "geonames": "173812",
+      "geoboundaries": "27442178B13029247631939"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-hasakah-al-malikiyah",
+    "governorateId": "sy-al-hasakah",
+    "name": {
+      "en": "Al-Malikiyah",
+      "ar": "المالكية"
+    },
+    "aliases": [
+      {
+        "value": "Al-Malikiyah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al-Malikeyyeh",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة المالكية",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.94113,
+      "longitude": 41.90157
+    },
+    "area": {
+      "value": 2651.785,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4702792",
+      "geonames": "170665",
+      "geoboundaries": "27442178B99216687489351"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-hasakah-al-qamishli",
+    "governorateId": "sy-al-hasakah",
+    "name": {
+      "en": "Al-Qamishli",
+      "ar": "القامشلي"
+    },
+    "aliases": [
+      {
+        "value": "Al-Qamishli District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Quamishli",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Qamishli",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة القامشلي",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.85071,
+      "longitude": 41.17243
+    },
+    "area": {
+      "value": 4042.195,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q129497",
+      "geonames": "173378",
+      "geoboundaries": "27442178B53577550578456"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-al-hasakah-ras-al-ayn",
+    "governorateId": "sy-al-hasakah",
+    "name": {
+      "en": "Ras al-Ayn",
+      "ar": "رأس العين"
+    },
+    "aliases": [
+      {
+        "value": "Ras al-Ayn District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Ras Al Ain",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة رأس العين",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.75664,
+      "longitude": 40.14643
+    },
+    "area": {
+      "value": 3825.072,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q129494",
+      "geonames": "7895146",
+      "geoboundaries": "27442178B16567144851356"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia-al-haffah",
+    "governorateId": "sy-latakia",
+    "name": {
+      "en": "Al-Haffah",
+      "ar": "الحفة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Haffah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al-Haffa",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الحفة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.59687,
+      "longitude": 36.11198
+    },
+    "area": {
+      "value": 569.77,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2278356",
+      "geonames": "173857",
+      "geoboundaries": "27442178B95231031847739"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia-jableh",
+    "governorateId": "sy-latakia",
+    "name": {
+      "en": "Jableh",
+      "ar": "جبلة"
+    },
+    "aliases": [
+      {
+        "value": "Jableh District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Jablah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة جبلة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.29048,
+      "longitude": 36.0449
+    },
+    "area": {
+      "value": 485.54,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115831",
+      "geonames": "169303",
+      "geoboundaries": "27442178B5090378365720"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia-latakia",
+    "governorateId": "sy-latakia",
+    "name": {
+      "en": "Latakia",
+      "ar": "اللاذقية"
+    },
+    "aliases": [
+      {
+        "value": "Latakia District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Lattakia",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "مركز اللاذقية",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة اللاذقية",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.72426,
+      "longitude": 35.9415
+    },
+    "area": {
+      "value": 972.008,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2229628",
+      "geonames": "173577",
+      "geoboundaries": "27442178B94813764709421"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-latakia-qardaha",
+    "governorateId": "sy-latakia",
+    "name": {
+      "en": "Qardaha",
+      "ar": "القرداحة"
+    },
+    "aliases": [
+      {
+        "value": "Qardaha District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al-Qardaha",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة القرداحة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.41713,
+      "longitude": 36.10613
+    },
+    "area": {
+      "value": 360.901,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2611794",
+      "geonames": "173365",
+      "geoboundaries": "27442178B45607569668873"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-quneitra-fiq",
+    "governorateId": "sy-quneitra",
+    "name": {
+      "en": "Fiq",
+      "ar": "فيق"
+    },
+    "aliases": [
+      {
+        "value": "Fiq District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Fiq",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة فيق",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 32.79793,
+      "longitude": 35.72198
+    },
+    "area": {
+      "value": 405.716,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118374",
+      "geonames": "172039",
+      "geoboundaries": "27442178B98358455064560"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-quneitra-quneitra",
+    "governorateId": "sy-quneitra",
+    "name": {
+      "en": "Quneitra",
+      "ar": "القنيطرة"
+    },
+    "aliases": [
+      {
+        "value": "Quneitra District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Quneitra Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "مركز القنيطرة",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة القنيطرة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.08571,
+      "longitude": 35.78844
+    },
+    "area": {
+      "value": 1313.2,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118367",
+      "geonames": "173335",
+      "geoboundaries": "27442178B38649296158741"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-raqqa-al-thawrah",
+    "governorateId": "sy-raqqa",
+    "name": {
+      "en": "Al-Thawrah",
+      "ar": "الثورة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Thawrah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Ath-Thawrah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Tabqah District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة الثورة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.79843,
+      "longitude": 38.3455
+    },
+    "area": {
+      "value": 5464.393,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4703291",
+      "geonames": "8276864",
+      "geoboundaries": "27442178B46572819209410"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-raqqa-ar-raqqah",
+    "governorateId": "sy-raqqa",
+    "name": {
+      "en": "Ar-Raqqah",
+      "ar": "الرقة"
+    },
+    "aliases": [
+      {
+        "value": "Ar-Raqqah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Ar-Raqqa",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Raqqa District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "مركز الرقة",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة الرقة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.87204,
+      "longitude": 39.04706
+    },
+    "area": {
+      "value": 7327.491,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4703126",
+      "geonames": "172956",
+      "geoboundaries": "27442178B57458390277946"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-raqqa-tell-abyad",
+    "governorateId": "sy-raqqa",
+    "name": {
+      "en": "Tell Abyad",
+      "ar": "تل أبيض"
+    },
+    "aliases": [
+      {
+        "value": "Tell Abyad District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Tell Abiad",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة تل ابيض",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة تل أبيض",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.4828,
+      "longitude": 39.2136
+    },
+    "area": {
+      "value": 4832.792,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q7697373",
+      "geonames": "7905857",
+      "geoboundaries": "27442178B34075692761550"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-as-suwayda-as-suwayda",
+    "governorateId": "sy-as-suwayda",
+    "name": {
+      "en": "As-Suwayda",
+      "ar": "السويداء"
+    },
+    "aliases": [
+      {
+        "value": "As-Suwayda District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "As-Sweida",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Suwayda District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "مركز السويداء",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة السويداء",
+        "language": "ar",
+        "type": "alias"
+      }
+    ],
+    "centroid": {
+      "latitude": 32.78127,
+      "longitude": 36.86502
+    },
+    "area": {
+      "value": 2805.785,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q3266216",
+      "geonames": "172409",
+      "geoboundaries": "27442178B49241886307156"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-as-suwayda-salkhad",
+    "governorateId": "sy-as-suwayda",
+    "name": {
+      "en": "Salkhad",
+      "ar": "صلخد"
+    },
+    "aliases": [
+      {
+        "value": "Salkhad District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة صلخد",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 32.51779,
+      "longitude": 36.91954
+    },
+    "area": {
+      "value": 1781.804,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q3265272",
+      "geonames": "164916",
+      "geoboundaries": "27442178B39967895671995"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-as-suwayda-shahba",
+    "governorateId": "sy-as-suwayda",
+    "name": {
+      "en": "Shahba",
+      "ar": "شهبا"
+    },
+    "aliases": [
+      {
+        "value": "Shahba District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة شهبا",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.04282,
+      "longitude": 36.72034
+    },
+    "area": {
+      "value": 1774.031,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q3265263",
+      "geonames": "164625",
+      "geoboundaries": "27442178B615257865565"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-daraa-al-sanamayn",
+    "governorateId": "sy-daraa",
+    "name": {
+      "en": "Al-Sanamayn",
+      "ar": "الصنمين"
+    },
+    "aliases": [
+      {
+        "value": "Al-Sanamayn District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "As-Sanamayn",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الصنمين",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.12559,
+      "longitude": 36.2754
+    },
+    "area": {
+      "value": 1331.394,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115585",
+      "geonames": "8276863",
+      "geoboundaries": "27442178B3893178613366"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-daraa-daraa",
+    "governorateId": "sy-daraa",
+    "name": {
+      "en": "Daraa",
+      "ar": "درعا"
+    },
+    "aliases": [
+      {
+        "value": "Daraa District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Dar'a",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "مركز درعا",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة درعا",
+        "language": "ar",
+        "type": "alias"
+      }
+    ],
+    "centroid": {
+      "latitude": 32.63144,
+      "longitude": 36.20352
+    },
+    "area": {
+      "value": 1549.248,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115583",
+      "geonames": "170904",
+      "geoboundaries": "27442178B67726505950673"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-daraa-izra",
+    "governorateId": "sy-daraa",
+    "name": {
+      "en": "Izra",
+      "ar": "إزرع"
+    },
+    "aliases": [
+      {
+        "value": "Izra District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Izra'",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة ازرع",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة إزرع",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 32.90121,
+      "longitude": 36.16144
+    },
+    "area": {
+      "value": 954.943,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q3235210",
+      "geonames": "169339",
+      "geoboundaries": "27442178B99944519185371"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor-abu-kamal",
+    "governorateId": "sy-deir-ez-zor",
+    "name": {
+      "en": "Abu Kamal",
+      "ar": "البوكمال"
+    },
+    "aliases": [
+      {
+        "value": "Abu Kamal District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة أبو كمال",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة البوكمال",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.54076,
+      "longitude": 40.51966
+    },
+    "area": {
+      "value": 6814.508,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4670245",
+      "geonames": "174447",
+      "geoboundaries": "27442178B22276011833046"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor-deir-ez-zor",
+    "governorateId": "sy-deir-ez-zor",
+    "name": {
+      "en": "Deir ez-Zor",
+      "ar": "دير الزور"
+    },
+    "aliases": [
+      {
+        "value": "Deir ez-Zor District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Deir-ez-Zor",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "مركز دير الزور",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة دير الزور",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.44913,
+      "longitude": 40.19342
+    },
+    "area": {
+      "value": 14388.783,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q152237",
+      "geonames": "170793",
+      "geoboundaries": "27442178B9541206135539"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-deir-ez-zor-mayadin",
+    "governorateId": "sy-deir-ez-zor",
+    "name": {
+      "en": "Mayadin",
+      "ar": "الميادين"
+    },
+    "aliases": [
+      {
+        "value": "Mayadin District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Mayadin",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الميادين",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.8565,
+      "longitude": 40.30414
+    },
+    "area": {
+      "value": 3955.432,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q6796790",
+      "geonames": "173481",
+      "geoboundaries": "27442178B96470480022323"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-al-nabk",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Al-Nabk",
+      "ar": "النبك"
+    },
+    "aliases": [
+      {
+        "value": "Al-Nabk District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "An Nabk",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة النبك",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.08307,
+      "longitude": 36.71223
+    },
+    "area": {
+      "value": 1123.19,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118363",
+      "geonames": "173194",
+      "geoboundaries": "27442178B81131748986773"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-al-qutayfah",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Al-Qutayfah",
+      "ar": "القطيفة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Qutayfah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Qutayfah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة القطيفة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.80798,
+      "longitude": 36.86081
+    },
+    "area": {
+      "value": 1588.15,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118370",
+      "geonames": "173313",
+      "geoboundaries": "27442178B63021739925615"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-al-tall",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Al-Tall",
+      "ar": "التل"
+    },
+    "aliases": [
+      {
+        "value": "Al-Tall District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "At Tall",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة التل",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.71795,
+      "longitude": 36.32785
+    },
+    "area": {
+      "value": 557.851,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120570",
+      "geonames": "172350",
+      "geoboundaries": "27442178B63006606807907"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-al-zabadani",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Al-Zabadani",
+      "ar": "الزبداني"
+    },
+    "aliases": [
+      {
+        "value": "Al-Zabadani District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Az-Zabdani",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الزبداني",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.70819,
+      "longitude": 36.11198
+    },
+    "area": {
+      "value": 655.43,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120510",
+      "geonames": "172060",
+      "geoboundaries": "27442178B59833257068654"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-darayya",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Darayya",
+      "ar": "داريا"
+    },
+    "aliases": [
+      {
+        "value": "Darayya District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة داريا",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.4991,
+      "longitude": 36.19116
+    },
+    "area": {
+      "value": 96.307,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118372",
+      "geonames": "8276862",
+      "geoboundaries": "27442178B13792068888358"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-douma",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Douma",
+      "ar": "دوما"
+    },
+    "aliases": [
+      {
+        "value": "Douma District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Duma",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة دوما",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.43262,
+      "longitude": 37.63855
+    },
+    "area": {
+      "value": 19898.237,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q986780",
+      "geonames": "170590",
+      "geoboundaries": "27442178B16442606574703"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-markaz-rif-dimashq",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Markaz Rif Dimashq",
+      "ar": "مركز ريف دمشق"
+    },
+    "aliases": [
+      {
+        "value": "Markaz Rif Dimashq District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Rural Damascus",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "ريف دمشق",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة مركز ريف دمشق",
+        "language": "ar",
+        "type": "alias"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.34658,
+      "longitude": 36.28752
+    },
+    "area": {
+      "value": 777.149,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118382",
+      "geonames": "8540234",
+      "geoboundaries": "27442178B80699161134092"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-qatana",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Qatana",
+      "ar": "قطنا"
+    },
+    "aliases": [
+      {
+        "value": "Qatana District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة قطنا",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.38916,
+      "longitude": 36.0036
+    },
+    "area": {
+      "value": 995.906,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120498",
+      "geonames": "165928",
+      "geoboundaries": "27442178B63011141740515"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-rif-dimashq-yabrud",
+    "governorateId": "sy-rif-dimashq",
+    "name": {
+      "en": "Yabrud",
+      "ar": "يبرود"
+    },
+    "aliases": [
+      {
+        "value": "Yabrud District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Yabroud",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة يبرود",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.95305,
+      "longitude": 36.44595
+    },
+    "area": {
+      "value": 580.514,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118379",
+      "geonames": "7895152",
+      "geoboundaries": "27442178B56496530106269"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-afrin",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Afrin",
+      "ar": "عفرين"
+    },
+    "aliases": [
+      {
+        "value": "Afrin District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة عفرين",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.54891,
+      "longitude": 36.79295
+    },
+    "area": {
+      "value": 1840.34,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120569",
+      "geonames": "174184",
+      "geoboundaries": "27442178B88911382861768"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-al-bab",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Al-Bab",
+      "ar": "الباب"
+    },
+    "aliases": [
+      {
+        "value": "Al-Bab District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Bab",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "بوابة تادف",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الباب",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.30946,
+      "longitude": 37.53277
+    },
+    "area": {
+      "value": 2014.163,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118360",
+      "geonames": "174019",
+      "geoboundaries": "27442178B24628051118006"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-al-safira",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Al-Safira",
+      "ar": "السفيرة"
+    },
+    "aliases": [
+      {
+        "value": "Al-Safira District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "As-Safira",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Safirah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة السفيرة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.83309,
+      "longitude": 37.46345
+    },
+    "area": {
+      "value": 2850.223,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2022892",
+      "geonames": "8276861",
+      "geoboundaries": "27442178B22464389911891"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-ayn-al-arab",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Ayn al-Arab",
+      "ar": "عين العرب"
+    },
+    "aliases": [
+      {
+        "value": "Ayn al-Arab District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Ain Al Arab",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "kobani District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة كوباني",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة عين العرب",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.60224,
+      "longitude": 38.34816
+    },
+    "area": {
+      "value": 3067.176,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q260014",
+      "geonames": "172255",
+      "geoboundaries": "27442178B6640625460328"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-azaz",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Azaz",
+      "ar": "أعزاز"
+    },
+    "aliases": [
+      {
+        "value": "Azaz District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "A'zaz",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة أعزاز",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.49986,
+      "longitude": 37.18382
+    },
+    "area": {
+      "value": 1259.626,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118348",
+      "geonames": "172081",
+      "geoboundaries": "27442178B26836039619487"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-jarabulus",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Jarabulus",
+      "ar": "جرابلس"
+    },
+    "aliases": [
+      {
+        "value": "Jarabulus District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Jarablus",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة جرابلس",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.69092,
+      "longitude": 37.81411
+    },
+    "area": {
+      "value": 607.29,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120552",
+      "geonames": "169178",
+      "geoboundaries": "27442178B60985416821817"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-manbij",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Manbij",
+      "ar": "منبج"
+    },
+    "aliases": [
+      {
+        "value": "Manbij District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Menbij",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة منبج",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.06687,
+      "longitude": 37.91735
+    },
+    "area": {
+      "value": 5183.206,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120577",
+      "geonames": "167355",
+      "geoboundaries": "27442178B68936835306318"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-aleppo-mount-simeon",
+    "governorateId": "sy-aleppo",
+    "name": {
+      "en": "Mount Simeon",
+      "ar": "جبل سمعان"
+    },
+    "aliases": [
+      {
+        "value": "Mount Simeon District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Jebel Saman",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة حلب",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة جبل سمعان",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.99956,
+      "longitude": 37.08473
+    },
+    "area": {
+      "value": 3065.029,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120574",
+      "geonames": "169326",
+      "geoboundaries": "27442178B96508006833869"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-hama-al-salamiyah",
+    "governorateId": "sy-hama",
+    "name": {
+      "en": "Al-Salamiyah",
+      "ar": "سلمية"
+    },
+    "aliases": [
+      {
+        "value": "Al-Salamiyah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "As-Salamiyeh",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Salamieh District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة سلمية",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.14398,
+      "longitude": 37.59235
+    },
+    "area": {
+      "value": 6193.457,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118483",
+      "geonames": "164946",
+      "geoboundaries": "27442178B43082534172912"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-hama-al-suqaylabiyah",
+    "governorateId": "sy-hama",
+    "name": {
+      "en": "Al-Suqaylabiyah",
+      "ar": "السقيلبية"
+    },
+    "aliases": [
+      {
+        "value": "Al-Suqaylabiyah District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "As-Suqaylabiyah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Ghab",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "حيالين",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "مركزها السقيلبية",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة السقيلبية",
+        "language": "ar",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة الغاب",
+        "language": "ar",
+        "type": "alias"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.48102,
+      "longitude": 36.32441
+    },
+    "area": {
+      "value": 1109.363,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q576132",
+      "geonames": "173885",
+      "geoboundaries": "27442178B45767266881892"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed",
+    "notes": "GeoNames and geoBoundaries identify this ADM2 feature as Al-Suqaylabiyah/As-Suqaylabiyah; Wikidata labels the matching GeoNames ID as Al-Ghab."
+  },
+  {
+    "id": "sy-hama-hama",
+    "governorateId": "sy-hama",
+    "name": {
+      "en": "Hama",
+      "ar": "حماة"
+    },
+    "aliases": [
+      {
+        "value": "Hama District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "مركز حماة",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة حماة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.28577,
+      "longitude": 37.12626
+    },
+    "area": {
+      "value": 2553.478,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2856152",
+      "geonames": "170016",
+      "geoboundaries": "27442178B84195179221003"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-hama-masyaf",
+    "governorateId": "sy-hama",
+    "name": {
+      "en": "Masyaf",
+      "ar": "مصياف"
+    },
+    "aliases": [
+      {
+        "value": "Masyaf District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة مصياف",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.10335,
+      "longitude": 36.3392
+    },
+    "area": {
+      "value": 804.107,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2586299",
+      "geonames": "167044",
+      "geoboundaries": "27442178B31990643139600"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-hama-mhardeh",
+    "governorateId": "sy-hama",
+    "name": {
+      "en": "Mhardeh",
+      "ar": "محردة"
+    },
+    "aliases": [
+      {
+        "value": "Mhardeh District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Muhradah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Muhardeh District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة محردة",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.30023,
+      "longitude": 36.54844
+    },
+    "area": {
+      "value": 434.683,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q75488",
+      "geonames": "8276860",
+      "geoboundaries": "27442178B78133098408237"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-al-mukharram",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Al-Mukharram",
+      "ar": "المخرم"
+    },
+    "aliases": [
+      {
+        "value": "Al-Mukharram District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Makhrim",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة المخرم",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.85057,
+      "longitude": 37.37688
+    },
+    "area": {
+      "value": 3015.159,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120567",
+      "geonames": "173435",
+      "geoboundaries": "27442178B17685723948764"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-al-qusayr",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Al-Qusayr",
+      "ar": "القصير"
+    },
+    "aliases": [
+      {
+        "value": "Al-Qusayr District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة القصير",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.54081,
+      "longitude": 36.55528
+    },
+    "area": {
+      "value": 598.898,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115829",
+      "geonames": "173324",
+      "geoboundaries": "27442178B51656539269606"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-al-rastan",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Al-Rastan",
+      "ar": "الرستن"
+    },
+    "aliases": [
+      {
+        "value": "Al-Rastan District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Ar-Rastan",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الرستن",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.871,
+      "longitude": 36.77245
+    },
+    "area": {
+      "value": 290.742,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115828",
+      "geonames": "172947",
+      "geoboundaries": "27442178B10190550865888"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-homs",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Homs",
+      "ar": "حمص"
+    },
+    "aliases": [
+      {
+        "value": "Homs District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "مركز حمص",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة حمص",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.52942,
+      "longitude": 36.89511
+    },
+    "area": {
+      "value": 8024.536,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4115826",
+      "geonames": "169576",
+      "geoboundaries": "27442178B91557549439519"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-tadmur",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Tadmur",
+      "ar": "تدمر"
+    },
+    "aliases": [
+      {
+        "value": "Tadmur District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Tadmor",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة تدمر",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.42401,
+      "longitude": 38.6458
+    },
+    "area": {
+      "value": 30833.912,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120562",
+      "geonames": "7895145",
+      "geoboundaries": "27442178B76261641700856"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-homs-talkalakh",
+    "governorateId": "sy-homs",
+    "name": {
+      "en": "Talkalakh",
+      "ar": "تلكلخ"
+    },
+    "aliases": [
+      {
+        "value": "Talkalakh District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Tall Kalakh",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة تلكلخ",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.71846,
+      "longitude": 36.27383
+    },
+    "area": {
+      "value": 476.217,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120513",
+      "geonames": "163532",
+      "geoboundaries": "27442178B60418009452869"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib-ariha",
+    "governorateId": "sy-idlib",
+    "name": {
+      "en": "Ariha",
+      "ar": "أريحا"
+    },
+    "aliases": [
+      {
+        "value": "Ariha District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة أريحا",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.76284,
+      "longitude": 36.55204
+    },
+    "area": {
+      "value": 603.209,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "geonames": "8537261",
+      "geoboundaries": "27442178B18977709066888"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib-harem",
+    "governorateId": "sy-idlib",
+    "name": {
+      "en": "Harem",
+      "ar": "حارم"
+    },
+    "aliases": [
+      {
+        "value": "Harem District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Harim",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة حارم",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 36.14014,
+      "longitude": 36.56535
+    },
+    "area": {
+      "value": 736.346,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118364",
+      "geonames": "169865",
+      "geoboundaries": "27442178B79082810780972"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib-idlib",
+    "governorateId": "sy-idlib",
+    "name": {
+      "en": "Idlib",
+      "ar": "إدلب"
+    },
+    "aliases": [
+      {
+        "value": "Idlib District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Idleb",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "ادلب",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "مدينة إدلب",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "مدينة ادلب",
+        "language": "ar",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة إدلب",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.90691,
+      "longitude": 36.75677
+    },
+    "area": {
+      "value": 1436.761,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q504657",
+      "geonames": "169388",
+      "geoboundaries": "27442178B9567094438554"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib-jisr-al-shughur",
+    "governorateId": "sy-idlib",
+    "name": {
+      "en": "Jisr al-Shughur",
+      "ar": "جسر الشغور"
+    },
+    "aliases": [
+      {
+        "value": "Jisr al-Shughur District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Jisr-Ash-Shugur",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة جسر الشغور",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.87756,
+      "longitude": 36.32901
+    },
+    "area": {
+      "value": 610.818,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q2332351",
+      "geonames": "169022",
+      "geoboundaries": "27442178B84192320308694"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-idlib-maarrat-al-numan",
+    "governorateId": "sy-idlib",
+    "name": {
+      "en": "Maarrat al-Nu'man",
+      "ar": "معرة النعمان"
+    },
+    "aliases": [
+      {
+        "value": "Maarrat al-Nu'man District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al Ma'ra",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Maarat al-Numan District",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "منطقة معرة النعمان",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.53858,
+      "longitude": 36.79193
+    },
+    "area": {
+      "value": 2028.772,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4118375",
+      "geonames": "167610",
+      "geoboundaries": "27442178B71280190344240"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-damascus-damascus",
+    "governorateId": "sy-damascus",
+    "name": {
+      "en": "Damascus",
+      "ar": "دمشق"
+    },
+    "aliases": [
+      {
+        "value": "Damascus District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة دمشق",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 33.51563,
+      "longitude": 36.28032
+    },
+    "area": {
+      "value": 116.724,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q21587079",
+      "geonames": "170653",
+      "geoboundaries": "27442178B22471987034404"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-al-shaykh-badr",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Al-Shaykh Badr",
+      "ar": "الشيخ بدر"
+    },
+    "aliases": [
+      {
+        "value": "Al-Shaykh Badr District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Sheikh Badr",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة الشيخ بدر",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.04492,
+      "longitude": 36.09807
+    },
+    "area": {
+      "value": 214.359,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120564",
+      "geonames": "8276859",
+      "geoboundaries": "27442178B44438051869980"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-baniyas",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Baniyas",
+      "ar": "بانياس"
+    },
+    "aliases": [
+      {
+        "value": "Baniyas District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Banyas",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة بانياس",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.13698,
+      "longitude": 36.07864
+    },
+    "area": {
+      "value": 581.322,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120504",
+      "geonames": "171829",
+      "geoboundaries": "27442178B62310236233952"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-duraykish",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Duraykish",
+      "ar": "دريكيش"
+    },
+    "aliases": [
+      {
+        "value": "Duraykish District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Dreikish",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة دريكيش",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.93205,
+      "longitude": 36.12682
+    },
+    "area": {
+      "value": 185.885,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120568",
+      "geonames": "8276858",
+      "geoboundaries": "27442178B79430829635583"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-safita",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Safita",
+      "ar": "صافيتا"
+    },
+    "aliases": [
+      {
+        "value": "Safita District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "منطقة صافيتا",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.80419,
+      "longitude": 36.12293
+    },
+    "area": {
+      "value": 355.785,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120580",
+      "geonames": "165059",
+      "geoboundaries": "27442178B1888341304206"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  },
+  {
+    "id": "sy-tartus-tartus",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Tartus",
+      "ar": "طرطوس"
+    },
+    "aliases": [
+      {
+        "value": "Tartus District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Tartous",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة طرطوس",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 34.83904,
+      "longitude": 35.9716
+    },
+    "area": {
+      "value": 536.777,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"]
+    },
+    "population": null,
+    "externalIds": {
+      "wikidata": "Q4120507",
+      "geonames": "163343",
+      "geoboundaries": "27442178B78381061793998"
+    },
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata"],
+    "sourceStatus": "seed"
+  }
+]

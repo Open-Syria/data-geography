@@ -8,6 +8,12 @@
     },
     "aliases": [],
     "centroid": null,
+    "area": {
+      "value": 500,
+      "unit": "km2",
+      "sourceIds": ["fixture-source"]
+    },
+    "population": null,
     "externalIds": {},
     "sourceIds": ["fixture-source"],
     "sourceStatus": "seed",

@@ -109,12 +109,52 @@ The generated JSON artifact exposes public records and omits maintainer-only `no
 }
 ```
 
-## Districts, Subdistricts, and Localities
+## Districts
+
+Canonical file:
+
+```text
+data/districts.json
+```
+
+Fields:
+
+| Field | Type | Required | Notes |
+| --- | --- | --- | --- |
+| `id` | string | yes | Stable OpenSyria ID, for example `sy-aleppo-afrin` |
+| `governorateId` | string | yes | Parent governorate ID from `data/governorates.json` |
+| `name.en` | string | yes | English display name |
+| `name.ar` | string | no | Arabic display name |
+| `aliases` | array | no | Alternate names, formal names, spellings, or transliterations |
+| `centroid.latitude` | number | no | WGS84 latitude |
+| `centroid.longitude` | number | no | WGS84 longitude |
+| `area.value` | number | no | Area measurement |
+| `area.unit` | string | no | Currently `km2` |
+| `area.sourceIds` | array | no | Approved source IDs for the area value |
+| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the district seed |
+| `externalIds.wikidata` | string | no | Wikidata QID |
+| `externalIds.geonames` | string | no | GeoNames ID |
+| `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
+| `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceStatus` | enum | yes | Review/release state |
+| `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
+
+Generated release artifacts:
+
+```text
+dist/release/artifacts/districts.json
+dist/release/artifacts/districts.ndjson
+dist/release/artifacts/districts.csv
+dist/release/artifacts/districts.sql
+dist/release/artifacts/districts.yaml
+dist/release/artifacts/districts.xml
+```
+
+## Subdistricts and Localities
 
 The repository includes empty placeholder files for:
 
 ```text
-data/districts.json
 data/subdistricts.json
 data/localities.json
 ```

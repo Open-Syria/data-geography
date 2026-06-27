@@ -208,6 +208,8 @@ export const districtRecordSchema = z
     name: localizedTextSchema,
     aliases: z.array(aliasSchema),
     centroid: geographicPointSchema.nullable(),
+    area: areaMeasurementSchema.nullable(),
+    population: populationMeasurementSchema.nullable(),
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
     sourceStatus: sourceStatusSchema,
