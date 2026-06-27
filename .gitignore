@@ -1,8 +1,10 @@
 node_modules/
 dist/
 coverage/
+imports/raw/
+imports/tmp/
+reports/
 .env
 .env.*
 !.env.example
 *.log
-

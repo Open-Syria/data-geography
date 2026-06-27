@@ -1,0 +1,24 @@
+{
+  "sourceId": "approved-source-id",
+  "sourceTitle": "Example Approved Source",
+  "sourceUrl": "https://example.org/source",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-27T00:00:00.000Z",
+  "status": "planned",
+  "rawFiles": [
+    {
+      "name": "example.csv",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "notes": "Example only. Record real checksums when raw files are retained locally."
+    }
+  ],
+  "importedFields": ["name", "externalIds"],
+  "targetFiles": ["data/governorates.json"],
+  "transforms": [
+    "Downloaded source file locally under imports/raw/.",
+    "Mapped source names to OpenSyria name fields.",
+    "Reviewed generated records manually before committing canonical data."
+  ],
+  "reviewNotes": "Example only. Replace with maintainer notes before a real import."
+}

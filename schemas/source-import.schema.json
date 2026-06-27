@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-geography/source-import.schema.json",
+  "title": "OpenSyria Geography Source Import Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "sourceId",
+    "sourceTitle",
+    "sourceUrl",
+    "license",
+    "accessedAt",
+    "status",
+    "rawFiles",
+    "importedFields",
+    "targetFiles",
+    "transforms",
+    "reviewNotes"
+  ],
+  "properties": {
+    "sourceId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "accessedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["planned", "imported", "reviewed", "rejected", "superseded"]
+    },
+    "rawFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "importedFields": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "targetFiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "data/governorates.json",
+          "data/districts.json",
+          "data/subdistricts.json",
+          "data/localities.json",
+          "data/sources.json"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "transforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "reviewNotes": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

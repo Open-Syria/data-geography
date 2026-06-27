@@ -10,6 +10,7 @@ Releases are maintainer-controlled. Contributors should not publish release arti
 - Confirm every record references at least one approved source.
 - Confirm source licenses and attribution requirements still allow release.
 - Confirm no restricted source is mixed into default release artifacts.
+- Confirm source imports have reviewable manifests when data was imported in batches.
 - Confirm no personal, private, military, checkpoint, surveillance, or security-sensitive data is present.
 - Confirm IDs are stable and unique.
 - Confirm parent relationships are valid.
@@ -31,6 +32,7 @@ This checks:
 - canonical data schemas,
 - fixture schemas,
 - published schema metadata,
+- import manifest metadata,
 - unique IDs,
 - source references,
 - parent references,

@@ -18,9 +18,12 @@ These schemas are useful for editors, external tooling, and contributors who wan
 
 ```text
 release-manifest.schema.json
+source-import.schema.json
 ```
 
 The release manifest schema documents the contract consumed by downstream tools such as `datasets-api`.
+
+The source import schema documents maintainer import manifests under `imports/manifests/`.
 
 ## Validation
 
@@ -28,6 +31,7 @@ Run:
 
 ```bash
 pnpm run validate:schemas
+pnpm run validate:imports
 pnpm run validate
 ```
 

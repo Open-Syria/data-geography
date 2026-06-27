@@ -64,8 +64,12 @@ schemas/
 scripts/
   validate-data.mjs
   validate-schemas.mjs
+  validate-imports.mjs
   build-release.mjs
   report-data.mjs
+imports/
+  README.md
+  manifests/
 examples/
   *.example.json
 fixtures/
@@ -76,6 +80,7 @@ docs/
   FIELD_REFERENCE.md
   GENERATED_ARTIFACTS.md
   ID_POLICY.md
+  IMPORT_WORKFLOW.md
   RELEASE_CHECKLIST.md
   REVIEW_PROCESS.md
   SEED_PLAN.md
@@ -103,6 +108,7 @@ corepack enable pnpm
 pnpm install
 pnpm run validate
 pnpm run validate:schemas
+pnpm run validate:imports
 pnpm run release:build
 pnpm run report:data
 pnpm run validate:fixtures
@@ -148,6 +154,7 @@ Detailed contributor workflow lives in [contributions/README.md](contributions/R
 Before adding real data, maintainers should also use:
 
 - [docs/SEED_PLAN.md](docs/SEED_PLAN.md)
+- [docs/IMPORT_WORKFLOW.md](docs/IMPORT_WORKFLOW.md)
 - [docs/DATA_QUALITY.md](docs/DATA_QUALITY.md)
 - [docs/ID_POLICY.md](docs/ID_POLICY.md)
 - [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md)

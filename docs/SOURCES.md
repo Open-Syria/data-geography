@@ -14,6 +14,8 @@ Records reference sources through `sourceIds`.
 
 Maintainer source decisions are tracked in [SOURCE_DECISIONS.md](SOURCE_DECISIONS.md).
 
+Maintainer import steps are documented in [IMPORT_WORKFLOW.md](IMPORT_WORKFLOW.md).
+
 ## Initial Source Policy
 
 Preferred sources for the first geography seed:

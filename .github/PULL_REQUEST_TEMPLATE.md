@@ -23,6 +23,7 @@
 
 - [ ] I edited only canonical data files unless a maintainer approved other changes.
 - [ ] I did not edit generated outputs such as `dist/`, CSV, SQL, YAML, XML, SQLite, or release artifacts.
+- [ ] I did not commit raw import files or generated scratch files.
 - [ ] I did not introduce new fields or schema changes without approval.
 
 ## Validation

@@ -122,6 +122,44 @@ export const releaseManifestSchema = z
   })
   .strict();
 
+export const sourceImportManifestSchema = z
+  .object({
+    sourceId: z.string().trim().min(1),
+    sourceTitle: z.string().trim().min(1),
+    sourceUrl: z.string().url(),
+    license: z.string().trim().min(1),
+    licenseUrl: z.string().url().optional(),
+    accessedAt: z.string().datetime(),
+    status: z.enum(['planned', 'imported', 'reviewed', 'rejected', 'superseded']),
+    rawFiles: z.array(
+      z
+        .object({
+          name: z.string().trim().min(1),
+          sha256: z
+            .string()
+            .regex(/^[a-f0-9]{64}$/)
+            .optional(),
+          notes: z.string().trim().min(1).optional(),
+        })
+        .strict(),
+    ),
+    importedFields: z.array(z.string().trim().min(1)).min(1),
+    targetFiles: z
+      .array(
+        z.enum([
+          'data/governorates.json',
+          'data/districts.json',
+          'data/subdistricts.json',
+          'data/localities.json',
+          'data/sources.json',
+        ]),
+      )
+      .min(1),
+    transforms: z.array(z.string().trim().min(1)).min(1),
+    reviewNotes: z.string().trim().min(1),
+  })
+  .strict();
+
 export const governorateRecordSchema = z
   .object({
     id: idSchema,

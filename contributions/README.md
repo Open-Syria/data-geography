@@ -62,9 +62,12 @@ scripts/
 .github/workflows/
 examples/
 fixtures/
+imports/
 ```
 
 Files under `examples/` are documentation examples. Files under `fixtures/` are test-only fake records used by validation. They are not contribution targets for normal data PRs.
+
+Files under `imports/` document maintainer-led source imports. Normal data contributors should not add raw imports or generated import batches.
 
 ## Contribution Types
 
@@ -198,6 +201,7 @@ This checks:
 
 - formatting,
 - published schema metadata,
+- import manifest metadata,
 - schema shape,
 - unknown fields,
 - unique IDs,
