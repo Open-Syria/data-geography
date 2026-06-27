@@ -59,7 +59,7 @@
     "licenseUrl": "http://www.opendefinition.org/licenses/cc-by",
     "status": "approved",
     "fields": ["population", "names", "administrativeRelationships", "externalIds", "pCodes"],
-    "notes": "U.S. Census Bureau tables distributed through HDX. The initial import uses the Age-Sex table BTOTL field as the 2004 census total population for ADM2 and ADM3 records."
+    "notes": "U.S. Census Bureau tables distributed through HDX. The import uses Age-Sex BTOTL as the 2004 census population for ADM1, ADM2, and ADM3 records, and the Population Estimates sheet for ADM1 2011, 2014, and 2016 estimates."
   },
   {
     "id": "openstreetmap",

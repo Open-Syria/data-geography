@@ -26,7 +26,7 @@ Preferred sources for the first geography seed:
 | GeoNames | CC BY 4.0 | approved | Place names, feature IDs, alternate names, and coordinates cross-checking |
 | Wikidata | CC0 | approved | Public identifiers, multilingual names, and cross-checking |
 | HDX/OCHA populated places | CC BY 3.0 IGO | approved | Locality names, coordinates, administrative relationships, and P-codes |
-| U.S. Census Bureau via HDX | CC BY | approved | Dated ADM2 and ADM3 population measurements |
+| U.S. Census Bureau via HDX | CC BY | approved | Dated ADM1, ADM2, and ADM3 population measurements |
 | OpenStreetMap | ODbL | restricted | Review and comparison only unless ODbL handling is explicitly approved |
 
 ## Rejected or Restricted Sources

@@ -86,7 +86,8 @@ Completeness targets vary by field.
 | `aliases` | Empty array when no aliases are known. |
 | `centroid` | Optional; use `null` unless a reusable source is clear. |
 | `area` | Optional; use a sourced measurement object or `null`. |
-| `population` | Optional; use a dated sourced measurement object or `null`. |
+| `population` | Optional; use the latest dated sourced measurement available for that exact geography level, or `null`. |
+| `populationHistory` | Optional; use when multiple dated measurements are available for the same record. |
 | `externalIds` | Empty object when none are known. |
 | `sourceIds` | Required and approved. |
 | `notes` | Use for uncertainty and maintainer review context. |

@@ -121,26 +121,45 @@ Example:
 }
 ```
 
-## `population`
+## `population` and `populationHistory`
 
-Dated population measurement.
+Dated population measurements.
+
+`population` is the latest preferred measurement available for that exact record and geography level. `populationHistory` keeps the dated measurements used to choose that value.
 
 Rules:
 
 - use `null` when unknown or unsourced,
 - include the measurement year,
+- include `date` when the source gives a more precise date,
 - include approved source IDs inside `population.sourceIds`,
+- include approved source IDs inside every `populationHistory[].sourceIds`,
 - do not add undated population values,
-- do not treat population values as current unless the source explicitly says they are current.
+- do not treat population values as current unless the source explicitly says they are current,
+- do not use a national estimate for a governorate, district, subdistrict, or locality record,
+- keep `population` equal to the newest entry in `populationHistory` when history is present.
 
 Example:
 
 ```json
 "population": {
-  "value": 2836000,
-  "year": 2011,
-  "sourceIds": ["wikidata"]
-}
+  "value": 2957000,
+  "year": 2016,
+  "sourceIds": ["uscb-syria-population"]
+},
+"populationHistory": [
+  {
+    "value": 2836000,
+    "year": 2011,
+    "date": "2011-12-01",
+    "sourceIds": ["uscb-syria-population"]
+  },
+  {
+    "value": 2957000,
+    "year": 2016,
+    "sourceIds": ["uscb-syria-population"]
+  }
+]
 ```
 
 ## `externalIds`
