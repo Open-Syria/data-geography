@@ -1,0 +1,32 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/geonames-sy-adm3-records.tsv",
+      "sha256": "287fb6025ebdcd42f5ff8f8836427d1e323c6936820de29f3b6c648cf3bdc6ac",
+      "notes": "Filtered SY.txt rows where feature class is A and feature code is ADM3."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/normalized-subdistrict-records.json",
+      "sha256": "29d8089226b5a198a003f08b366a553b5680b0007cc2aee8fbd627a6186a4f68",
+      "notes": "Local normalized subdistrict records after source matching and review cleanup."
+    }
+  ],
+  "importedFields": ["name.ar", "aliases", "centroid", "externalIds.geonames"],
+  "targetFiles": ["data/subdistricts.json", "data/sources.json"],
+  "transforms": [
+    "Filtered GeoNames Syria dump to ADM3 administrative records.",
+    "Matched GeoNames ADM3 representative points to geoBoundaries ADM3 polygons.",
+    "Used GeoNames latitude and longitude as seed representative centroids where a GeoNames ADM3 point matched the current geoBoundaries shape.",
+    "Used Arabic names from GeoNames where Wikidata did not provide a suitable Arabic label.",
+    "Preserved GeoNames names and alternate names as source-backed aliases when they did not duplicate canonical names.",
+    "Skipped GeoNames population values because ADM3 population values in the dump are zero and not suitable as dated population measurements."
+  ],
+  "reviewNotes": "GeoNames supplied 268 Syria ADM3 rows. Spatial matching produced 266 current geoBoundaries ADM3 shapes with selected GeoNames IDs. Jaramana and Babella each contained two GeoNames ADM3 points; the closest current name match was selected and the older Ghouta points were retained only as aliases and review context."
+}

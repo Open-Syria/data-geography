@@ -1,0 +1,60 @@
+{
+  "sourceId": "wikidata",
+  "sourceTitle": "Wikidata",
+  "sourceUrl": "https://query.wikidata.org/",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-query-1.sparql",
+      "sha256": "442a05486d601f1528053a8cb87cc812a131220a77b8ff0264036e77ad67e627",
+      "notes": "SPARQL query chunk 1 for Wikidata items by GeoNames ADM3 IDs."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-query-2.sparql",
+      "sha256": "ac35055c4059c9e27b0ce816ada264f4aef70a2586f6f085f29c2e25722ae5d8",
+      "notes": "SPARQL query chunk 2 for Wikidata items by GeoNames ADM3 IDs."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-query-3.sparql",
+      "sha256": "accf03933f9ea42680cc8498a26d6528946efd68e81e4b62482fda4f611dea6d",
+      "notes": "SPARQL query chunk 3 for Wikidata items by GeoNames ADM3 IDs."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-query-4.sparql",
+      "sha256": "270a93f549f31aca210e55e239c1946f33ade8d2e3d231f7bb1629340015199b",
+      "notes": "SPARQL query chunk 4 for Wikidata items by GeoNames ADM3 IDs."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-result-1.json",
+      "sha256": "b96ee194c33d9fd2edd01445a7680efa66a793a33d0267f3ccd56f066b6720e9",
+      "notes": "Raw Wikidata Query Service JSON result for subdistrict labels and QIDs, chunk 1."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-result-2.json",
+      "sha256": "cc5c2fd9f2418a47be62bf8625767d1af9975615190822554ae22b044a06b0da",
+      "notes": "Raw Wikidata Query Service JSON result for subdistrict labels and QIDs, chunk 2."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-result-3.json",
+      "sha256": "be5f29365b5209746374feebdf891f22c0276616fcc9aa599e2a3bb0cf3d91d8",
+      "notes": "Raw Wikidata Query Service JSON result for subdistrict labels and QIDs, chunk 3."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/wikidata-subdistricts-result-4.json",
+      "sha256": "8d90edb4db395c5a852f31f4a50210971edba0d3e4923438930479a8058aa217",
+      "notes": "Raw Wikidata Query Service JSON result for subdistrict labels and QIDs, chunk 4."
+    }
+  ],
+  "importedFields": ["name.ar", "aliases", "externalIds.wikidata"],
+  "targetFiles": ["data/subdistricts.json"],
+  "transforms": [
+    "Matched Wikidata records to selected subdistrict GeoNames IDs.",
+    "Used Wikidata Arabic labels where they aligned with the selected GeoNames ADM3 record and geoBoundaries ADM3 shape.",
+    "Added Wikidata QIDs to matching subdistrict records.",
+    "Preserved Wikidata English labels as aliases when they did not duplicate the geoBoundaries canonical shape name."
+  ],
+  "reviewNotes": "Wikidata matched 265 selected current subdistrict records. The GeoNames Damascus ADM3 row used for the Damascus subdistrict did not return a Wikidata item from this GeoNames-ID query. The six geoBoundaries-only records do not yet have selected GeoNames IDs and therefore were not matched to Wikidata in this import."
+}

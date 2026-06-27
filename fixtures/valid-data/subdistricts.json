@@ -9,6 +9,8 @@
     },
     "aliases": [],
     "centroid": null,
+    "area": null,
+    "population": null,
     "externalIds": {},
     "sourceIds": ["fixture-source"],
     "sourceStatus": "seed",

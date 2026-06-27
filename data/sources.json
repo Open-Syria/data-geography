@@ -6,8 +6,14 @@
     "license": "CC BY 3.0 IGO",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
     "status": "approved",
-    "fields": ["boundaries", "administrativeRelationships", "names", "derivedArea"],
-    "notes": "Preferred seed source for reusable administrative boundary references. Current Syria ADM1 and ADM2 gbOpen sources are UN OCHA via HDX, distributed through geoBoundaries. Import manifests record exact API URLs."
+    "fields": [
+      "boundaries",
+      "administrativeRelationships",
+      "names",
+      "derivedArea",
+      "derivedCentroid"
+    ],
+    "notes": "Preferred seed source for reusable administrative boundary references. Current Syria ADM1, ADM2, and ADM3 gbOpen sources are UN OCHA via HDX, distributed through geoBoundaries. Import manifests record exact API URLs."
   },
   {
     "id": "geonames-sy",

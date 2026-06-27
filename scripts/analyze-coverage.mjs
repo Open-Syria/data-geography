@@ -53,6 +53,8 @@ const fieldChecks = {
     fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
     fieldCheck('aliases', 'Aliases', 'low', (record) => record.aliases.length > 0),
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
+    fieldCheck('area', 'Area', 'high', (record) => Boolean(record.area)),
+    fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population)),
     fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
     fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
       Boolean(record.externalIds.geonames),

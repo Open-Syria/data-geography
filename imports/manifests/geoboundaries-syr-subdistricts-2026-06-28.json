@@ -1,0 +1,50 @@
+{
+  "sourceId": "geoboundaries-syr",
+  "sourceTitle": "geoBoundaries Syrian Arab Republic Administrative Boundaries",
+  "sourceUrl": "https://www.geoboundaries.org/api/current/gbOpen/SYR/ADM3/",
+  "license": "CC BY 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/geoboundaries-syr-adm3-api.json",
+      "sha256": "084022e8f36bb3049e8dfeac647321dd869d1125b18704a437a4dda5b9da638c",
+      "notes": "geoBoundaries API metadata for Syria ADM3 gbOpen."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/geoboundaries-syr-adm3.geojson",
+      "sha256": "d99c89ca4944520bf5ac4e4db6239b89b7ab37818cbdae9939c13c94b70b51bd",
+      "notes": "Syria ADM3 boundary GeoJSON downloaded from geoBoundaries."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/hdx-cod-ab-syr-package.json",
+      "sha256": "606969ec8a823f2399add187232bf467edd4ccb8839bbb74956b29efc2e1721b",
+      "notes": "HDX package metadata for the UN OCHA Syria common operational administrative boundary source referenced by geoBoundaries."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/geoboundaries-syr-adm3-derived-areas-and-matches.json",
+      "sha256": "7ae4e9c4a57b81c7189d95218313b7c268d72d679be77ea91ab73f755474228b",
+      "notes": "Local ADM3 parent matches, GeoNames point matches, derived centroids, and derived area values."
+    }
+  ],
+  "importedFields": [
+    "governorateId",
+    "districtId",
+    "name.en",
+    "centroid",
+    "area",
+    "externalIds.geoboundaries"
+  ],
+  "targetFiles": ["data/subdistricts.json", "data/sources.json"],
+  "transforms": [
+    "Downloaded geoBoundaries Syria ADM3 API metadata and boundary GeoJSON.",
+    "Matched each ADM3 feature to an existing OpenSyria district by placing the derived ADM3 centroid inside ADM2 polygons and resolving the ADM2 geoBoundaries shape ID.",
+    "Used geoBoundaries ADM3 shape names as canonical English subdistrict names.",
+    "Calculated polygon area from GeoJSON coordinates with a spherical polygon area formula using mean Earth radius 6371008.8 metres.",
+    "Rounded derived subdistrict areas to three decimal places in square kilometres.",
+    "Stored geoBoundaries shape IDs as external identifiers.",
+    "Used derived centroids only for ADM3 shapes without a matching GeoNames ADM3 representative point."
+  ],
+  "reviewNotes": "Seeded 272 current ADM3 subdistrict records from geoBoundaries. Six geoBoundaries ADM3 shapes did not have matching GeoNames ADM3 points during spatial matching: Fiq, Al-Butayhah, Quneitra, Al-Khashniyyeh, Masaada, and Sabe Byar. These records remain source-backed by geoBoundaries and are marked for future name and identifier enrichment."
+}

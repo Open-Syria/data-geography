@@ -150,17 +150,69 @@ dist/release/artifacts/districts.yaml
 dist/release/artifacts/districts.xml
 ```
 
-## Subdistricts and Localities
+## Subdistricts
 
-The repository includes empty placeholder files for:
+Canonical file:
 
 ```text
 data/subdistricts.json
+```
+
+Fields:
+
+| Field | Type | Required | Notes |
+| --- | --- | --- | --- |
+| `id` | string | yes | Stable OpenSyria ID, for example `sy-damascus-damascus-damascus` |
+| `governorateId` | string | yes | Parent governorate ID from `data/governorates.json` |
+| `districtId` | string | yes | Parent district ID from `data/districts.json` |
+| `name.en` | string | yes | English display name, seeded from current ADM3 boundary names |
+| `name.ar` | string | no | Arabic display name when a reusable source provides a confident value |
+| `aliases` | array | no | Alternate names, formal names, spellings, historical names, or transliterations |
+| `centroid.latitude` | number | no | WGS84 latitude |
+| `centroid.longitude` | number | no | WGS84 longitude |
+| `area.value` | number | no | Area measurement |
+| `area.unit` | string | no | Currently `km2` |
+| `area.sourceIds` | array | no | Approved source IDs for the area value |
+| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the subdistrict seed |
+| `externalIds.wikidata` | string | no | Wikidata QID |
+| `externalIds.geonames` | string | no | GeoNames ID |
+| `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
+| `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceStatus` | enum | yes | Review/release state |
+| `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
+
+Generated release artifacts:
+
+```text
+dist/release/artifacts/subdistricts.json
+dist/release/artifacts/subdistricts.ndjson
+dist/release/artifacts/subdistricts.csv
+dist/release/artifacts/subdistricts.sql
+dist/release/artifacts/subdistricts.yaml
+dist/release/artifacts/subdistricts.xml
+```
+
+Seed notes:
+
+- Subdistrict records use geoBoundaries ADM3 features as the current structural source.
+- Parent `districtId` relationships are derived by matching ADM3 geometry to ADM2 geometry.
+- Area values are derived from reusable ADM3 geometry and rounded to three decimal places.
+- GeoNames and Wikidata enrich records with Arabic names, aliases, centroids, and external IDs where they match current ADM3 shapes.
+- Population is intentionally `null` until dated, reusable subdistrict-level population sources are reviewed.
+- Records with missing `name.ar`, GeoNames IDs, or Wikidata IDs are valid seed records and should be improved through focused source-backed contributions.
+
+## Localities
+
+Canonical file:
+
+```text
 data/localities.json
 ```
 
-Validation schemas already exist for these files, including parent relationship checks.
+The repository still includes an empty placeholder for localities.
 
-Generated artifacts already exist for all four canonical files so the release pipeline can be tested before real data is added.
+Validation schemas already exist for this file, including parent relationship checks.
 
-Normal contributors should not introduce fields for these datasets before maintainer approval.
+Generated artifacts already exist for all canonical files so the release pipeline can be tested before real locality data is added.
+
+Normal contributors should not introduce new fields for this dataset before maintainer approval.
