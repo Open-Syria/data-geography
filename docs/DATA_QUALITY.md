@@ -99,6 +99,9 @@ Before a release, maintainers should compare:
 ```bash
 pnpm run validate
 pnpm run report:data
+pnpm run coverage:data
 ```
 
-Use the report to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, or unresolved duplicate names.
+Use the reports to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, unresolved duplicate names, or old but source-backed values.
+
+Data freshness decisions are tracked in [DATA_CURRENCY.md](DATA_CURRENCY.md).

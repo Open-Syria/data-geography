@@ -16,6 +16,8 @@ Maintainer source decisions are tracked in [SOURCE_DECISIONS.md](SOURCE_DECISION
 
 Maintainer import steps are documented in [IMPORT_WORKFLOW.md](IMPORT_WORKFLOW.md).
 
+Data freshness decisions are tracked in [DATA_CURRENCY.md](DATA_CURRENCY.md).
+
 ## Initial Source Policy
 
 Preferred sources for the first geography seed:
