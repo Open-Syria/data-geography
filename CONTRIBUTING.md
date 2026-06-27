@@ -77,6 +77,20 @@ Run:
 pnpm run validate
 ```
 
+To find focused missing-data opportunities, run:
+
+```bash
+pnpm run coverage:data
+```
+
+Then review:
+
+```text
+dist/coverage/COVERAGE.md
+```
+
+Coverage output is generated and should not be committed in normal data pull requests.
+
 ## Pull Request Checklist
 
 - The change is within the approved schema.

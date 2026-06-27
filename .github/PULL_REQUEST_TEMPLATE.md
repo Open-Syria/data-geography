@@ -29,3 +29,4 @@
 ## Validation
 
 - [ ] `pnpm run validate`
+- [ ] I checked `pnpm run coverage:data` when adding or improving missing data.

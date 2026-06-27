@@ -96,6 +96,8 @@ If a generated file is wrong, fix the canonical JSON source or the generator scr
 
 Generated files should not be included in normal data pull requests unless the maintainer explicitly asks for a release preparation branch.
 
+Coverage analysis output under `dist/coverage/` is also generated. It helps contributors identify missing data, but it is not a canonical source and should not be edited or committed.
+
 ## Release Manifest
 
 Every generated release must include:

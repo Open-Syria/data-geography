@@ -22,7 +22,9 @@
     "release:build:fixtures": "node scripts/build-release.mjs --data-dir=fixtures/valid-data --release-dir=dist/fixture-release",
     "report:data": "node scripts/report-data.mjs",
     "report:fixtures": "node scripts/report-data.mjs --data-dir=fixtures/valid-data",
-    "validate": "pnpm run check && pnpm run validate:schemas && pnpm run validate:imports && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures",
+    "coverage:data": "node scripts/analyze-coverage.mjs",
+    "coverage:fixtures": "node scripts/analyze-coverage.mjs --data-dir=fixtures/valid-data --out-dir=dist/fixture-coverage",
+    "validate": "pnpm run check && pnpm run validate:schemas && pnpm run validate:imports && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures && pnpm run coverage:data && pnpm run coverage:fixtures",
     "prepare": "husky"
   },
   "dependencies": {

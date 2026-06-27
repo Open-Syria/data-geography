@@ -30,6 +30,12 @@ body:
     attributes:
       label: Parent Administrative Area
       description: Governorate, district, or subdistrict if known.
+  - type: input
+    id: coverage-target
+    attributes:
+      label: Coverage Report Target
+      description: Optional area or record ID from dist/coverage/COVERAGE.md.
+      placeholder: districts.population or sy-idlib-ariha
   - type: textarea
     id: sources
     attributes:
@@ -37,4 +43,3 @@ body:
       description: Add URLs or citations that support the missing record.
     validations:
       required: true
-

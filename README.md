@@ -67,6 +67,7 @@ scripts/
   validate-imports.mjs
   build-release.mjs
   report-data.mjs
+  analyze-coverage.mjs
 imports/
   README.md
   manifests/
@@ -76,6 +77,7 @@ fixtures/
   valid-data/
 docs/
   DATA_SCHEMA.md
+  COVERAGE_ANALYSIS.md
   DATA_QUALITY.md
   FIELD_REFERENCE.md
   GENERATED_ARTIFACTS.md
@@ -112,6 +114,7 @@ pnpm run validate:schemas
 pnpm run validate:imports
 pnpm run release:build
 pnpm run report:data
+pnpm run coverage:data
 pnpm run validate:fixtures
 pnpm run release:build:fixtures
 ```
@@ -123,6 +126,14 @@ dist/release/
 ```
 
 Generated artifacts are built from canonical JSON files and must not be edited directly. See [docs/GENERATED_ARTIFACTS.md](docs/GENERATED_ARTIFACTS.md).
+
+Coverage analysis files are written to:
+
+```text
+dist/coverage/
+```
+
+Use [docs/COVERAGE_ANALYSIS.md](docs/COVERAGE_ANALYSIS.md) to identify missing fields, parent hierarchy gaps, and focused contribution targets.
 
 ## Maintainer Tooling
 
@@ -157,6 +168,7 @@ Before adding real data, maintainers should also use:
 - [docs/PRE_SEED_CHECKLIST.md](docs/PRE_SEED_CHECKLIST.md)
 - [docs/SEED_PLAN.md](docs/SEED_PLAN.md)
 - [docs/IMPORT_WORKFLOW.md](docs/IMPORT_WORKFLOW.md)
+- [docs/COVERAGE_ANALYSIS.md](docs/COVERAGE_ANALYSIS.md)
 - [docs/DATA_QUALITY.md](docs/DATA_QUALITY.md)
 - [docs/ID_POLICY.md](docs/ID_POLICY.md)
 - [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md)
