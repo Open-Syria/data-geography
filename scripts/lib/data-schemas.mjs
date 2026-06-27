@@ -41,7 +41,29 @@ export const aliasSchema = z
   .object({
     value: z.string().trim().min(1),
     language: z.enum(['ar', 'en', 'und']).optional(),
-    type: z.enum(['alias', 'transliteration', 'historical', 'alternate_spelling']).optional(),
+    type: z
+      .enum(['alias', 'formal', 'transliteration', 'historical', 'alternate_spelling'])
+      .optional(),
+  })
+  .strict();
+
+const measurementSourceIdsSchema = z.array(z.string().trim().min(1)).min(1);
+
+export const areaMeasurementSchema = z
+  .object({
+    value: z.number().positive(),
+    unit: z.literal('km2'),
+    sourceIds: measurementSourceIdsSchema,
+    notes: z.string().trim().min(1).optional(),
+  })
+  .strict();
+
+export const populationMeasurementSchema = z
+  .object({
+    value: z.number().int().nonnegative(),
+    year: z.number().int().min(1).max(9999),
+    sourceIds: measurementSourceIdsSchema,
+    notes: z.string().trim().min(1).optional(),
   })
   .strict();
 
@@ -170,6 +192,8 @@ export const governorateRecordSchema = z
       .regex(/^SY-[A-Z]{2}$/)
       .nullable(),
     centroid: geographicPointSchema.nullable(),
+    area: areaMeasurementSchema.nullable(),
+    population: populationMeasurementSchema.nullable(),
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
     sourceStatus: sourceStatusSchema,
@@ -266,16 +290,36 @@ export function ensureKnownSources(records, sources, label) {
 
       seenSourceIds.add(sourceId);
 
-      const source = sourceById.get(sourceId);
+      ensureApprovedSource(sourceById, sourceId, `${label} ${record.id}`);
+    }
 
-      if (!source) {
-        throw new Error(`${label} ${record.id} references unknown source: ${sourceId}`);
-      }
+    const measurementSourceIds = [record.area?.sourceIds, record.population?.sourceIds].filter(
+      Boolean,
+    );
 
-      if (source.status !== 'approved') {
-        throw new Error(`${label} ${record.id} references non-approved source: ${sourceId}`);
+    for (const sourceIds of measurementSourceIds) {
+      for (const sourceId of sourceIds) {
+        ensureApprovedSource(sourceById, sourceId, `${label} ${record.id}`);
+
+        if (!seenSourceIds.has(sourceId)) {
+          throw new Error(
+            `${label} ${record.id} measurement references source not listed in sourceIds: ${sourceId}`,
+          );
+        }
       }
     }
+  }
+}
+
+function ensureApprovedSource(sourceById, sourceId, label) {
+  const source = sourceById.get(sourceId);
+
+  if (!source) {
+    throw new Error(`${label} references unknown source: ${sourceId}`);
+  }
+
+  if (source.status !== 'approved') {
+    throw new Error(`${label} references non-approved source: ${sourceId}`);
   }
 }
 

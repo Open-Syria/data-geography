@@ -11,14 +11,20 @@
       "name": "imports/raw/2026-06-27-governorates/geonames-admin1-sy.txt",
       "sha256": "c85fe3ca6d1bbb02084ee09ea367dbb6805017945ed77f605e78e1949d5e3d50",
       "notes": "Filtered admin1CodesASCII rows where the code starts with SY."
+    },
+    {
+      "name": "imports/raw/2026-06-27-governorates/geonames-sy-admin1-records.txt",
+      "sha256": "6ad58800197af74f60256c49b4405b40b873a71539fba49a602f83f37eaefc62",
+      "notes": "Filtered SY.zip rows for the 14 GeoNames ADM1 records used by the governorate seed."
     }
   ],
-  "importedFields": ["name.en", "aliases", "externalIds.geonames"],
+  "importedFields": ["name.en", "aliases", "centroid", "externalIds.geonames"],
   "targetFiles": ["data/governorates.json"],
   "transforms": [
     "Filtered GeoNames admin-1 rows to records with an SY prefix.",
     "Matched GeoNames rows to Wikidata records by shared GeoNames IDs and ISO 3166-2 subdivision codes.",
-    "Used GeoNames names as English aliases where they differ from the canonical governorate display name."
+    "Used GeoNames names as English aliases where they differ from the canonical governorate display name.",
+    "Imported GeoNames ADM1 latitude and longitude values as seed centroid coordinates."
   ],
-  "reviewNotes": "Seeded the 14 Syria admin-1 rows from GeoNames and cross-checked identifiers against Wikidata. GeoNames coordinates were not imported as centroids in this pass."
+  "reviewNotes": "Seeded the 14 Syria admin-1 rows from GeoNames and cross-checked identifiers against Wikidata. GeoNames ADM1 coordinates are used as seed representative centroids and should be reviewed against boundary-derived centroids later."
 }

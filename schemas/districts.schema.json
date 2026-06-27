@@ -82,7 +82,7 @@
           },
           "type": {
             "type": "string",
-            "enum": ["alias", "transliteration", "historical", "alternate_spelling"]
+            "enum": ["alias", "formal", "transliteration", "historical", "alternate_spelling"]
           }
         }
       }

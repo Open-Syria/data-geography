@@ -17,6 +17,16 @@
       "latitude": 35,
       "longitude": 38
     },
+    "area": {
+      "value": 1000,
+      "unit": "km2",
+      "sourceIds": ["fixture-source"]
+    },
+    "population": {
+      "value": 100000,
+      "year": 2020,
+      "sourceIds": ["fixture-source"]
+    },
     "externalIds": {},
     "sourceIds": ["fixture-source"],
     "sourceStatus": "seed",

@@ -2,23 +2,51 @@
   {
     "id": "sy-al-hasakah",
     "name": {
-      "en": "Hasakah Governorate",
-      "ar": "محافظة الحسكة"
+      "en": "Al-Hasakah",
+      "ar": "الحسكة"
     },
     "aliases": [
       {
-        "value": "Al-Hasakah",
+        "value": "Hasakah",
         "language": "en",
         "type": "alias"
+      },
+      {
+        "value": "Hasaka",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Hasakah Governorate",
+        "language": "en",
+        "type": "formal"
       },
       {
         "value": "Hasaka Governorate",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "محافظة الحسكة",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-HA",
-    "centroid": null,
+    "centroid": {
+      "latitude": 36.51667,
+      "longitude": 40.9
+    },
+    "area": {
+      "value": 23334,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1512000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q233914",
       "geonames": "173813"
@@ -29,18 +57,36 @@
   {
     "id": "sy-aleppo",
     "name": {
-      "en": "Aleppo Governorate",
-      "ar": "محافظة حلب"
+      "en": "Aleppo",
+      "ar": "حلب"
     },
     "aliases": [
       {
-        "value": "Aleppo",
+        "value": "Aleppo Governorate",
         "language": "en",
-        "type": "alias"
+        "type": "formal"
+      },
+      {
+        "value": "محافظة حلب",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-HL",
-    "centroid": null,
+    "centroid": {
+      "latitude": 36.25,
+      "longitude": 37.61667
+    },
+    "area": {
+      "value": 18482,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 4868000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q214064",
       "geonames": "170062"
@@ -51,8 +97,8 @@
   {
     "id": "sy-as-suwayda",
     "name": {
-      "en": "Suwayda Governorate",
-      "ar": "محافظة السويداء"
+      "en": "As-Suwayda",
+      "ar": "السويداء"
     },
     "aliases": [
       {
@@ -61,18 +107,41 @@
         "type": "alias"
       },
       {
-        "value": "as-Suwayda Governorate",
+        "value": "al-Suwayda",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "As-Suwayda Governorate",
+        "language": "en",
+        "type": "formal"
       },
       {
         "value": "al-Suwayda Governorate",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "محافظة السويداء",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-SU",
-    "centroid": null,
+    "centroid": {
+      "latitude": 32.76667,
+      "longitude": 36.85
+    },
+    "area": {
+      "value": 5550,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 370000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q236797",
       "geonames": "172410"
@@ -83,34 +152,88 @@
   {
     "id": "sy-damascus",
     "name": {
-      "en": "Damascus Governorate",
-      "ar": "محافظة دمشق"
+      "en": "Damascus",
+      "ar": "دمشق"
     },
-    "aliases": [],
+    "aliases": [
+      {
+        "value": "Damascus Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Damascus City",
+        "language": "en",
+        "type": "alias"
+      },
+      {
+        "value": "محافظة دمشق",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
     "iso31662": "SY-DI",
-    "centroid": null,
+    "centroid": {
+      "latitude": 33.51667,
+      "longitude": 36.28333
+    },
+    "area": null,
+    "population": {
+      "value": 1754000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q2007044",
       "geonames": "167541"
     },
     "sourceIds": ["wikidata", "geonames-sy"],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "notes": "Wikidata did not expose an area statement for this record during the 2026-06-27 seed pass."
   },
   {
     "id": "sy-daraa",
     "name": {
-      "en": "Daraa Governorate",
-      "ar": "محافظة درعا"
+      "en": "Daraa",
+      "ar": "درعا"
     },
     "aliases": [
       {
-        "value": "Daraa",
+        "value": "Dar'a",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Dara",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Daraa Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة درعا",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-DR",
-    "centroid": null,
+    "centroid": {
+      "latitude": 32.85,
+      "longitude": 36.21667
+    },
+    "area": {
+      "value": 3730,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1027000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q1689560",
       "geonames": "170903"
@@ -121,23 +244,46 @@
   {
     "id": "sy-deir-ez-zor",
     "name": {
-      "en": "Deir ez-Zor Governorate",
-      "ar": "محافظة دير الزور"
+      "en": "Deir ez-Zor",
+      "ar": "دير الزور"
     },
     "aliases": [
-      {
-        "value": "Deir ez-Zor",
-        "language": "en",
-        "type": "alias"
-      },
       {
         "value": "Dayr az-Zawr",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Dajr ez-Zaur",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Deir ez-Zor Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة دير الزور",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-DY",
-    "centroid": null,
+    "centroid": {
+      "latitude": 35.16667,
+      "longitude": 40.28333
+    },
+    "area": {
+      "value": 33060,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1239000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q232387",
       "geonames": "170792"
@@ -148,23 +294,46 @@
   {
     "id": "sy-hama",
     "name": {
-      "en": "Hama Governorate",
-      "ar": "محافظة حماة"
+      "en": "Hama",
+      "ar": "حماة"
     },
     "aliases": [
       {
-        "value": "Hama",
+        "value": "Hamah",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Hama Governorate",
+        "language": "en",
+        "type": "formal"
       },
       {
         "value": "Hamah Governorate",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "محافظة حماة",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-HM",
-    "centroid": null,
+    "centroid": {
+      "latitude": 35.23333,
+      "longitude": 37.2
+    },
+    "area": {
+      "value": 8883,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1628000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q232355",
       "geonames": "170015"
@@ -175,23 +344,46 @@
   {
     "id": "sy-homs",
     "name": {
-      "en": "Homs Governorate",
-      "ar": "محافظة حمص"
+      "en": "Homs",
+      "ar": "حمص"
     },
     "aliases": [
       {
-        "value": "Homs",
+        "value": "Hims",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Homs Governorate",
+        "language": "en",
+        "type": "formal"
       },
       {
         "value": "Hims Governorate",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "محافظة حمص",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-HI",
-    "centroid": null,
+    "centroid": {
+      "latitude": 34.46667,
+      "longitude": 38.3
+    },
+    "area": {
+      "value": 42223,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 2145184,
+      "year": 2012,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q214094",
       "geonames": "169575"
@@ -202,18 +394,36 @@
   {
     "id": "sy-idlib",
     "name": {
-      "en": "Idlib Governorate",
-      "ar": "محافظة إدلب"
+      "en": "Idlib",
+      "ar": "إدلب"
     },
     "aliases": [
       {
-        "value": "Idlib",
+        "value": "Idlib Governorate",
         "language": "en",
-        "type": "alias"
+        "type": "formal"
+      },
+      {
+        "value": "محافظة إدلب",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-ID",
-    "centroid": null,
+    "centroid": {
+      "latitude": 35.76667,
+      "longitude": 36.66667
+    },
+    "area": {
+      "value": 6097,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1501000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q233218",
       "geonames": "169387"
@@ -224,18 +434,41 @@
   {
     "id": "sy-latakia",
     "name": {
-      "en": "Latakia Governorate",
-      "ar": "محافظة اللاذقية"
+      "en": "Latakia",
+      "ar": "اللاذقية"
     },
     "aliases": [
       {
-        "value": "Latakia",
+        "value": "Lattakia",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Latakia Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة اللاذقية",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-LA",
-    "centroid": null,
+    "centroid": {
+      "latitude": 35.56667,
+      "longitude": 36.03333
+    },
+    "area": {
+      "value": 2297,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 1364985,
+      "year": 2012,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q233236",
       "geonames": "173578"
@@ -246,18 +479,46 @@
   {
     "id": "sy-quneitra",
     "name": {
-      "en": "Quneitra Governorate",
-      "ar": "محافظة القنيطرة"
+      "en": "Quneitra",
+      "ar": "القنيطرة"
     },
     "aliases": [
       {
-        "value": "Quneitra",
+        "value": "Al Qunaytirah",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Qunaytirah",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Quneitra Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة القنيطرة",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-QU",
-    "centroid": null,
+    "centroid": {
+      "latitude": 33.03333,
+      "longitude": 35.78333
+    },
+    "area": {
+      "value": 1200,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 49195,
+      "year": 2013,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q219690",
       "geonames": "173336"
@@ -268,17 +529,12 @@
   {
     "id": "sy-raqqa",
     "name": {
-      "en": "Raqqa Governorate",
-      "ar": "محافظة الرقة"
+      "en": "Raqqa",
+      "ar": "الرقة"
     },
     "aliases": [
       {
-        "value": "Raqqa",
-        "language": "en",
-        "type": "alias"
-      },
-      {
-        "value": "Al-Raqqah Governorate",
+        "value": "Ar-Raqqah",
         "language": "en",
         "type": "alternate_spelling"
       },
@@ -286,10 +542,38 @@
         "value": "Al-Raqqah",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Ar-Raqqah Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Al-Raqqah Governorate",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "محافظة الرقة",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-RA",
-    "centroid": null,
+    "centroid": {
+      "latitude": 36,
+      "longitude": 38.93333
+    },
+    "area": {
+      "value": 19616,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 944000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q235563",
       "geonames": "172957"
@@ -300,14 +584,19 @@
   {
     "id": "sy-rif-dimashq",
     "name": {
-      "en": "Rif Dimashq Governorate",
-      "ar": "محافظة ريف دمشق"
+      "en": "Rif Dimashq",
+      "ar": "ريف دمشق"
     },
     "aliases": [
       {
         "value": "Rif-dimashq",
         "language": "en",
         "type": "alternate_spelling"
+      },
+      {
+        "value": "Damascus Countryside",
+        "language": "en",
+        "type": "alias"
       },
       {
         "value": "Governorate of the Countryside of Damascus",
@@ -318,10 +607,33 @@
         "value": "Damascus Surroundings",
         "language": "en",
         "type": "alias"
+      },
+      {
+        "value": "Rif Dimashq Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة ريف دمشق",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-RD",
-    "centroid": null,
+    "centroid": {
+      "latitude": 33.5,
+      "longitude": 37.38333
+    },
+    "area": {
+      "value": 18032,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 2836000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q232399",
       "geonames": "170652"
@@ -332,18 +644,41 @@
   {
     "id": "sy-tartus",
     "name": {
-      "en": "Tartus Governorate",
-      "ar": "محافظة طرطوس"
+      "en": "Tartus",
+      "ar": "طرطوس"
     },
     "aliases": [
       {
-        "value": "Tartus",
+        "value": "Tartous",
         "language": "en",
-        "type": "alias"
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Tartus Governorate",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "محافظة طرطوس",
+        "language": "ar",
+        "type": "formal"
       }
     ],
     "iso31662": "SY-TA",
-    "centroid": null,
+    "centroid": {
+      "latitude": 34.92504,
+      "longitude": 36.01652
+    },
+    "area": {
+      "value": 1892,
+      "unit": "km2",
+      "sourceIds": ["wikidata"]
+    },
+    "population": {
+      "value": 797000,
+      "year": 2011,
+      "sourceIds": ["wikidata"]
+    },
     "externalIds": {
       "wikidata": "Q232382",
       "geonames": "163342"

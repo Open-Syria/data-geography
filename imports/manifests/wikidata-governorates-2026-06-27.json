@@ -16,6 +16,16 @@
       "name": "imports/raw/2026-06-27-governorates/wikidata-governorates-result.json",
       "sha256": "b9e7cff58e7e2b7e257fbd261009da1829dac28de3f7ea8e9cc4fcd04914a58f",
       "notes": "Raw Wikidata Query Service JSON result."
+    },
+    {
+      "name": "imports/raw/2026-06-27-governorates/wikidata-governorate-measurements-query.sparql",
+      "sha256": "d223e7b9766e960aeb010b41a4d73da1b3fef26129d4439608115dcb3a10bab5",
+      "notes": "SPARQL query for Wikidata area and population statements by ISO 3166-2 code."
+    },
+    {
+      "name": "imports/raw/2026-06-27-governorates/wikidata-governorate-measurements-result.json",
+      "sha256": "66e4124fa6ef27ef962359274107ccb1718885c78f3278fa31285a4b834f765f",
+      "notes": "Raw Wikidata Query Service JSON result for area and population statements."
     }
   ],
   "importedFields": [
@@ -23,6 +33,8 @@
     "name.ar",
     "aliases",
     "iso31662",
+    "area",
+    "population",
     "externalIds.wikidata",
     "externalIds.geonames"
   ],
@@ -31,7 +43,10 @@
     "Queried Wikidata records by ISO 3166-2 codes for Syria governorates.",
     "Removed duplicate rows caused by multiple coordinate statements before normalization.",
     "Used Wikidata English labels as canonical English governorate names and Arabic labels as canonical Arabic names.",
-    "Excluded coordinate statements from canonical centroids until the coordinate policy is reviewed."
+    "Normalized canonical names by removing English Governorate and Arabic محافظة administrative descriptors.",
+    "Imported Wikidata area statements when the unit was square kilometre.",
+    "Imported the latest plausible dated population statement per governorate and excluded malformed historical dates.",
+    "Excluded Wikidata coordinate statements from canonical centroids in favor of GeoNames ADM1 coordinates for this seed pass."
   ],
-  "reviewNotes": "Seeded Wikidata QIDs, Arabic labels, English labels, ISO 3166-2 codes, and selected English aliases for all 14 Syrian governorates."
+  "reviewNotes": "Seeded Wikidata QIDs, Arabic labels, English labels, ISO 3166-2 codes, selected aliases, area measurements, and dated population measurements for all 14 Syrian governorates. Damascus area remains null because no Wikidata area statement was returned in this import."
 }

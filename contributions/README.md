@@ -17,6 +17,7 @@ Accepted as normal data pull requests:
 - replace weak sources with stronger approved sources,
 - fix parent relationships,
 - fix coordinates when the schema already supports coordinates,
+- fix area or population measurements when the schema already supports them,
 - mark records as deprecated when sources support that change.
 
 Not accepted as normal pull requests:
@@ -84,6 +85,7 @@ Checklist:
 - include `aliases` as an array, even when empty,
 - include `iso31662` for governorates when known, otherwise `null`,
 - include `centroid` when the schema supports it and the source is clear, otherwise `null`,
+- include `area` and `population` only when the schema supports them and the value is sourced,
 - include `externalIds` as an object, even when empty,
 - include at least one approved `sourceId`,
 - set `sourceStatus` to `seed` or `pending_release`.
@@ -102,7 +104,7 @@ Checklist:
 
 ### Add Names, Aliases, or Transliterations
 
-Use `aliases` for alternate names, historical spellings, or transliterations.
+Use `aliases` for formal names, alternate names, historical spellings, or transliterations.
 
 Do not duplicate `name.en` or `name.ar` inside `aliases`.
 
@@ -115,6 +117,21 @@ Example:
   "type": "transliteration"
 }
 ```
+
+Use `type: "formal"` for administrative labels such as `Damascus Governorate` or `محافظة دمشق`.
+
+### Correct Coordinates, Area, or Population
+
+Use this only for fields that already exist in the schema.
+
+Checklist:
+
+- use approved sources only,
+- keep coordinates in WGS84 latitude and longitude,
+- keep area values in square kilometres with `unit: "km2"`,
+- include a population year for every population value,
+- do not add undated population values,
+- explain source conflicts in the pull request.
 
 ### Improve Sources
 

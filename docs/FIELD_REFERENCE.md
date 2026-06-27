@@ -41,7 +41,7 @@ Example:
 
 ## `aliases`
 
-Alternate names, spellings, historical names, or transliterations.
+Alternate names, formal names, spellings, historical names, or transliterations.
 
 Rules:
 
@@ -49,6 +49,7 @@ Rules:
 - use an empty array when there are no aliases,
 - do not duplicate `name.en` or `name.ar`,
 - avoid duplicate aliases within the same record.
+- use `type: "formal"` for administrative names such as `Damascus Governorate` or `محافظة دمشق`.
 
 Example:
 
@@ -86,6 +87,7 @@ Rules:
 
 - use WGS84 latitude and longitude,
 - use `null` when unknown or unsourced,
+- prefer coordinates from approved reusable geospatial or gazetteer sources,
 - do not infer from a visual map without a reusable source,
 - do not use Google Maps or proprietary map coordinates.
 
@@ -95,6 +97,49 @@ Example:
 "centroid": {
   "latitude": 33.5138,
   "longitude": 36.2765
+}
+```
+
+## `area`
+
+Area measurement.
+
+Rules:
+
+- use `null` when unknown or unsourced,
+- store square-kilometre values with `unit: "km2"`,
+- include approved source IDs inside `area.sourceIds`,
+- do not mix area values from multiple sources without a review note.
+
+Example:
+
+```json
+"area": {
+  "value": 18032,
+  "unit": "km2",
+  "sourceIds": ["wikidata"]
+}
+```
+
+## `population`
+
+Dated population measurement.
+
+Rules:
+
+- use `null` when unknown or unsourced,
+- include the measurement year,
+- include approved source IDs inside `population.sourceIds`,
+- do not add undated population values,
+- do not treat population values as current unless the source explicitly says they are current.
+
+Example:
+
+```json
+"population": {
+  "value": 2836000,
+  "year": 2011,
+  "sourceIds": ["wikidata"]
 }
 ```
 
@@ -163,4 +208,3 @@ Rules:
 - optional,
 - not intended as a public long description,
 - should explain uncertainty, source conflicts, or review decisions.
-

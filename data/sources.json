@@ -26,7 +26,7 @@
     "license": "CC0-1.0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "status": "approved",
-    "fields": ["externalIds", "names", "aliases", "coordinates"],
+    "fields": ["externalIds", "names", "aliases", "coordinates", "area", "population"],
     "notes": "Useful for public identifiers and cross-checking."
   },
   {

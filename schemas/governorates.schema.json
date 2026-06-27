@@ -12,6 +12,8 @@
       "aliases",
       "iso31662",
       "centroid",
+      "area",
+      "population",
       "externalIds",
       "sourceIds",
       "sourceStatus"
@@ -41,7 +43,7 @@
             "language": { "type": "string", "enum": ["ar", "en", "und"] },
             "type": {
               "type": "string",
-              "enum": ["alias", "transliteration", "historical", "alternate_spelling"]
+              "enum": ["alias", "formal", "transliteration", "historical", "alternate_spelling"]
             }
           }
         }
@@ -60,6 +62,48 @@
             "properties": {
               "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
               "longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+            }
+          }
+        ]
+      },
+      "area": {
+        "oneOf": [
+          { "type": "null" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "unit", "sourceIds"],
+            "properties": {
+              "value": { "type": "number", "exclusiveMinimum": 0 },
+              "unit": { "type": "string", "enum": ["km2"] },
+              "sourceIds": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "notes": { "type": "string", "minLength": 1 }
+            }
+          }
+        ]
+      },
+      "population": {
+        "oneOf": [
+          { "type": "null" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["value", "year", "sourceIds"],
+            "properties": {
+              "value": { "type": "integer", "minimum": 0 },
+              "year": { "type": "integer", "minimum": 1, "maximum": 9999 },
+              "sourceIds": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 },
+                "minItems": 1,
+                "uniqueItems": true
+              },
+              "notes": { "type": "string", "minLength": 1 }
             }
           }
         ]

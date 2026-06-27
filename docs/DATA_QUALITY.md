@@ -53,6 +53,8 @@ The quality report shows:
 - source usage by dataset,
 - Arabic-name coverage,
 - centroid coverage,
+- area coverage,
+- population coverage,
 - external ID coverage,
 - duplicate English names,
 - duplicate Arabic names.
@@ -83,6 +85,8 @@ Completeness targets vary by field.
 | `name.ar` | Strongly preferred when sourceable. |
 | `aliases` | Empty array when no aliases are known. |
 | `centroid` | Optional; use `null` unless a reusable source is clear. |
+| `area` | Optional; use a sourced measurement object or `null`. |
+| `population` | Optional; use a dated sourced measurement object or `null`. |
 | `externalIds` | Empty object when none are known. |
 | `sourceIds` | Required and approved. |
 | `notes` | Use for uncertainty and maintainer review context. |

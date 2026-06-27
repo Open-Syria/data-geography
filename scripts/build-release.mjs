@@ -36,6 +36,11 @@ const datasetConfigs = [
       'iso31662',
       'centroid_latitude',
       'centroid_longitude',
+      'area_km2',
+      'area_source_ids_json',
+      'population',
+      'population_year',
+      'population_source_ids_json',
       'wikidata_id',
       'geonames_id',
       'geoboundaries_id',
@@ -205,6 +210,8 @@ function toPublicRecord(record) {
     aliases: record.aliases,
     iso31662: record.iso31662,
     centroid: record.centroid,
+    area: record.area,
+    population: record.population,
     externalIds: record.externalIds,
     sourceIds: record.sourceIds,
     sourceStatus: record.sourceStatus,
@@ -230,6 +237,11 @@ function toFlatRow(record) {
     iso31662: record.iso31662 ?? null,
     centroid_latitude: record.centroid?.latitude ?? null,
     centroid_longitude: record.centroid?.longitude ?? null,
+    area_km2: record.area?.value ?? null,
+    area_source_ids_json: stringifyCompactJson(record.area?.sourceIds ?? []),
+    population: record.population?.value ?? null,
+    population_year: record.population?.year ?? null,
+    population_source_ids_json: stringifyCompactJson(record.population?.sourceIds ?? []),
     wikidata_id: record.externalIds.wikidata ?? null,
     geonames_id: record.externalIds.geonames ?? null,
     geoboundaries_id: record.externalIds.geoboundaries ?? null,
@@ -303,8 +315,12 @@ function sqlValue(value) {
 }
 
 function sqlColumnType(column) {
-  if (column === 'centroid_latitude' || column === 'centroid_longitude') {
+  if (column === 'centroid_latitude' || column === 'centroid_longitude' || column === 'area_km2') {
     return 'REAL';
+  }
+
+  if (column === 'population' || column === 'population_year') {
+    return 'INTEGER';
   }
 
   return 'TEXT';

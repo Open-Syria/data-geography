@@ -124,6 +124,8 @@ function summarizeDataset(records) {
   const total = records.length;
   const withArabicName = count(records, (record) => Boolean(record.name.ar));
   const withCentroid = count(records, (record) => Boolean(record.centroid));
+  const withArea = count(records, (record) => Boolean(record.area));
+  const withPopulation = count(records, (record) => Boolean(record.population));
   const withExternalIds = count(records, (record) => Object.keys(record.externalIds).length > 0);
 
   return {
@@ -136,6 +138,8 @@ function summarizeDataset(records) {
     coverage: {
       arabicName: coverage(withArabicName, total),
       centroid: coverage(withCentroid, total),
+      area: coverage(withArea, total),
+      population: coverage(withPopulation, total),
       externalIds: coverage(withExternalIds, total),
     },
     duplicateNames: {

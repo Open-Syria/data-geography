@@ -51,10 +51,16 @@ Fields:
 | `id` | string | yes | Stable OpenSyria ID, for example `sy-damascus` |
 | `name.en` | string | yes | English display name |
 | `name.ar` | string | no | Arabic display name |
-| `aliases` | array | no | Alternate names, spellings, or transliterations |
+| `aliases` | array | no | Alternate names, formal names, spellings, or transliterations |
 | `iso31662` | string or null | yes | ISO 3166-2 subdivision code when confidently sourced |
 | `centroid.latitude` | number | no | WGS84 latitude |
 | `centroid.longitude` | number | no | WGS84 longitude |
+| `area.value` | number | no | Area measurement |
+| `area.unit` | string | no | Currently `km2` |
+| `area.sourceIds` | array | no | Approved source IDs for the area value |
+| `population.value` | integer | no | Population measurement |
+| `population.year` | integer | no | Measurement year |
+| `population.sourceIds` | array | no | Approved source IDs for the population value |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries ID or reference |
@@ -81,12 +87,20 @@ The generated JSON artifact exposes public records and omits maintainer-only `no
     {
       "id": "sy-example-governorate",
       "name": {
-        "en": "Example Governorate",
-        "ar": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0645\u062b\u0627\u0644"
+        "en": "Example",
+        "ar": "\u0645\u062b\u0627\u0644"
       },
-      "aliases": [],
+      "aliases": [
+        {
+          "value": "Example Governorate",
+          "language": "en",
+          "type": "formal"
+        }
+      ],
       "iso31662": null,
       "centroid": null,
+      "area": null,
+      "population": null,
       "externalIds": {},
       "sourceIds": ["approved-source-id"],
       "sourceStatus": "seed"
