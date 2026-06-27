@@ -99,12 +99,12 @@ After each stage:
 The first public release should contain:
 
 - `release-manifest.json`,
-- generated JSON artifacts,
+- generated JSON, NDJSON, CSV, SQL, YAML, and XML artifacts,
 - clear source attribution,
 - a changelog entry,
 - known limitations.
 
-Additional formats such as CSV, NDJSON, SQL, YAML, XML, and SQLite should be generated after the canonical JSON workflow is stable.
+GeoJSON and SQLite should be generated later after geometry licensing and database-generation decisions are stable.
 
 ## Automation
 

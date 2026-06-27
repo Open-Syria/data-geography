@@ -27,7 +27,8 @@
     "data/sources.json"
   ],
   "generated": ["dist/**", "dist/release/**", "dist/release/artifacts/**"],
-  "plannedGeneratedFormats": ["json", "ndjson", "csv", "sql", "yaml", "xml", "sqlite"],
+  "implementedGeneratedFormats": ["json", "ndjson", "csv", "sql", "yaml", "xml"],
+  "plannedGeneratedFormats": ["geojson", "sqlite"],
   "requiredValidationCommands": ["pnpm run validate"],
   "allowedContributionTypes": [
     "data-correction",

@@ -28,10 +28,10 @@ Current generated files:
 
 ```text
 dist/release/release-manifest.json
-dist/release/artifacts/governorates.json
+dist/release/artifacts/{governorates,districts,subdistricts,localities}.{json,ndjson,csv,sql,yaml,xml}
 ```
 
-Planned generated formats:
+Implemented generated formats:
 
 ```text
 governorates.json
@@ -40,20 +40,53 @@ governorates.csv
 governorates.sql
 governorates.yaml
 governorates.xml
-governorates.sqlite
 ```
 
-The order of implementation should be:
+The same formats are generated for:
 
-1. JSON
-2. NDJSON
-3. CSV
-4. SQL
-5. YAML
-6. XML
-7. SQLite
+```text
+governorates
+districts
+subdistricts
+localities
+```
 
-JSON remains the canonical input format even after other generated formats exist.
+Planned later:
+
+```text
+*.geojson
+*.sqlite
+```
+
+GeoJSON should wait until geometry and boundary-source licensing are settled. SQLite should wait until the project intentionally adds and maintains a database generation dependency.
+
+JSON remains the canonical input format even after generated formats exist.
+
+## Format Notes
+
+| Format | Purpose |
+| --- | --- |
+| JSON | Primary structured release artifact for API ingestion and general use. |
+| NDJSON | Streaming-friendly one-record-per-line artifact. |
+| CSV | Spreadsheet-friendly flat artifact with nested values encoded as JSON strings. |
+| SQL | Portable SQL import file with one table per dataset artifact. |
+| YAML | Human-readable structured artifact for docs and review. |
+| XML | Structured artifact for consumers that need XML exchange. |
+
+Generated JSON, NDJSON, YAML, and XML preserve nested record shape. CSV and SQL use flattened columns.
+
+## Fixture Release Build
+
+The validation workflow builds both:
+
+```text
+dist/release/
+dist/fixture-release/
+```
+
+`dist/release/` is generated from canonical data.
+
+`dist/fixture-release/` is generated from fake fixture data and exists only to test non-empty release artifacts.
 
 ## Contributor Rule
 

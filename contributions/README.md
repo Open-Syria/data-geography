@@ -50,7 +50,9 @@ Do not edit generated output:
 dist/
 ```
 
-Generated artifacts may eventually include JSON, NDJSON, CSV, SQL, YAML, XML, and SQLite files. These are all built from canonical JSON source files under `data/`.
+Generated artifacts include JSON, NDJSON, CSV, SQL, YAML, and XML files. These are all built from canonical JSON source files under `data/`.
+
+GeoJSON and SQLite are planned later.
 
 Do not edit schema, scripts, or workflow files unless the maintainer has approved that work:
 

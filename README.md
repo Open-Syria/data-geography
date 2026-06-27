@@ -31,11 +31,16 @@ Out of scope:
 
 This repository is in its seed setup phase.
 
-The first implemented artifact is:
+The release generator currently produces artifacts for:
 
 ```text
-artifacts/governorates.json
+governorates
+districts
+subdistricts
+localities
 ```
+
+in JSON, NDJSON, CSV, SQL, YAML, and XML formats.
 
 The initial data files are intentionally empty until the first maintainer-led seed import is prepared and reviewed.
 
@@ -90,6 +95,7 @@ pnpm install
 pnpm run validate
 pnpm run release:build
 pnpm run validate:fixtures
+pnpm run release:build:fixtures
 ```
 
 Generated release files are written to:

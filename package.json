@@ -17,7 +17,8 @@
     "validate:data": "node scripts/validate-data.mjs",
     "validate:fixtures": "node scripts/validate-data.mjs --data-dir=fixtures/valid-data",
     "release:build": "node scripts/build-release.mjs",
-    "validate": "pnpm run check && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build",
+    "release:build:fixtures": "node scripts/build-release.mjs --data-dir=fixtures/valid-data --release-dir=dist/fixture-release",
+    "validate": "pnpm run check && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures",
     "prepare": "husky"
   },
   "dependencies": {

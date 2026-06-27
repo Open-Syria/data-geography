@@ -32,7 +32,8 @@ This checks:
 - unique IDs,
 - source references,
 - parent references,
-- generated artifact compatibility.
+- generated artifact compatibility,
+- non-empty fixture release artifact compatibility.
 
 ## Build
 
@@ -56,6 +57,7 @@ Before publishing, inspect:
 
 - `dist/release/release-manifest.json`,
 - generated artifact names,
+- generated artifact formats,
 - record counts,
 - SHA-256 checksums,
 - file sizes,

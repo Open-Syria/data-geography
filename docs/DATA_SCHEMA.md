@@ -59,25 +59,33 @@ Fields:
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
-Generated API artifact:
+Generated release artifacts:
 
 ```text
 dist/release/artifacts/governorates.json
+dist/release/artifacts/governorates.ndjson
+dist/release/artifacts/governorates.csv
+dist/release/artifacts/governorates.sql
+dist/release/artifacts/governorates.yaml
+dist/release/artifacts/governorates.xml
 ```
 
-The generated artifact currently exposes:
+The generated JSON artifact exposes public records and omits maintainer-only `notes`.
 
 ```json
 {
   "items": [
     {
-      "id": "sy-example",
+      "id": "sy-example-governorate",
       "name": {
-        "en": "Example",
-        "ar": "\u0645\u062b\u0627\u0644"
+        "en": "Example Governorate",
+        "ar": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0645\u062b\u0627\u0644"
       },
+      "aliases": [],
       "iso31662": null,
       "centroid": null,
+      "externalIds": {},
+      "sourceIds": ["approved-source-id"],
       "sourceStatus": "seed"
     }
   ]
@@ -96,6 +104,6 @@ data/localities.json
 
 Validation schemas already exist for these files, including parent relationship checks.
 
-Release artifacts will start with governorates and expand after the seed workflow is stable.
+Generated artifacts already exist for all four canonical files so the release pipeline can be tested before real data is added.
 
 Normal contributors should not introduce fields for these datasets before maintainer approval.

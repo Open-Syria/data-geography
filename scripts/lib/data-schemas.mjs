@@ -5,7 +5,16 @@ const idSchema = z.string().regex(/^sy-[a-z0-9]+(?:-[a-z0-9]+)*$/);
 
 export const sourceStatusSchema = z.enum(['pending_release', 'seed', 'released', 'deprecated']);
 export const datasetReleaseStatusSchema = z.enum(['planned', 'seed', 'released', 'deprecated']);
-export const datasetArtifactFormatSchema = z.enum(['json', 'ndjson', 'csv', 'geojson', 'sqlite']);
+export const datasetArtifactFormatSchema = z.enum([
+  'json',
+  'ndjson',
+  'csv',
+  'geojson',
+  'sql',
+  'yaml',
+  'xml',
+  'sqlite',
+]);
 
 export const sourceRegistryStatusSchema = z.enum([
   'approved',
