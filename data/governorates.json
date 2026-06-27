@@ -177,7 +177,12 @@
       "latitude": 33.51667,
       "longitude": 36.28333
     },
-    "area": null,
+    "area": {
+      "value": 116.724,
+      "unit": "km2",
+      "sourceIds": ["geoboundaries-syr"],
+      "notes": "Derived from the geoBoundaries ADM1 polygon using a spherical polygon area calculation."
+    },
     "population": {
       "value": 1754000,
       "year": 2011,
@@ -187,9 +192,9 @@
       "wikidata": "Q2007044",
       "geonames": "167541"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed",
-    "notes": "Wikidata did not expose an area statement for this record during the 2026-06-27 seed pass."
+    "notes": "Area is derived from approved boundary geometry because Wikidata did not expose an area statement for this record during the 2026-06-27 seed pass."
   },
   {
     "id": "sy-daraa",

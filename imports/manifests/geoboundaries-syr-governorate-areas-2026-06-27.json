@@ -1,0 +1,35 @@
+{
+  "sourceId": "geoboundaries-syr",
+  "sourceTitle": "geoBoundaries Syrian Arab Republic Administrative Boundaries",
+  "sourceUrl": "https://www.geoboundaries.org/api/current/gbOpen/SYR/ADM1/",
+  "license": "CC BY 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "accessedAt": "2026-06-27T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-27-geoboundaries-area/geoboundaries-syr-adm1-api.json",
+      "sha256": "8b51c93f67bade820820647371863db86fc4123934b9c93d06f443c8e8adbf66",
+      "notes": "geoBoundaries API metadata for Syria ADM1 gbOpen."
+    },
+    {
+      "name": "imports/raw/2026-06-27-geoboundaries-area/geoboundaries-syr-adm1.geojson",
+      "sha256": "9f781624caaf3bb3256585deee69c2b985b1144b19909cf0386f663ddb41d527",
+      "notes": "Syria ADM1 boundary GeoJSON downloaded from geoBoundaries."
+    },
+    {
+      "name": "imports/raw/2026-06-27-geoboundaries-area/geoboundaries-syr-adm1-derived-areas.json",
+      "sha256": "648e05794db8315bda4dabe84890ec4516f73091a643516d48d7b724959215dc",
+      "notes": "Local derived area summary calculated from the ADM1 GeoJSON."
+    }
+  ],
+  "importedFields": ["area", "sourceIds"],
+  "targetFiles": ["data/governorates.json", "data/sources.json"],
+  "transforms": [
+    "Downloaded geoBoundaries Syria ADM1 API metadata and boundary GeoJSON.",
+    "Matched the Damascus governorate feature by shapeISO SYR-DI.",
+    "Calculated polygon area from GeoJSON coordinates with a spherical polygon area formula using mean Earth radius 6371008.8 metres.",
+    "Rounded the derived Damascus area to three decimal places in square kilometres."
+  ],
+  "reviewNotes": "Used geoBoundaries only for the missing Damascus area value so area coverage reaches 100%. Existing Wikidata area values were not replaced in this pass because they represent published measurements, while this value is explicitly boundary-derived."
+}

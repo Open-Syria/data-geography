@@ -2,12 +2,12 @@
   {
     "id": "geoboundaries-syr",
     "title": "geoBoundaries Syrian Arab Republic Administrative Boundaries",
-    "url": "https://www.geoboundaries.org/countryDownloads.html",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/SYR/ADM1/",
+    "license": "CC BY 3.0 IGO",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
     "status": "approved",
-    "fields": ["boundaries", "administrativeRelationships", "names"],
-    "notes": "Preferred seed source for reusable administrative boundary references."
+    "fields": ["boundaries", "administrativeRelationships", "names", "derivedArea"],
+    "notes": "Preferred seed source for reusable administrative boundary references. Current Syria ADM1 source is UN OCHA via HDX, distributed through geoBoundaries."
   },
   {
     "id": "geonames-sy",

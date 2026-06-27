@@ -19,7 +19,7 @@ This is not legal advice. Before a large import or public release, the maintaine
 
 | Source ID | Registry status | Intended use | Release rule |
 | --- | --- | --- | --- |
-| `geoboundaries-syr` | `approved` | Administrative boundary and geography cross-checking. | May be used when attribution and imported fields are recorded. |
+| `geoboundaries-syr` | `approved` | Administrative boundary, derived area, and geography cross-checking. | May be used when attribution and imported fields are recorded. |
 | `geonames-sy` | `approved` | Place-name, feature, alternate-name, and coordinate cross-checking. | May be used when attribution and imported fields are recorded. |
 | `wikidata` | `approved` | Public identifiers, aliases, multilingual names, area, population, and cross-checking. | May be used when imported fields are traceable. |
 | `openstreetmap` | `restricted` | Review, matching, and potential future ODbL-compatible exports. | Do not use in default records unless the maintainer approves the ODbL approach. |
