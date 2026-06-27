@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-geography/governorates.schema.json",
+  "title": "OpenSyria Geography Governorates",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "aliases",
+      "iso31662",
+      "centroid",
+      "externalIds",
+      "sourceIds",
+      "sourceStatus"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^sy-[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["en"],
+        "properties": {
+          "en": { "type": "string", "minLength": 1 },
+          "ar": { "type": "string", "minLength": 1 }
+        }
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value"],
+          "properties": {
+            "value": { "type": "string", "minLength": 1 },
+            "language": { "type": "string", "enum": ["ar", "en", "und"] },
+            "type": {
+              "type": "string",
+              "enum": ["alias", "transliteration", "historical", "alternate_spelling"]
+            }
+          }
+        }
+      },
+      "iso31662": {
+        "type": ["string", "null"],
+        "pattern": "^SY-[A-Z]{2}$"
+      },
+      "centroid": {
+        "oneOf": [
+          { "type": "null" },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+              "longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+            }
+          }
+        ]
+      },
+      "externalIds": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+          "geonames": { "type": "string", "pattern": "^[0-9]+$" },
+          "geoboundaries": { "type": "string", "minLength": 1 }
+        }
+      },
+      "sourceIds": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 },
+        "uniqueItems": true
+      },
+      "sourceStatus": {
+        "type": "string",
+        "enum": ["pending_release", "seed", "released", "deprecated"]
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

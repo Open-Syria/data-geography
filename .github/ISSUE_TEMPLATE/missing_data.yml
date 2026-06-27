@@ -1,0 +1,40 @@
+name: Missing Data
+description: Suggest a missing geography record.
+title: 'missing: '
+labels:
+  - missing-data
+body:
+  - type: dropdown
+    id: record-type
+    attributes:
+      label: Record Type
+      options:
+        - governorate
+        - district
+        - subdistrict
+        - city
+        - town
+        - village
+        - locality
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Name of the missing record.
+    validations:
+      required: true
+  - type: textarea
+    id: parent
+    attributes:
+      label: Parent Administrative Area
+      description: Governorate, district, or subdistrict if known.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Add URLs or citations that support the missing record.
+    validations:
+      required: true
+

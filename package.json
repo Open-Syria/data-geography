@@ -1,0 +1,27 @@
+{
+  "name": "@opensyria/data-geography",
+  "version": "0.0.0",
+  "description": "Canonical OpenSyria administrative geography datasets.",
+  "author": "OpenSyria",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=24.0.0",
+    "pnpm": ">=11.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "validate:data": "node scripts/validate-data.mjs",
+    "release:build": "node scripts/build-release.mjs",
+    "validate": "pnpm run check && pnpm run validate:data && pnpm run release:build"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.1"
+  }
+}

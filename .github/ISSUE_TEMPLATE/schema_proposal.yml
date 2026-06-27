@@ -1,0 +1,35 @@
+name: Schema Proposal
+description: Propose a new field or schema change before implementation.
+title: 'schema: '
+labels:
+  - schema-proposal
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What field or schema change are you proposing?
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Case
+      description: Who needs this and why?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source Availability
+      description: What reusable sources support this field consistently?
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and Licensing
+      description: Explain why this field is safe and legal to publish.
+    validations:
+      required: true
+

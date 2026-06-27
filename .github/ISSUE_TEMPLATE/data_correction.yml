@@ -1,0 +1,27 @@
+name: Data Correction
+description: Report an incorrect geography record.
+title: 'data: '
+labels:
+  - data-correction
+body:
+  - type: input
+    id: record-id
+    attributes:
+      label: Record ID
+      description: OpenSyria ID if known.
+      placeholder: sy-example
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is incorrect?
+      description: Describe the issue clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Add URLs or citations that support the correction.
+    validations:
+      required: true
+

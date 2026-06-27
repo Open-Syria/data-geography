@@ -1,0 +1,7 @@
+minimumReleaseAge: 1440
+strictDepBuilds: true
+dangerouslyAllowAllBuilds: false
+verifyDepsBeforeRun: install
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+

@@ -1,0 +1,54 @@
+# Sources
+
+OpenSyria Data Geography should only use sources that are legally reusable, documented, and practical to review.
+
+## Source Registry
+
+Source metadata is stored in:
+
+```text
+data/sources.json
+```
+
+Records reference sources through `sourceIds`.
+
+## Initial Source Policy
+
+Preferred sources for the first geography seed:
+
+| Source | License | Status | Use |
+| --- | --- | --- | --- |
+| geoBoundaries | CC BY 4.0 | approved | Administrative boundaries and administrative hierarchy cross-checking |
+| GeoNames | CC BY 4.0 | approved | Place names, feature IDs, alternate names, and coordinates cross-checking |
+| Wikidata | CC0 | approved | Public identifiers, multilingual names, and cross-checking |
+| OpenStreetMap | ODbL | restricted | Review and comparison only unless ODbL handling is explicitly approved |
+
+## Rejected or Restricted Sources
+
+Do not import data from:
+
+- Google Maps,
+- commercial map databases,
+- proprietary directories,
+- sources marked non-commercial only,
+- sources that prohibit redistribution,
+- unclear-license sources,
+- sources that require permission before redistribution,
+- AI output.
+
+Avoid boundary sources such as GADM unless explicit redistribution permission is obtained.
+
+## OpenStreetMap Note
+
+OpenStreetMap is valuable, but OSM data is licensed under ODbL. ODbL has share-alike obligations for derived databases.
+
+For the default seed workflow, OSM may be used for manual review and comparison, but OSM-derived values should not be imported into canonical data unless the maintainer approves the ODbL-compatible release approach.
+
+## Source Links
+
+- geoBoundaries: https://www.geoboundaries.org/
+- GeoNames downloads: https://download.geonames.org/export/dump/
+- Wikidata licensing: https://www.wikidata.org/wiki/Wikidata:Licensing
+- OpenStreetMap copyright: https://www.openstreetmap.org/copyright
+- Open Data Commons ODbL: https://opendatacommons.org/licenses/odbl/1-0/
+
