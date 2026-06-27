@@ -151,14 +151,15 @@ Rules:
 
 - always use an object,
 - use an empty object when there are no external IDs,
-- supported keys are `wikidata`, `geonames`, and `geoboundaries`.
+- supported keys are `wikidata`, `geonames`, `geoboundaries`, and `ochaPcode`.
 
 Example:
 
 ```json
 "externalIds": {
   "wikidata": "Q3766",
-  "geonames": "170654"
+  "geonames": "170654",
+  "ochaPcode": "C1001"
 }
 ```
 

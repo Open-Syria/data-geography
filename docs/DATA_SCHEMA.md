@@ -64,6 +64,7 @@ Fields:
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries ID or reference |
+| `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
@@ -135,6 +136,7 @@ Fields:
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
+| `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
@@ -177,6 +179,7 @@ Fields:
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
+| `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
@@ -209,10 +212,46 @@ Canonical file:
 data/localities.json
 ```
 
-The repository still includes an empty placeholder for localities.
+Fields:
 
-Validation schemas already exist for this file, including parent relationship checks.
+| Field | Type | Required | Notes |
+| --- | --- | --- | --- |
+| `id` | string | yes | Stable OpenSyria ID, for example `sy-damascus-damascus-damascus-damascus` |
+| `governorateId` | string | yes | Parent governorate ID from `data/governorates.json` |
+| `districtId` | string | no | Parent district ID from `data/districts.json` |
+| `subdistrictId` | string | no | Parent subdistrict ID from `data/subdistricts.json` |
+| `kind` | enum | yes | One of `city`, `town`, `village`, or `locality` |
+| `name.en` | string | yes | English display name |
+| `name.ar` | string | no | Arabic display name |
+| `aliases` | array | no | Alternate names, parenthetical-free names, formal names, spellings, or transliterations |
+| `centroid.latitude` | number | no | WGS84 latitude |
+| `centroid.longitude` | number | no | WGS84 longitude |
+| `externalIds.wikidata` | string | no | Wikidata QID |
+| `externalIds.geonames` | string | no | GeoNames ID |
+| `externalIds.geoboundaries` | string | no | geoBoundaries reference when applicable |
+| `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
+| `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceStatus` | enum | yes | Review/release state |
+| `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
-Generated artifacts already exist for all canonical files so the release pipeline can be tested before real locality data is added.
+Generated release artifacts:
+
+```text
+dist/release/artifacts/localities.json
+dist/release/artifacts/localities.ndjson
+dist/release/artifacts/localities.csv
+dist/release/artifacts/localities.sql
+dist/release/artifacts/localities.yaml
+dist/release/artifacts/localities.xml
+```
+
+Seed notes:
+
+- The initial locality seed imports HDX/OCHA rows where `location_type` is `Community`.
+- HDX/OCHA `Neighbourhood` rows are intentionally deferred until the schema supports neighbourhood-level records.
+- Parent relationships follow HDX/OCHA admin P-codes mapped to existing OpenSyria administrative records.
+- Coordinates are checked against current ADM3 polygons as QA, but edge cases keep the explicit HDX/OCHA admin relationship.
+- The initial seed uses `kind: "locality"` because the source does not distinguish cities, towns, and villages reliably enough for canonical classification.
+- Contributors may improve `kind`, GeoNames IDs, Wikidata IDs, aliases, and source-backed corrections without adding new fields.
 
 Normal contributors should not introduce new fields for this dataset before maintainer approval.

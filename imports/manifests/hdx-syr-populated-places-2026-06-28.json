@@ -1,0 +1,64 @@
+{
+  "sourceId": "hdx-syr-populated-places",
+  "sourceTitle": "Syrian Arab Republic: Populated Places",
+  "sourceUrl": "https://data.humdata.org/dataset/syrian-arab-republic-pop-places",
+  "license": "CC BY 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/hdx-populated-places-package.json",
+      "sha256": "9418c35da9210e2c50df9506b638d05cf0e9f9b4e134979cdffca4a9f4a2aee5",
+      "notes": "HDX CKAN package metadata for Syrian Arab Republic populated places."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/syr_humanitarian_locations_20200816.xlsx",
+      "sha256": "8400e24684bbe77d43cda1a73d4c83cd2976e7a0a303372a630313780bb89f00",
+      "notes": "Original XLSX resource downloaded from HDX."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/hdx-populated-places-community-records.json",
+      "sha256": "70fb20c8bac977c9da4a27512420ed7fe713af29751451b31bd2f737cad818de",
+      "notes": "Parsed Location sheet rows where location_type is Community."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/hdx-populated-places-neighbourhood-records-deferred.json",
+      "sha256": "51a0fdde66dcb26ebff92eae105959f6afb486080a57b761b4b387d3e4dcd9ce",
+      "notes": "Parsed Location sheet rows where location_type is Neighbourhood. These rows were reviewed but deferred from the locality seed."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/hdx-populated-places-derived-matches.json",
+      "sha256": "eac817f27271a1d7b5a6df8be4b22ee7466c044d2ffc174461d1edd746645119",
+      "notes": "Local crosswalk from HDX admin P-codes to OpenSyria IDs plus geometry QA against current ADM3 polygons."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/normalized-locality-records.json",
+      "sha256": "29872601740fd99368fdb47e2cbfb8ade116304ed43c6e1763217bb31dd339dd",
+      "notes": "Local normalized locality records after source parsing, parent mapping, and review cleanup."
+    }
+  ],
+  "importedFields": [
+    "governorateId",
+    "districtId",
+    "subdistrictId",
+    "kind",
+    "name.en",
+    "name.ar",
+    "aliases",
+    "centroid",
+    "externalIds.ochaPcode"
+  ],
+  "targetFiles": ["data/localities.json", "data/sources.json"],
+  "transforms": [
+    "Downloaded HDX package metadata and XLSX resource.",
+    "Parsed the admin1, admin2, admin3, and Location sheets from the XLSX resource.",
+    "Imported only Location rows where location_type is Community.",
+    "Deferred Location rows where location_type is Neighbourhood because the current schema does not intentionally model neighbourhood-level records.",
+    "Mapped HDX admin P-codes to existing OpenSyria governorate, district, and subdistrict IDs using source names, aliases, and a documented crosswalk for known naming or vintage differences.",
+    "Used HDX coordinates as seed representative centroids.",
+    "Used HDX Location_Pcode values as OCHA P-code external identifiers.",
+    "Compared locality coordinates against current ADM3 polygons as QA while keeping parent relationships based on HDX OCHA admin P-codes."
+  ],
+  "reviewNotes": "Seeded 7,593 locality records from HDX Community rows and deferred 414 Neighbourhood rows. Geometry QA found 7,555 records where the coordinate matched the mapped current ADM3 polygon, 37 records outside current ADM3 polygons, and 1 record where geometry and HDX P-code mapping differed. Edge cases are retained with record-level notes because the parent relationship follows the source's explicit OCHA admin P-code."
+}

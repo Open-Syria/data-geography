@@ -42,6 +42,16 @@
     "notes": "Useful for public identifiers and cross-checking."
   },
   {
+    "id": "hdx-syr-populated-places",
+    "title": "Syrian Arab Republic: Populated Places",
+    "url": "https://data.humdata.org/dataset/syrian-arab-republic-pop-places",
+    "license": "CC BY 3.0 IGO",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+    "status": "approved",
+    "fields": ["names", "coordinates", "administrativeRelationships", "externalIds", "pCodes"],
+    "notes": "UN OCHA Syria populated places dataset. The initial locality seed uses Community rows only; Neighbourhood rows are deferred until the schema intentionally supports neighbourhood-level records."
+  },
+  {
     "id": "openstreetmap",
     "title": "OpenStreetMap",
     "url": "https://www.openstreetmap.org/copyright",

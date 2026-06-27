@@ -114,7 +114,8 @@
         "properties": {
           "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
           "geonames": { "type": "string", "pattern": "^[0-9]+$" },
-          "geoboundaries": { "type": "string", "minLength": 1 }
+          "geoboundaries": { "type": "string", "minLength": 1 },
+          "ochaPcode": { "type": "string", "minLength": 1 }
         }
       },
       "sourceIds": {

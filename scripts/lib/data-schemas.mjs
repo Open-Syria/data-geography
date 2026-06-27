@@ -78,6 +78,7 @@ export const externalIdsSchema = z
       .regex(/^[0-9]+$/)
       .optional(),
     geoboundaries: z.string().trim().min(1).optional(),
+    ochaPcode: z.string().trim().min(1).optional(),
   })
   .strict();
 
