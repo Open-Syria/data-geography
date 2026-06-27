@@ -52,6 +52,16 @@
     "notes": "UN OCHA Syria populated places dataset. The initial locality seed uses Community rows only; Neighbourhood rows are deferred until the schema intentionally supports neighbourhood-level records."
   },
   {
+    "id": "uscb-syria-population",
+    "title": "Syria Subnational Population and Housing Data Tables with Administrative Boundaries, Based on National Census and Surveys",
+    "url": "https://data.humdata.org/dataset/syria-subnational-boundaries-and-tabular-data",
+    "license": "CC BY",
+    "licenseUrl": "http://www.opendefinition.org/licenses/cc-by",
+    "status": "approved",
+    "fields": ["population", "names", "administrativeRelationships", "externalIds", "pCodes"],
+    "notes": "U.S. Census Bureau tables distributed through HDX. The initial import uses the Age-Sex table BTOTL field as the 2004 census total population for ADM2 and ADM3 records."
+  },
+  {
     "id": "openstreetmap",
     "title": "OpenStreetMap",
     "url": "https://www.openstreetmap.org/copyright",
