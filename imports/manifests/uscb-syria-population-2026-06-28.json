@@ -1,0 +1,56 @@
+{
+  "sourceId": "uscb-syria-population",
+  "sourceTitle": "Syria Subnational Population and Housing Data Tables with Administrative Boundaries, Based on National Census and Surveys",
+  "sourceUrl": "https://data.humdata.org/dataset/syria-subnational-boundaries-and-tabular-data",
+  "license": "CC BY",
+  "licenseUrl": "http://www.opendefinition.org/licenses/cc-by",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-uscb-population/hdx-uscb-population-package.json",
+      "sha256": "fb20a2e36cb2e64ff01d349b4f52e64afea5a75823f06581751b63db92ae39ea",
+      "notes": "HDX package metadata for the U.S. Census Bureau Syria subnational population and boundary tables."
+    },
+    {
+      "name": "imports/raw/2026-06-28-uscb-population/Syria_uscb_201811.xlsx",
+      "sha256": "4306254d856e97e006291a3595089b382946f08783bab605954bc7da0a2cf550",
+      "notes": "Original U.S. Census Bureau workbook downloaded from the HDX package resources."
+    },
+    {
+      "name": "imports/raw/2026-06-28-uscb-population/uscb-age-sex-records.json",
+      "sha256": "9ac90c10b0d7babe012abade0eb9d5de0f601e4ed324568c362efe50a8a046c5",
+      "notes": "Locally extracted Age-Sex worksheet records used for ADM1, ADM2, and ADM3 2004 total population values."
+    },
+    {
+      "name": "imports/raw/2026-06-28-uscb-population/uscb-population-estimates-records.json",
+      "sha256": "6f61a3501cfcf5e666df5f731819c37b19b71796d732ccdada23af03cc6e4923",
+      "notes": "Locally extracted Population Estimates worksheet records used for ADM1 2011, 2014, and 2016 population estimates."
+    },
+    {
+      "name": "imports/raw/2026-06-28-uscb-population/uscb-population-crosswalk.json",
+      "sha256": "dd889fdbec84b66897bee2ba867f0473048e643e5cdad02561a8d48ccdb2fc2c",
+      "notes": "Local crosswalk from U.S. Census Bureau NSO_CODE values to OpenSyria governorate, district, and subdistrict IDs, including reviewed manual mappings and skipped sentinel rows."
+    }
+  ],
+  "importedFields": ["population", "populationHistory"],
+  "targetFiles": [
+    "data/governorates.json",
+    "data/districts.json",
+    "data/subdistricts.json",
+    "data/sources.json"
+  ],
+  "transforms": [
+    "Downloaded HDX package metadata and the U.S. Census Bureau Syria workbook.",
+    "Extracted the Age-Sex worksheet and selected BTOTL as the 2004 total population field for ADM1, ADM2, and ADM3 records.",
+    "Extracted the Population Estimates worksheet for ADM1 records.",
+    "Stored populationHistory arrays where multiple dated measurements are available.",
+    "Set each record population field to the latest preferred measurement available at that administrative level.",
+    "Mapped ADM1 and ADM2 rows by exact NSO_CODE to externalIds.ochaPcode matches.",
+    "Mapped ADM3 rows by exact NSO_CODE to externalIds.ochaPcode matches where possible.",
+    "Mapped four Baniyas and Qadmous area ADM3 rows by reviewed Arabic names where the source vintage uses older NSO_CODE values.",
+    "Skipped ADM3 rows whose population value is the -999 source sentinel rather than a real population measurement.",
+    "Added the U.S. Census Bureau source ID to each updated record and to each population measurement sourceIds array."
+  ],
+  "reviewNotes": "Imported 14 governorate population histories with 2004 census values plus January 2011, December 2011, 2014, and 2016 estimates; 61 district 2004 census population measurements; and 270 subdistrict 2004 census population measurements. Two Quneitra subdistrict rows, Al-Butayhah and Masaada, remain without population values because the source workbook stores -999 sentinel values for them. The 2026 U.S. Census IDB/PopClock value is national-level only and is not imported into governorate, district, or subdistrict records."
+}

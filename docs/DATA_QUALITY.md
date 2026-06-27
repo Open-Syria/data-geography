@@ -86,7 +86,8 @@ Completeness targets vary by field.
 | `aliases` | Empty array when no aliases are known. |
 | `centroid` | Optional; use `null` unless a reusable source is clear. |
 | `area` | Optional; use a sourced measurement object or `null`. |
-| `population` | Optional; use a dated sourced measurement object or `null`. |
+| `population` | Optional; use the latest dated sourced measurement available for that exact geography level, or `null`. |
+| `populationHistory` | Optional; use when multiple dated measurements are available for the same record. |
 | `externalIds` | Empty object when none are known. |
 | `sourceIds` | Required and approved. |
 | `notes` | Use for uncertainty and maintainer review context. |
@@ -98,6 +99,9 @@ Before a release, maintainers should compare:
 ```bash
 pnpm run validate
 pnpm run report:data
+pnpm run coverage:data
 ```
 
-Use the report to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, or unresolved duplicate names.
+Use the reports to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, unresolved duplicate names, or old but source-backed values.
+
+Data freshness decisions are tracked in [DATA_CURRENCY.md](DATA_CURRENCY.md).

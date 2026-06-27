@@ -62,10 +62,16 @@ export const populationMeasurementSchema = z
   .object({
     value: z.number().int().nonnegative(),
     year: z.number().int().min(1).max(9999),
+    date: z
+      .string()
+      .regex(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)
+      .optional(),
     sourceIds: measurementSourceIdsSchema,
     notes: z.string().trim().min(1).optional(),
   })
   .strict();
+
+export const populationHistorySchema = z.array(populationMeasurementSchema).min(1).optional();
 
 export const externalIdsSchema = z
   .object({
@@ -195,6 +201,7 @@ export const governorateRecordSchema = z
     centroid: geographicPointSchema.nullable(),
     area: areaMeasurementSchema.nullable(),
     population: populationMeasurementSchema.nullable(),
+    populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
     sourceStatus: sourceStatusSchema,
@@ -211,6 +218,7 @@ export const districtRecordSchema = z
     centroid: geographicPointSchema.nullable(),
     area: areaMeasurementSchema.nullable(),
     population: populationMeasurementSchema.nullable(),
+    populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
     sourceStatus: sourceStatusSchema,
@@ -228,6 +236,7 @@ export const subdistrictRecordSchema = z
     centroid: geographicPointSchema.nullable(),
     area: areaMeasurementSchema.nullable(),
     population: populationMeasurementSchema.nullable(),
+    populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
     sourceStatus: sourceStatusSchema,
@@ -298,9 +307,11 @@ export function ensureKnownSources(records, sources, label) {
       ensureApprovedSource(sourceById, sourceId, `${label} ${record.id}`);
     }
 
-    const measurementSourceIds = [record.area?.sourceIds, record.population?.sourceIds].filter(
-      Boolean,
-    );
+    const measurementSourceIds = [
+      record.area?.sourceIds,
+      record.population?.sourceIds,
+      ...(record.populationHistory ?? []).map((measurement) => measurement.sourceIds),
+    ].filter(Boolean);
 
     for (const sourceIds of measurementSourceIds) {
       for (const sourceId of sourceIds) {
@@ -312,6 +323,30 @@ export function ensureKnownSources(records, sources, label) {
           );
         }
       }
+    }
+  }
+}
+
+export function ensurePopulationHistoryQuality(records, label) {
+  for (const record of records) {
+    if (!record.populationHistory) {
+      continue;
+    }
+
+    if (record.population === null) {
+      throw new Error(`${label} ${record.id} has populationHistory but population is null`);
+    }
+
+    const latestMeasurement = record.populationHistory.at(-1);
+
+    if (
+      latestMeasurement.value !== record.population.value ||
+      latestMeasurement.year !== record.population.year ||
+      latestMeasurement.date !== record.population.date
+    ) {
+      throw new Error(
+        `${label} ${record.id} latest populationHistory entry must match population value, year, and date`,
+      );
     }
   }
 }

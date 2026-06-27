@@ -61,7 +61,9 @@ Fields:
 | `area.sourceIds` | array | no | Approved source IDs for the area value |
 | `population.value` | integer | no | Population measurement |
 | `population.year` | integer | no | Measurement year |
+| `population.date` | string | no | Exact measurement date when the source provides one, formatted `YYYY-MM-DD` |
 | `population.sourceIds` | array | no | Approved source IDs for the population value |
+| `populationHistory` | array | no | Dated population measurements for the same record; latest entry must match `population` |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries ID or reference |
@@ -133,7 +135,8 @@ Fields:
 | `area.value` | number | no | Area measurement |
 | `area.unit` | string | no | Currently `km2` |
 | `area.sourceIds` | array | no | Approved source IDs for the area value |
-| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the district seed |
+| `population` | object or null | yes | Latest dated sourced population measurement available at district level |
+| `populationHistory` | array | no | Dated population measurements for the district; latest entry must match `population` |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
@@ -176,7 +179,8 @@ Fields:
 | `area.value` | number | no | Area measurement |
 | `area.unit` | string | no | Currently `km2` |
 | `area.sourceIds` | array | no | Approved source IDs for the area value |
-| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the subdistrict seed |
+| `population` | object or null | yes | Latest dated sourced population measurement available at subdistrict level |
+| `populationHistory` | array | no | Dated population measurements for the subdistrict; latest entry must match `population` |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
@@ -202,7 +206,8 @@ Seed notes:
 - Parent `districtId` relationships are derived by matching ADM3 geometry to ADM2 geometry.
 - Area values are derived from reusable ADM3 geometry and rounded to three decimal places.
 - GeoNames and Wikidata enrich records with Arabic names, aliases, centroids, and external IDs where they match current ADM3 shapes.
-- Population is intentionally `null` until dated, reusable subdistrict-level population sources are reviewed.
+- Population uses the newest dated U.S. Census Bureau value available at the matching geography level. Governorates currently have 2004 census values plus 2011, 2014, and 2016 estimates; districts and subdistricts currently have 2004 census values. Source sentinel values such as `-999` remain `null`.
+- National estimates are not imported into governorate, district, or subdistrict records.
 - Records with missing `name.ar`, GeoNames IDs, or Wikidata IDs are valid seed records and should be improved through focused source-backed contributions.
 
 ## Localities
