@@ -50,6 +50,8 @@ Do not edit generated output:
 dist/
 ```
 
+Generated artifacts may eventually include JSON, NDJSON, CSV, SQL, YAML, XML, and SQLite files. These are all built from canonical JSON source files under `data/`.
+
 Do not edit schema, scripts, or workflow files unless the maintainer has approved that work:
 
 ```text
@@ -192,6 +194,8 @@ This checks:
 - parent relationships,
 - duplicate aliases,
 - generated release artifact compatibility.
+
+Generated artifact rules are documented in [`../docs/GENERATED_ARTIFACTS.md`](../docs/GENERATED_ARTIFACTS.md).
 
 ## Review Flow
 

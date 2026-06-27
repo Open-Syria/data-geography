@@ -37,6 +37,7 @@ Request changes when:
 - a record references a restricted/proposed source,
 - unrelated changes are bundled together,
 - generated files are edited,
+- CSV, SQL, YAML, XML, SQLite, or release artifacts are edited directly,
 - aliases duplicate canonical names,
 - IDs are unstable or inconsistent,
 - a schema change is included without approval.
@@ -66,4 +67,3 @@ Before approval, the maintainer should decide:
 - how release artifacts will change.
 
 Only after approval should implementation begin.
-

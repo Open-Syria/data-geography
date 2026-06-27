@@ -17,7 +17,15 @@
     "data/sources.json",
     "docs/SOURCES.md"
   ],
-  "generated": ["dist/**"],
+  "sourceOfTruth": [
+    "data/governorates.json",
+    "data/districts.json",
+    "data/subdistricts.json",
+    "data/localities.json",
+    "data/sources.json"
+  ],
+  "generated": ["dist/**", "dist/release/**", "dist/release/artifacts/**"],
+  "plannedGeneratedFormats": ["json", "ndjson", "csv", "sql", "yaml", "xml", "sqlite"],
   "requiredValidationCommands": ["pnpm run validate"],
   "allowedContributionTypes": [
     "data-correction",
@@ -32,6 +40,7 @@
     "new-field",
     "id-format-change",
     "release-pipeline-change",
+    "generated-artifact-change",
     "large-automated-import",
     "new-dataset-topic"
   ],

@@ -56,6 +56,7 @@ scripts/
 docs/
   DATA_SCHEMA.md
   FIELD_REFERENCE.md
+  GENERATED_ARTIFACTS.md
   REVIEW_PROCESS.md
   SOURCES.md
 contributions/
@@ -85,6 +86,8 @@ Generated release files are written to:
 ```text
 dist/release/
 ```
+
+Generated artifacts are built from canonical JSON files and must not be edited directly. See [docs/GENERATED_ARTIFACTS.md](docs/GENERATED_ARTIFACTS.md).
 
 ## Contribution Model
 

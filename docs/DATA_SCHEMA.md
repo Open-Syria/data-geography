@@ -4,6 +4,8 @@ This repository stores canonical source records under `data/`.
 
 Release artifacts are generated from canonical records and may contain only the fields needed by public API endpoints.
 
+Generated artifact rules live in [GENERATED_ARTIFACTS.md](GENERATED_ARTIFACTS.md).
+
 ## Common Rules
 
 - IDs must be stable.
