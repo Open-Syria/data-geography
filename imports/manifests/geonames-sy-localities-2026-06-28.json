@@ -1,0 +1,39 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-sy-populated-place-records.tsv",
+      "sha256": "9dac5e0b79847da18c844ef1e46a94a0586db37a213c87560b310fa9c9863636",
+      "notes": "Filtered SY.txt rows where feature class is P and the feature code represents a populated place candidate."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-locality-match-report.json",
+      "sha256": "036b2aa7251ca5e2d37f8f35dc5cc13eb20360ceb6a2ec787cebb6cc6a3b3429",
+      "notes": "Local match report showing accepted one-to-one locality matches plus skipped ambiguous and duplicate candidates."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-enriched-locality-records.json",
+      "sha256": "abdf784da879a6eb3bb88dbd6843597d458474ef28da857fb88f4483207aafff",
+      "notes": "Accepted locality records after GeoNames enrichment."
+    }
+  ],
+  "importedFields": ["aliases", "kind", "externalIds.geonames"],
+  "targetFiles": ["data/localities.json", "data/sources.json"],
+  "transforms": [
+    "Filtered the GeoNames Syria dump to populated-place feature codes.",
+    "Matched existing OpenSyria locality records to GeoNames rows using normalized names and aliases within a 2 km distance threshold.",
+    "Accepted only unambiguous one-to-one matches: one GeoNames candidate per locality and one locality per GeoNames ID.",
+    "Skipped ambiguous localities and duplicate GeoNames assignments for later manual review.",
+    "Added GeoNames IDs to accepted locality external identifiers.",
+    "Added selected GeoNames name and ASCII name values as English alternate-spelling aliases when they did not duplicate existing canonical names or aliases.",
+    "Updated locality kind from GeoNames feature codes only for administrative seats: PPLC, PPLA, and PPLA2 as city; PPLA3 as town.",
+    "Did not create new locality records from unmatched GeoNames rows."
+  ],
+  "reviewNotes": "Accepted 3713 one-to-one GeoNames locality matches from 11735 populated-place candidate rows. Skipped 26 localities with multiple candidates and 6 GeoNames IDs that matched more than one locality. Added 6302 selected alternate-spelling aliases and updated 238 locality kind values."
+}
