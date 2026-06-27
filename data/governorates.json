@@ -49,9 +49,10 @@
     },
     "externalIds": {
       "wikidata": "Q233914",
-      "geonames": "173813"
+      "geonames": "173813",
+      "geoboundaries": "8384693B3351094574159"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -89,9 +90,10 @@
     },
     "externalIds": {
       "wikidata": "Q214064",
-      "geonames": "170062"
+      "geonames": "170062",
+      "geoboundaries": "8384693B67178658489877"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -144,9 +146,10 @@
     },
     "externalIds": {
       "wikidata": "Q236797",
-      "geonames": "172410"
+      "geonames": "172410",
+      "geoboundaries": "8384693B61807023607014"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -190,7 +193,8 @@
     },
     "externalIds": {
       "wikidata": "Q2007044",
-      "geonames": "167541"
+      "geonames": "167541",
+      "geoboundaries": "8384693B24866558579919"
     },
     "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed",
@@ -241,9 +245,10 @@
     },
     "externalIds": {
       "wikidata": "Q1689560",
-      "geonames": "170903"
+      "geonames": "170903",
+      "geoboundaries": "8384693B23566608622518"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -291,9 +296,10 @@
     },
     "externalIds": {
       "wikidata": "Q232387",
-      "geonames": "170792"
+      "geonames": "170792",
+      "geoboundaries": "8384693B56550821124428"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -341,9 +347,10 @@
     },
     "externalIds": {
       "wikidata": "Q232355",
-      "geonames": "170015"
+      "geonames": "170015",
+      "geoboundaries": "8384693B76753285616287"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -391,9 +398,10 @@
     },
     "externalIds": {
       "wikidata": "Q214094",
-      "geonames": "169575"
+      "geonames": "169575",
+      "geoboundaries": "8384693B93490606690779"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -431,9 +439,10 @@
     },
     "externalIds": {
       "wikidata": "Q233218",
-      "geonames": "169387"
+      "geonames": "169387",
+      "geoboundaries": "8384693B38455082445791"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -476,9 +485,10 @@
     },
     "externalIds": {
       "wikidata": "Q233236",
-      "geonames": "173578"
+      "geonames": "173578",
+      "geoboundaries": "8384693B20094101885952"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -526,9 +536,10 @@
     },
     "externalIds": {
       "wikidata": "Q219690",
-      "geonames": "173336"
+      "geonames": "173336",
+      "geoboundaries": "8384693B30882548325909"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -581,9 +592,10 @@
     },
     "externalIds": {
       "wikidata": "Q235563",
-      "geonames": "172957"
+      "geonames": "172957",
+      "geoboundaries": "8384693B44556209506703"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -641,9 +653,10 @@
     },
     "externalIds": {
       "wikidata": "Q232399",
-      "geonames": "170652"
+      "geonames": "170652",
+      "geoboundaries": "8384693B89451039606890"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   },
   {
@@ -686,9 +699,10 @@
     },
     "externalIds": {
       "wikidata": "Q232382",
-      "geonames": "163342"
+      "geonames": "163342",
+      "geoboundaries": "8384693B50697642267539"
     },
-    "sourceIds": ["wikidata", "geonames-sy"],
+    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr"],
     "sourceStatus": "seed"
   }
 ]

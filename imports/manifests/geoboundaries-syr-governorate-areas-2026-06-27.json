@@ -23,13 +23,15 @@
       "notes": "Local derived area summary calculated from the ADM1 GeoJSON."
     }
   ],
-  "importedFields": ["area", "sourceIds"],
+  "importedFields": ["area", "externalIds.geoboundaries", "sourceIds"],
   "targetFiles": ["data/governorates.json", "data/sources.json"],
   "transforms": [
     "Downloaded geoBoundaries Syria ADM1 API metadata and boundary GeoJSON.",
     "Matched the Damascus governorate feature by shapeISO SYR-DI.",
+    "Matched all governorate records to geoBoundaries ADM1 features by ISO subdivision code.",
+    "Stored geoBoundaries ADM1 shape IDs as external identifiers.",
     "Calculated polygon area from GeoJSON coordinates with a spherical polygon area formula using mean Earth radius 6371008.8 metres.",
     "Rounded the derived Damascus area to three decimal places in square kilometres."
   ],
-  "reviewNotes": "Used geoBoundaries only for the missing Damascus area value so area coverage reaches 100%. Existing Wikidata area values were not replaced in this pass because they represent published measurements, while this value is explicitly boundary-derived."
+  "reviewNotes": "Used geoBoundaries for ADM1 shape IDs across all 14 governorates and for the missing Damascus area value so area coverage reaches 100%. Existing Wikidata area values were not replaced in this pass because they represent published measurements, while the Damascus value is explicitly boundary-derived."
 }
