@@ -1,0 +1,32 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-locality-match-report.json",
+      "sha256": "036b2aa7251ca5e2d37f8f35dc5cc13eb20360ceb6a2ec787cebb6cc6a3b3429",
+      "notes": "Previous automated GeoNames locality match report containing skipped ambiguous and duplicate candidates."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-locality-manual-review-2026-06-28.json",
+      "sha256": "5d0d7a718a78a078a8c56de2725aabb635963c1d87da47eb97f40335bd0ab529",
+      "notes": "Manual review decisions for clear skipped GeoNames locality candidates."
+    }
+  ],
+  "importedFields": ["aliases", "kind", "externalIds.geonames"],
+  "targetFiles": ["data/localities.json"],
+  "transforms": [
+    "Reviewed skipped GeoNames locality candidates from the previous automated match report.",
+    "Accepted only clear manual matches with source-compatible GeoNames populated-place records and no duplicate GeoNames assignment.",
+    "Added GeoNames IDs to accepted locality records.",
+    "Added selected GeoNames names as English alternate-spelling aliases where they did not duplicate existing names.",
+    "Updated locality kind using the same feature-code rule as the previous GeoNames import: PPLA3 as town, PPLC/PPLA/PPLA2 as city.",
+    "Left unclear cases unresolved for future manual review."
+  ],
+  "reviewNotes": "Accepted 28 additional GeoNames locality matches from skipped candidates. Added 28 aliases and updated 2 locality kind values. Left 10 unclear skipped localities unresolved."
+}
