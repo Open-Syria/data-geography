@@ -133,7 +133,7 @@ Fields:
 | `area.value` | number | no | Area measurement |
 | `area.unit` | string | no | Currently `km2` |
 | `area.sourceIds` | array | no | Approved source IDs for the area value |
-| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the district seed |
+| `population` | object or null | yes | Dated sourced population measurement, currently seeded from the 2004 census table where available |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
@@ -176,7 +176,7 @@ Fields:
 | `area.value` | number | no | Area measurement |
 | `area.unit` | string | no | Currently `km2` |
 | `area.sourceIds` | array | no | Approved source IDs for the area value |
-| `population` | object or null | yes | Reserved for dated sourced population measurements; currently `null` in the subdistrict seed |
+| `population` | object or null | yes | Dated sourced population measurement, currently seeded from the 2004 census table where available |
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
@@ -202,7 +202,7 @@ Seed notes:
 - Parent `districtId` relationships are derived by matching ADM3 geometry to ADM2 geometry.
 - Area values are derived from reusable ADM3 geometry and rounded to three decimal places.
 - GeoNames and Wikidata enrich records with Arabic names, aliases, centroids, and external IDs where they match current ADM3 shapes.
-- Population is intentionally `null` until dated, reusable subdistrict-level population sources are reviewed.
+- Population uses dated U.S. Census Bureau 2004 census values where available. Source sentinel values such as `-999` remain `null`.
 - Records with missing `name.ar`, GeoNames IDs, or Wikidata IDs are valid seed records and should be improved through focused source-backed contributions.
 
 ## Localities

@@ -58,14 +58,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 254622,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B23364861274114",
       "geonames": "8605211",
       "wikidata": "Q12247295",
       "ochaPcode": "SY080000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -132,14 +142,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30544,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B82059705485907",
       "geonames": "8605213",
       "wikidata": "Q12247075",
       "ochaPcode": "SY080005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -206,14 +226,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 40522,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B63963879208157",
       "geonames": "8605214",
       "wikidata": "Q12247121",
       "ochaPcode": "SY080004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -275,14 +305,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 14899,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B41458569249937",
       "geonames": "8605212",
       "wikidata": "Q12247119",
       "ochaPcode": "SY080006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -334,14 +374,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 34745,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B53514601725023",
       "geonames": "8605215",
       "wikidata": "Q12247285",
       "ochaPcode": "SY080003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -443,14 +493,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 58916,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B20122207008764",
       "geonames": "7895286",
       "wikidata": "Q12247217",
       "ochaPcode": "SY080002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -512,14 +572,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 50718,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B46061858776468",
       "geonames": "7895156",
       "wikidata": "Q12247144",
       "ochaPcode": "SY080001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -571,14 +641,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 110327,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B11142472005087",
       "geonames": "8605167",
       "wikidata": "Q12247313",
       "ochaPcode": "SY080300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -665,14 +745,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 40352,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B11638738894694",
       "geonames": "7895318",
       "wikidata": "Q12247019",
       "ochaPcode": "SY080301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -769,14 +859,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38955,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B68791198157964",
       "geonames": "7895335",
       "wikidata": "Q12247120",
       "ochaPcode": "SY080302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -863,14 +963,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 56006,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B48956267307288",
       "geonames": "7895147",
       "wikidata": "Q12247240",
       "ochaPcode": "SY080202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -942,14 +1052,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 65685,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B2197978981829",
       "geonames": "8605208",
       "wikidata": "Q12247087",
       "ochaPcode": "SY080203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1011,14 +1131,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 232258,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B84199847191016",
       "geonames": "8605168",
       "wikidata": "Q12247307",
       "ochaPcode": "SY080200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1080,14 +1210,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 69419,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B48055859180806",
       "geonames": "7895158",
       "wikidata": "Q12247146",
       "ochaPcode": "SY080201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1174,14 +1314,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 55442,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B57318589040742",
       "geonames": "7895200",
       "wikidata": "Q12247041",
       "ochaPcode": "SY080401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1248,14 +1398,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 121708,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B42616322115711",
       "geonames": "8605166",
       "wikidata": "Q12247335",
       "ochaPcode": "SY080400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1312,14 +1472,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 64758,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B19807187402191",
       "geonames": "8605832",
       "wikidata": "Q12247340",
       "ochaPcode": "SY020300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1366,14 +1536,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12573,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B9645811512357",
       "geonames": "7887184",
       "wikidata": "Q12247134",
       "ochaPcode": "SY020301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1440,14 +1620,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32947,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B27315275988815",
       "geonames": "7887175",
       "wikidata": "Q12247155",
       "ochaPcode": "SY020302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1504,14 +1694,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12359,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B65503401857734",
       "geonames": "8605894",
       "wikidata": "Q12247357",
       "ochaPcode": "SY020306"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1558,14 +1758,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21955,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B23430079284993",
       "geonames": "7887174",
       "wikidata": "Q12247192",
       "ochaPcode": "SY020303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1622,14 +1832,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13632,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B14086925592431",
       "geonames": "8605895",
       "wikidata": "Q12247219",
       "ochaPcode": "SY020304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1681,14 +1901,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13871,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B71668984422336",
       "geonames": "8605896",
       "wikidata": "Q12247224",
       "ochaPcode": "SY020305"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1755,14 +1985,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32041,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B98497974928848",
       "geonames": "8605322",
       "wikidata": "Q12247243",
       "ochaPcode": "SY020206"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1819,14 +2059,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 112384,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B25809769853220",
       "geonames": "8605303",
       "wikidata": "Q12247292",
       "ochaPcode": "SY020200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1888,14 +2138,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 15378,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B55923423828762",
       "geonames": "7887239",
       "wikidata": "Q12247044",
       "ochaPcode": "SY020203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -1952,14 +2212,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 34366,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B82738054677980",
       "geonames": "7887182",
       "wikidata": "Q12247334",
       "ochaPcode": "SY020202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2011,14 +2281,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 26729,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B50209877262465",
       "geonames": "8605323",
       "wikidata": "Q12247280",
       "ochaPcode": "SY020204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2070,14 +2350,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30029,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B16970857705758",
       "geonames": "8605305",
       "wikidata": "Q12247196",
       "ochaPcode": "SY020205"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2139,14 +2429,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 41786,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B5581777318728",
       "geonames": "8605304",
       "wikidata": "Q12247140",
       "ochaPcode": "SY020201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2223,14 +2523,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 132658,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B34103328783377",
       "geonames": "7887180",
       "wikidata": "Q12247299",
       "ochaPcode": "SY020700"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2277,14 +2587,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17193,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B64011962078366",
       "geonames": "8605302",
       "wikidata": "Q12247133",
       "ochaPcode": "SY020702"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2346,14 +2666,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 10408,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B30163647477097",
       "geonames": "8605301",
       "wikidata": "Q12247022",
       "ochaPcode": "SY020703"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2410,14 +2740,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18034,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B44494679540428",
       "geonames": "7895183",
       "wikidata": "Q12247180",
       "ochaPcode": "SY020701"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2579,14 +2919,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 78130,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B23883737114815",
       "geonames": "8605300",
       "wikidata": "Q12247341",
       "ochaPcode": "SY020600"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2668,14 +3018,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 43861,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B49677623720340",
       "geonames": "8605299",
       "wikidata": "Q12247226",
       "ochaPcode": "SY020601"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2732,14 +3092,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 70522,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B89506390310879",
       "geonames": "7887208",
       "wikidata": "Q12247232",
       "ochaPcode": "SY020602"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2806,14 +3176,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 47570,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B93307247756477",
       "geonames": "8605828",
       "wikidata": "Q12247290",
       "ochaPcode": "SY020400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2880,14 +3260,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 39132,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B12353284369973",
       "geonames": "7887240",
       "wikidata": "Q12246995",
       "ochaPcode": "SY020401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -2944,14 +3334,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 39306,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B42677679527026",
       "geonames": "8605829",
       "wikidata": "Q12247282",
       "ochaPcode": "SY020403"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3008,14 +3408,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 51948,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B27212212235676",
       "geonames": "8605831",
       "wikidata": "Q12247364",
       "ochaPcode": "SY020404"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3072,14 +3482,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30032,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B16454079237958",
       "geonames": "8605830",
       "wikidata": "Q12247237",
       "ochaPcode": "SY020405"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3141,14 +3561,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 43781,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B66233784598480",
       "geonames": "7887177",
       "wikidata": "Q12247147",
       "ochaPcode": "SY020402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3210,14 +3640,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17314,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38497453655949",
       "geonames": "8605290",
       "wikidata": "Q12247258",
       "ochaPcode": "SY020801"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3274,14 +3714,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 41575,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B91157726931447",
       "geonames": "8605289",
       "wikidata": "Q12247325",
       "ochaPcode": "SY020800"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3338,14 +3788,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 46178,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B60801331626930",
       "geonames": "8605298",
       "wikidata": "Q12246991",
       "ochaPcode": "SY020501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3437,14 +3897,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 92368,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B50820196285992",
       "geonames": "7887181",
       "wikidata": "Q12247177",
       "ochaPcode": "SY020502"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3501,14 +3971,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 64831,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B4855689967715",
       "geonames": "7905858",
       "wikidata": "Q12247353",
       "ochaPcode": "SY020503"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3565,14 +4045,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 204766,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15479900168901",
       "geonames": "8605297",
       "wikidata": "Q12247348",
       "ochaPcode": "SY020500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3639,14 +4129,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 76873,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B92381356267839",
       "geonames": "8605825",
       "wikidata": "Q12247291",
       "ochaPcode": "SY020001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3703,14 +4203,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38766,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B73938486436124",
       "geonames": "8605827",
       "wikidata": "Q12247181",
       "ochaPcode": "SY020004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3772,14 +4282,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19382,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B73784477186367",
       "geonames": "8605823",
       "wikidata": "Q12247021",
       "ochaPcode": "SY020006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3831,14 +4351,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 67745,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B86039684492810",
       "geonames": "7887176",
       "wikidata": "Q12247165",
       "ochaPcode": "SY020003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3905,14 +4435,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 2181061,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B32829102219772",
       "geonames": "8605824",
       "wikidata": "Q12247321",
       "ochaPcode": "SY020000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -3984,14 +4524,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 48108,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B5289602215073",
       "geonames": "7895160",
       "wikidata": "Q12247145",
       "ochaPcode": "SY020002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4043,14 +4593,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 58816,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B34192385409283",
       "geonames": "7887179",
       "wikidata": "Q12247050",
       "ochaPcode": "SY020005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4112,14 +4672,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 147146,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15312516830481",
       "geonames": "8605259",
       "wikidata": "Q12247302",
       "ochaPcode": "SY130000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4171,14 +4741,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17134,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B35739522550727",
       "geonames": "7895274",
       "wikidata": "Q12247106",
       "ochaPcode": "SY130002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4275,14 +4855,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16627,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B21605627382823",
       "geonames": "7894842",
       "wikidata": "Q12247100",
       "ochaPcode": "SY130001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4334,14 +4924,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 5923,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B35692494488458",
       "geonames": "8605261",
       "wikidata": "Q12247081",
       "ochaPcode": "SY130202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4408,14 +5008,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13615,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B27611134832888",
       "geonames": "7894735",
       "wikidata": "Q12247361",
       "ochaPcode": "SY130204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4467,14 +5077,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 9892,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B47837825921589",
       "geonames": "7895271",
       "wikidata": "Q12247089",
       "ochaPcode": "SY130201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4521,14 +5141,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 24045,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B99019713308321",
       "geonames": "8605260",
       "wikidata": "Q12247338",
       "ochaPcode": "SY130200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4580,14 +5210,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 6900,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B74112879040874",
       "geonames": "8605262",
       "wikidata": "Q12247191",
       "ochaPcode": "SY130203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4674,14 +5314,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 11723,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B62764171929709",
       "geonames": "7895150",
       "wikidata": "Q12247077",
       "ochaPcode": "SY130302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4778,14 +5428,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12720,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B64455409333673",
       "geonames": "7895151",
       "wikidata": "Q12247067",
       "ochaPcode": "SY130303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4832,14 +5492,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 31657,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B30665768877015",
       "geonames": "8605263",
       "wikidata": "Q12247337",
       "ochaPcode": "SY130300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4901,14 +5571,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 15849,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B99411025396441",
       "geonames": "7895164",
       "wikidata": "Q12247220",
       "ochaPcode": "SY130301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -4960,13 +5640,22 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 1552161,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B97600766918455",
       "geonames": "13415084",
       "ochaPcode": "SY010000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5018,14 +5707,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 131501,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B95979742726587",
       "geonames": "8609419",
       "wikidata": "Q12247329",
       "ochaPcode": "SY030900"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Markaz Darayya is listed under Rural Damascus Darayya; OpenSyria parent relationship follows the current ADM3 boundary seed."
   },
@@ -5088,14 +5787,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 113427,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B73502738631404",
       "geonames": "7894844",
       "wikidata": "Q12247304",
       "ochaPcode": "SY120200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5147,14 +5856,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 45793,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38552136044832",
       "geonames": "8605264",
       "wikidata": "Q12247257",
       "ochaPcode": "SY120202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5236,14 +5955,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8773,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B33739568250125",
       "geonames": "7895275",
       "wikidata": "Q12247102",
       "ochaPcode": "SY120201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5295,14 +6024,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 34206,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B89372272622090",
       "geonames": "7895285",
       "wikidata": "Q12247060",
       "ochaPcode": "SY120003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5354,14 +6093,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 33839,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B24226752594095",
       "geonames": "7895202",
       "wikidata": "Q12247132",
       "ochaPcode": "SY120001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5418,14 +6167,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 43691,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B58006426736670",
       "geonames": "8605275",
       "wikidata": "Q12247185",
       "ochaPcode": "SY120004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5482,14 +6241,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 146481,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B76798795375636",
       "geonames": "8605271",
       "wikidata": "Q12247330",
       "ochaPcode": "SY120000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5551,14 +6320,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21100,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B83667139832475",
       "geonames": "8605273",
       "wikidata": "Q12247020",
       "ochaPcode": "SY120006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5610,14 +6389,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44266,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B44401890451343",
       "geonames": "8605274",
       "wikidata": "Q12247176",
       "ochaPcode": "SY120002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5669,14 +6458,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32473,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B75403535536069",
       "geonames": "8605272",
       "wikidata": "Q12247103",
       "ochaPcode": "SY120007"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5728,14 +6527,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 72625,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B97342582586796",
       "geonames": "8605276",
       "wikidata": "Q12247351",
       "ochaPcode": "SY120005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5797,14 +6606,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 40979,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B77521502723444",
       "geonames": "8605269",
       "wikidata": "Q12247026",
       "ochaPcode": "SY120302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5871,14 +6690,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 56649,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B47832730060263",
       "geonames": "8605266",
       "wikidata": "Q12247289",
       "ochaPcode": "SY120300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5925,14 +6754,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 39624,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B25053406974941",
       "geonames": "8605265",
       "wikidata": "Q12247151",
       "ochaPcode": "SY120301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -5979,14 +6818,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 57404,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B74978132324412",
       "geonames": "7895175",
       "wikidata": "Q12247365",
       "ochaPcode": "SY120303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6038,14 +6887,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 34370,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B42088897961819",
       "geonames": "8605268",
       "wikidata": "Q12247066",
       "ochaPcode": "SY120304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6097,14 +6956,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17778,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B64121730712431",
       "geonames": "8605267",
       "wikidata": "Q12247141",
       "ochaPcode": "SY120305"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6166,14 +7035,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 92031,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B45888197860837",
       "geonames": "8605224",
       "wikidata": "Q12247294",
       "ochaPcode": "SY090200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6220,14 +7099,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 97870,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B7221611331023",
       "geonames": "7895328",
       "wikidata": "Q12247366",
       "ochaPcode": "SY090201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6294,14 +7183,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 29255,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B19993711557128",
       "geonames": "8605217",
       "wikidata": "Q12247017",
       "ochaPcode": "SY090202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6353,14 +7252,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 45986,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B95372179423730",
       "geonames": "8605216",
       "wikidata": "Q12247213",
       "ochaPcode": "SY090203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6447,14 +7356,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 40236,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37250847654318",
       "geonames": "7895322",
       "wikidata": "Q12247008",
       "ochaPcode": "SY090102"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6506,14 +7425,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 239196,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B39231814641256",
       "geonames": "8605221",
       "wikidata": "Q12247333",
       "ochaPcode": "SY090100"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6565,14 +7494,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 28718,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59066337139834",
       "geonames": "8605219",
       "wikidata": "Q12247178",
       "ochaPcode": "SY090105"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6654,14 +7593,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 63226,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38817556309829",
       "geonames": "7895336",
       "wikidata": "Q12247270",
       "ochaPcode": "SY090101"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6708,14 +7657,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 35113,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B96799672343105",
       "geonames": "8605234",
       "wikidata": "Q12247363",
       "ochaPcode": "SY090103"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6797,14 +7756,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 37552,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B6923318078432",
       "geonames": "7894840",
       "wikidata": "Q12247235",
       "ochaPcode": "SY090106"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6856,14 +7825,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 48393,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B68105519449013",
       "geonames": "8605220",
       "wikidata": "Q12247011",
       "ochaPcode": "SY090104"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -6920,14 +7899,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 86091,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B3384828894772",
       "geonames": "8605218",
       "wikidata": "Q12247315",
       "ochaPcode": "SY090300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7014,14 +8003,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 96001,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B47209853116546",
       "geonames": "7895323",
       "wikidata": "Q12247078",
       "ochaPcode": "SY090302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7073,14 +8072,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 65079,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B17018519208488",
       "geonames": "7895198",
       "wikidata": "Q12247190",
       "ochaPcode": "SY090301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7162,14 +8171,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 14366,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B45887040874708",
       "geonames": "7895284",
       "wikidata": "Q12247056",
       "ochaPcode": "SY050302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7241,14 +8260,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 116086,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B83305661923302",
       "geonames": "8609291",
       "wikidata": "Q12247303",
       "ochaPcode": "SY050300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7315,14 +8344,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13767,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B12549868543537",
       "geonames": "8609293",
       "wikidata": "Q12247130",
       "ochaPcode": "SY050301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7384,14 +8423,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21004,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B84553913661939",
       "geonames": "7895154",
       "wikidata": "Q12247244",
       "ochaPcode": "SY050304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7448,14 +8497,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21900,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B8974528014134",
       "geonames": "8609292",
       "wikidata": "Q12247229",
       "ochaPcode": "SY050303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7517,14 +8576,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 49686,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B66664935199298",
       "geonames": "8609385",
       "wikidata": "Q12247301",
       "ochaPcode": "SY050200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7586,14 +8655,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 84780,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B40831520211761",
       "geonames": "7895174",
       "wikidata": "Q12247262",
       "ochaPcode": "SY050204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7650,14 +8729,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 25273,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B86533312042112",
       "geonames": "7895178",
       "wikidata": "Q12247221",
       "ochaPcode": "SY050203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7759,14 +8848,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 41480,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B39881494388083",
       "geonames": "7895157",
       "wikidata": "Q12247208",
       "ochaPcode": "SY050201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7828,14 +8927,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38872,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B67982653954993",
       "geonames": "7894836",
       "wikidata": "Q12247051",
       "ochaPcode": "SY050202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7887,14 +8996,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 467807,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B63804780173557",
       "geonames": "8609288",
       "wikidata": "Q12247327",
       "ochaPcode": "SY050100"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -7961,14 +9080,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32604,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B18458123859453",
       "geonames": "8609290",
       "wikidata": "Q12247030",
       "ochaPcode": "SY050103"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8045,14 +9174,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 52563,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B30391316396161",
       "geonames": "7895148",
       "wikidata": "Q12247162",
       "ochaPcode": "SY050102"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8099,14 +9238,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 91471,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B93378243930409",
       "geonames": "7895161",
       "wikidata": "Q12247236",
       "ochaPcode": "SY050101"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8168,14 +9317,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16502,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B11226154383335",
       "geonames": "7895149",
       "wikidata": "Q12247254",
       "ochaPcode": "SY050403"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8232,14 +9391,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 41843,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B20181471099244",
       "geonames": "8609378",
       "wikidata": "Q12247152",
       "ochaPcode": "SY050401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8286,14 +9455,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 67908,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B71655359036801",
       "geonames": "8609377",
       "wikidata": "Q12247346",
       "ochaPcode": "SY050400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8360,14 +9539,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30137,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B26856983308337",
       "geonames": "8609368",
       "wikidata": "Q12247248",
       "ochaPcode": "SY050402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8429,14 +9618,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12951,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B70053545096954",
       "geonames": "7895153",
       "wikidata": "Q12247370",
       "ochaPcode": "SY050404"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8498,14 +9697,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38749,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B3091003545507",
       "geonames": "8609280",
       "wikidata": "Q12247275",
       "ochaPcode": "SY050501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8557,14 +9766,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 25039,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59447509356945",
       "geonames": "8609281",
       "wikidata": "Q12247268",
       "ochaPcode": "SY050502"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8646,14 +9865,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 80165,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B90006135840708",
       "geonames": "7894730",
       "wikidata": "Q12247345",
       "ochaPcode": "SY050500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8715,14 +9944,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32447,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B29484968094996",
       "geonames": "8605278",
       "wikidata": "Q12247314",
       "ochaPcode": "SY040600"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8774,14 +10013,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19621,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B29874951023328",
       "geonames": "7895188",
       "wikidata": "Q12247153",
       "ochaPcode": "SY040601"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8833,14 +10082,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 108102,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B51656539269606",
       "geonames": "8605281",
       "wikidata": "Q12247309",
       "ochaPcode": "SY040200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8892,14 +10151,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 64022,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59085812789903",
       "geonames": "8605279",
       "wikidata": "Q12247297",
       "ochaPcode": "SY040400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -8951,14 +10220,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 63784,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59441108372823",
       "geonames": "8605280",
       "wikidata": "Q12247148",
       "ochaPcode": "SY040401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9010,14 +10289,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30267,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B10142735489578",
       "geonames": "7895337",
       "wikidata": "Q12247253",
       "ochaPcode": "SY040103"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9069,14 +10358,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13506,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B81524396021497",
       "geonames": "7895195",
       "wikidata": "Q12247086",
       "ochaPcode": "SY040104"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9163,14 +10462,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 15195,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B68650267477199",
       "geonames": "7895192",
       "wikidata": "Q12247167",
       "ochaPcode": "SY040108"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9222,14 +10531,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 750501,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B20780419270140",
       "geonames": "8605285",
       "wikidata": "Q12247328",
       "ochaPcode": "SY040100"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9311,14 +10630,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 52496,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15879491170307",
       "geonames": "7895155",
       "wikidata": "Q12247175",
       "ochaPcode": "SY040102"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9365,14 +10694,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13511,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B75122084208146",
       "geonames": "8605284",
       "wikidata": "Q12247362",
       "ochaPcode": "SY040107"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9424,14 +10763,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18636,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B30061786734640",
       "geonames": "8605288",
       "wikidata": "Q12247088",
       "ochaPcode": "SY040110"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9483,14 +10832,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16795,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B8678561734339",
       "geonames": "7895272",
       "wikidata": "Q12247091",
       "ochaPcode": "SY040106"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9542,14 +10901,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 20602,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37519300383074",
       "geonames": "8605286",
       "wikidata": "Q12247046",
       "ochaPcode": "SY040105"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9596,14 +10965,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 4092,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15126905324353",
       "geonames": "7895170",
       "wikidata": "Q12247230",
       "ochaPcode": "SY040109"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9650,14 +11029,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 27951,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38642982611764",
       "geonames": "7895163",
       "wikidata": "Q12247227",
       "ochaPcode": "SY040111"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9749,14 +11138,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 71503,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B53666787430029",
       "geonames": "7895159",
       "wikidata": "Q12247276",
       "ochaPcode": "SY040101"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9808,14 +11207,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21880,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B78509960198467",
       "geonames": "7894841",
       "wikidata": "Q12247054",
       "ochaPcode": "SY040501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9867,14 +11276,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 55062,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B58246159830045",
       "geonames": "8605277",
       "wikidata": "Q12247318",
       "ochaPcode": "SY040500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -9966,14 +11385,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 25998,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B70187277388109",
       "geonames": "7895194",
       "wikidata": "Q12247024",
       "ochaPcode": "SY040301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10035,14 +11464,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 24684,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37200125931392",
       "geonames": "8605283",
       "wikidata": "Q12247032",
       "ochaPcode": "SY040304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10124,14 +11563,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16678,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B11434918083667",
       "geonames": "7895302",
       "wikidata": "Q12247111",
       "ochaPcode": "SY040303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10193,14 +11642,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 62069,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B56710281160721",
       "geonames": "8605282",
       "wikidata": "Q12247322",
       "ochaPcode": "SY040300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10257,14 +11716,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 83487,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B14911209969515",
       "geonames": "8605900",
       "wikidata": "Q12247287",
       "ochaPcode": "SY070500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10346,14 +11815,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 65253,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B48608075592718",
       "geonames": "7895325",
       "wikidata": "Q12247000",
       "ochaPcode": "SY070501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10410,14 +11889,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 28265,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B31622343383858",
       "geonames": "8605899",
       "wikidata": "Q12247286",
       "ochaPcode": "SY070502"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10464,14 +11953,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 28865,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B84572491916064",
       "geonames": "8605918",
       "wikidata": "Q12246996",
       "ochaPcode": "SY070305"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10558,14 +12057,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 60058,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B69889134592906",
       "geonames": "7887183",
       "wikidata": "Q12247038",
       "ochaPcode": "SY070301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10622,14 +12131,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12894,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B77962010993665",
       "geonames": "8605917",
       "wikidata": "Q12247326",
       "ochaPcode": "SY070300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10676,14 +12195,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13174,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B67105865098826",
       "geonames": "7887172",
       "wikidata": "Q12247273",
       "ochaPcode": "SY070303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10745,14 +12274,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12552,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B98390233977037",
       "geonames": "8605919",
       "wikidata": "Q12247264",
       "ochaPcode": "SY070304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10799,14 +12338,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 47939,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B24296375359979",
       "geonames": "7886788",
       "wikidata": "Q12247209",
       "ochaPcode": "SY070302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10878,14 +12427,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38869,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B24358397021541",
       "geonames": "7895329",
       "wikidata": "Q12246990",
       "ochaPcode": "SY070001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -10942,14 +12501,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 35166,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B7935970111208",
       "geonames": "8605936",
       "wikidata": "Q12247136",
       "ochaPcode": "SY070002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11016,14 +12585,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 126284,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B29061766580321",
       "geonames": "8605937",
       "wikidata": "Q12247288",
       "ochaPcode": "SY070000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11115,14 +12694,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 57859,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B64910543499905",
       "geonames": "7887173",
       "wikidata": "Q12247360",
       "ochaPcode": "SY070005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11174,14 +12763,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 86075,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B51488627298763",
       "geonames": "7895168",
       "wikidata": "Q12247203",
       "ochaPcode": "SY070003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11228,14 +12827,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 14530,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B29134133487153",
       "geonames": "8605935",
       "wikidata": "Q12247204",
       "ochaPcode": "SY070006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11292,14 +12901,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 24145,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15545462126327",
       "geonames": "8605938",
       "wikidata": "Q12247143",
       "ochaPcode": "SY070004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11371,14 +12990,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18501,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38222112827460",
       "geonames": "7894835",
       "wikidata": "Q12247127",
       "ochaPcode": "SY070401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11435,14 +13064,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21561,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B38567570157085",
       "geonames": "7887464",
       "wikidata": "Q12247186",
       "ochaPcode": "SY070402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11504,14 +13143,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19642,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B78599609206928",
       "geonames": "8605898",
       "wikidata": "Q12247014",
       "ochaPcode": "SY070403"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11573,14 +13222,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 90348,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B89349446341173",
       "geonames": "8605897",
       "wikidata": "Q12247324",
       "ochaPcode": "SY070400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11637,14 +13296,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 41231,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B92265729249995",
       "geonames": "8605934",
       "wikidata": "Q12247170",
       "ochaPcode": "SY070205"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11716,14 +13385,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 67460,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B55459428900372",
       "geonames": "7895186",
       "wikidata": "Q12247274",
       "ochaPcode": "SY070203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11780,14 +13459,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 50469,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B23566781269039",
       "geonames": "7895182",
       "wikidata": "Q12247172",
       "ochaPcode": "SY070201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11854,14 +13543,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 150965,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B99637387537991",
       "geonames": "8605932",
       "wikidata": "Q12247347",
       "ochaPcode": "SY070200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11918,14 +13617,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 33721,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37934009834629",
       "geonames": "8605933",
       "wikidata": "Q12247211",
       "ochaPcode": "SY070202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -11992,14 +13701,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 29114,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B33813816132502",
       "geonames": "8605920",
       "wikidata": "Q12247012",
       "ochaPcode": "SY070204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12051,14 +13770,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 23347,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B68722362398287",
       "geonames": "8609253",
       "wikidata": "Q12247296",
       "ochaPcode": "SY060300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12115,14 +13844,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 6825,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B70405505535836",
       "geonames": "8609254",
       "wikidata": "Q12247251",
       "ochaPcode": "SY060302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12184,14 +13923,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18250,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B39745184823556",
       "geonames": "7895180",
       "wikidata": "Q12247278",
       "ochaPcode": "SY060303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12278,14 +14027,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13908,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B83919585801753",
       "geonames": "7895176",
       "wikidata": "Q12247352",
       "ochaPcode": "SY060304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12352,14 +14111,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19518,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B43779342772273",
       "geonames": "7895177",
       "wikidata": "Q12247234",
       "ochaPcode": "SY060301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12411,14 +14180,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 10086,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B46253822395163",
       "geonames": "8609251",
       "wikidata": "Q12247138",
       "ochaPcode": "SY060205"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12485,14 +14264,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13608,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B36649409438195",
       "geonames": "8609249",
       "wikidata": "Q12247039",
       "ochaPcode": "SY060204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12544,14 +14333,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16800,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B79979005483183",
       "geonames": "7894837",
       "wikidata": "Q12247250",
       "ochaPcode": "SY060201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12608,14 +14407,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16031,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B33427547934013",
       "geonames": "8609250",
       "wikidata": "Q12247255",
       "ochaPcode": "SY060203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12662,14 +14471,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 107064,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59301431797510",
       "geonames": "8609248",
       "wikidata": "Q12247323",
       "ochaPcode": "SY060200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12751,14 +14570,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32582,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15944648421367",
       "geonames": "7895172",
       "wikidata": "Q12247093",
       "ochaPcode": "SY060202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12820,14 +14649,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17532,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B28798076408385",
       "geonames": "8609255",
       "wikidata": "Q12247010",
       "ochaPcode": "SY060001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12914,14 +14753,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 31166,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B12259078200995",
       "geonames": "7894839",
       "wikidata": "Q12247249",
       "ochaPcode": "SY060003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -12973,14 +14822,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 27080,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B752589257801",
       "geonames": "8609279",
       "wikidata": "Q12247367",
       "ochaPcode": "SY060006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13042,14 +14901,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 1927,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B26427192746931",
       "geonames": "7895185",
       "wikidata": "Q12247269",
       "ochaPcode": "SY060005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13101,14 +14970,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 424392,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B67433157911231",
       "geonames": "8609257",
       "wikidata": "Q12247311",
       "ochaPcode": "SY060000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13160,14 +15039,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 16577,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37749931845157",
       "geonames": "7895173",
       "wikidata": "Q12247261",
       "ochaPcode": "SY060004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13254,14 +15143,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8214,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B79383088072835",
       "geonames": "7895181",
       "wikidata": "Q12247194",
       "ochaPcode": "SY060002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13313,14 +15212,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44510,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B32240623921869",
       "geonames": "8609091",
       "wikidata": "Q12247308",
       "ochaPcode": "SY060400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13372,14 +15281,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17722,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B93114144469437",
       "geonames": "8609088",
       "wikidata": "Q12247085",
       "ochaPcode": "SY060402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13431,14 +15350,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 6669,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B62414628359342",
       "geonames": "8609089",
       "wikidata": "Q12247163",
       "ochaPcode": "SY060401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13490,14 +15419,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 5743,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B60955111615399",
       "geonames": "8609090",
       "wikidata": "Q12247158",
       "ochaPcode": "SY060403"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13558,13 +15497,22 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 1947,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "wikidata": "Q12247342",
       "geoboundaries": "7960031B93745377766630",
       "ochaPcode": "SY140200"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
+    "sourceIds": [
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "wikidata",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13592,13 +15540,22 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17382,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "wikidata": "Q12247036",
       "geoboundaries": "7960031B31446847075504",
       "ochaPcode": "SY140002"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
+    "sourceIds": [
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "wikidata",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13651,14 +15608,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 42980,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B66149289851681",
       "geonames": "7895184",
       "wikidata": "Q12247171",
       "ochaPcode": "SY140001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13719,13 +15686,22 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 4318,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "wikidata": "Q12247312",
       "geoboundaries": "7960031B86924644433771",
       "ochaPcode": "SY140000"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
+    "sourceIds": [
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "wikidata",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13798,14 +15774,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 69425,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B70844976163338",
       "geonames": "8605235",
       "wikidata": "Q12247306",
       "ochaPcode": "SY110300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13882,14 +15868,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 31786,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B57068781857457",
       "geonames": "7887207",
       "wikidata": "Q12247015",
       "ochaPcode": "SY110302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -13981,14 +15977,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 58727,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B96229113230384",
       "geonames": "7895327",
       "wikidata": "Q12247108",
       "ochaPcode": "SY110301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14050,14 +16056,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 343870,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B42119693798958",
       "geonames": "8605239",
       "wikidata": "Q12247298",
       "ochaPcode": "SY110100"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14149,14 +16165,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 71678,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B66563959963199",
       "geonames": "7895187",
       "wikidata": "Q12247095",
       "ochaPcode": "SY110102"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14213,14 +16239,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 42652,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B91741111326386",
       "geonames": "8605240",
       "wikidata": "Q12247358",
       "ochaPcode": "SY110103"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14282,14 +16318,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 48106,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B70482984736300",
       "geonames": "7895283",
       "wikidata": "Q12247052",
       "ochaPcode": "SY110101"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14351,14 +16397,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 38468,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B8332769080312",
       "geonames": "7887178",
       "wikidata": "Q21592251",
       "ochaPcode": "SY110202"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14405,14 +16461,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44131,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B96695614047953",
       "geonames": "7895169",
       "wikidata": "Q12247210",
       "ochaPcode": "SY110201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14484,14 +16550,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44671,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B89853533267200",
       "geonames": "8605245",
       "wikidata": "Q12247319",
       "ochaPcode": "SY110200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14563,14 +16639,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 50747,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B63869556012106",
       "geonames": "8609414",
       "wikidata": "Q12247317",
       "ochaPcode": "SY030600"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14627,14 +16713,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 29254,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B79891987393204",
       "geonames": "7895199",
       "wikidata": "Q2147497",
       "ochaPcode": "SY030601"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14691,14 +16787,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44820,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B79445034646547",
       "geonames": "8609447",
       "wikidata": "Q12247310",
       "ochaPcode": "SY030300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14750,14 +16856,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 31821,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B79459700540852",
       "geonames": "7895189",
       "wikidata": "Q12247159",
       "ochaPcode": "SY030301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14809,14 +16925,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12192,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B12936815842545",
       "geonames": "7894734",
       "wikidata": "Q12247359",
       "ochaPcode": "SY030302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14868,14 +16994,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 30450,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B83875216552704",
       "geonames": "7895288",
       "wikidata": "Q12247045",
       "ochaPcode": "SY030303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14932,14 +17068,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 85933,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B27833751266112",
       "geonames": "8609409",
       "wikidata": "Q12247293",
       "ochaPcode": "SY030400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -14986,14 +17132,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 11158,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B36923583907564",
       "geonames": "7895171",
       "wikidata": "Q12247197",
       "ochaPcode": "SY030402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15045,14 +17201,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18846,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B50651186718051",
       "geonames": "7895166",
       "wikidata": "Q12247238",
       "ochaPcode": "SY030401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15104,14 +17270,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 40613,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B44318198331688",
       "geonames": "8609448",
       "wikidata": "Q12247300",
       "ochaPcode": "SY030700"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15163,14 +17339,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 21978,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B99519346830614",
       "geonames": "7895326",
       "wikidata": "Q12247043",
       "ochaPcode": "SY030701"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15257,14 +17443,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19584,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B63469478149549",
       "geonames": "7894838",
       "wikidata": "Q12247252",
       "ochaPcode": "SY030702"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15311,14 +17507,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13692,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B31719064911601",
       "geonames": "7895179",
       "wikidata": "Q12247356",
       "ochaPcode": "SY030703"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15370,14 +17576,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 9475,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B8471187345970",
       "geonames": "7895162",
       "wikidata": "Q12247202",
       "ochaPcode": "SY030704"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15439,14 +17655,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 84948,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B39554518327547",
       "geonames": "8609420",
       "wikidata": "Q12247025",
       "ochaPcode": "SY030902"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15493,14 +17719,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 44512,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B36592049876817",
       "geonames": "8609418",
       "wikidata": "Q12247228",
       "ochaPcode": "SY030901"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15567,14 +17803,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 26192,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B97756807760010",
       "geonames": "7895197",
       "wikidata": "Q12247068",
       "ochaPcode": "SY030203"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15621,14 +17867,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 181934,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B15965432748662",
       "geonames": "8609528",
       "wikidata": "Q12247332",
       "ochaPcode": "SY030200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15680,14 +17936,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 36715,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B34449357610105",
       "geonames": "7895321",
       "wikidata": "Q12247083",
       "ochaPcode": "SY030205"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15739,14 +18005,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 22853,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B49423925471237",
       "geonames": "7895193",
       "wikidata": "Q12247161",
       "ochaPcode": "SY030206"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15793,14 +18069,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 88816,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B13578853701003",
       "geonames": "8609527",
       "wikidata": "Q12247164",
       "ochaPcode": "SY030201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15852,14 +18138,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 76814,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B91581818147611",
       "geonames": "7895289",
       "wikidata": "Q12247113",
       "ochaPcode": "SY030204"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -15886,13 +18182,22 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 395,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "wikidata": "Q12247053",
       "geoboundaries": "7960031B76622743509288",
       "ochaPcode": "SY030202"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
+    "sourceIds": [
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "wikidata",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -15950,14 +18255,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 89595,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B77750872083494",
       "geonames": "8609459",
       "wikidata": "Q12247241",
       "ochaPcode": "SY030106"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16049,14 +18364,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 341625,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B59185960387945",
       "geonames": "8609456",
       "wikidata": "Q12247126",
       "ochaPcode": "SY030102"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609456 as the closest name match and preserved alternate point IDs 7895191 as aliases/review context."
   },
@@ -16134,14 +18459,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 114363,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B36541350523861",
       "geonames": "8609526",
       "wikidata": "Q12247154",
       "ochaPcode": "SY030103"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609526 as the closest name match and preserved alternate point IDs 7895190 as aliases/review context."
   },
@@ -16189,14 +18524,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 123474,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B6075182374550",
       "geonames": "8609458",
       "wikidata": "Q12247272",
       "ochaPcode": "SY030105"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16258,14 +18603,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 112095,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B62626540241568",
       "geonames": "7895316",
       "wikidata": "Q12247098",
       "ochaPcode": "SY030101"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16327,14 +18682,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 56652,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B65078761161093",
       "geonames": "8609457",
       "wikidata": "Q12247109",
       "ochaPcode": "SY030104"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16436,14 +18801,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 64412,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B35983458329895",
       "geonames": "8609460",
       "wikidata": "Q12247343",
       "ochaPcode": "SY030107"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16525,14 +18900,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 15668,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B56278114515688",
       "geonames": "7894731",
       "wikidata": "Q12247137",
       "ochaPcode": "SY030801"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16579,14 +18964,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 146344,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B97600937929936",
       "geonames": "8609417",
       "wikidata": "Q12247344",
       "ochaPcode": "SY030800"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16638,14 +19033,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 45233,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B85599001443757",
       "geonames": "7895167",
       "wikidata": "Q12247205",
       "ochaPcode": "SY030802"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16697,14 +19102,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8766,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B28796127299711",
       "geonames": "7894845",
       "wikidata": "Q12247245",
       "ochaPcode": "SY030501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16756,14 +19171,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 39604,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B31457193776707",
       "geonames": "8609410",
       "wikidata": "Q12247349",
       "ochaPcode": "SY030500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16815,14 +19240,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13562,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B20167384506151",
       "geonames": "8608872",
       "wikidata": "Q12247129",
       "ochaPcode": "SY100501"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16884,14 +19319,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 14095,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B9018549751973",
       "geonames": "8608871",
       "wikidata": "Q12247092",
       "ochaPcode": "SY100502"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -16973,14 +19418,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 25324,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B93253141265934",
       "geonames": "164337",
       "wikidata": "Q12247305",
       "ochaPcode": "SY100500"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17032,14 +19487,25 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 18446,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "USCB source uses NSO_CODE SY100202; current OpenSyria/OCHA P-code is SY100601."
+    },
     "externalIds": {
       "geoboundaries": "7960031B23362837685859",
       "geonames": "7895324",
       "wikidata": "Q12247079",
       "ochaPcode": "SY100601"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
   },
@@ -17092,14 +19558,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 96550,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B64577132825941",
       "geonames": "8609083",
       "wikidata": "Q12247316",
       "ochaPcode": "SY100200"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17151,14 +19627,25 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8522,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "USCB source uses NSO_CODE SY100204; current OpenSyria/OCHA P-code is SY100603."
+    },
     "externalIds": {
       "geoboundaries": "7960031B70121253521137",
       "geonames": "8609082",
       "wikidata": "Q12247168",
       "ochaPcode": "SY100603"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
   },
@@ -17211,14 +19698,25 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 22370,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "USCB source uses NSO_CODE SY100203; current OpenSyria/OCHA P-code is SY100602."
+    },
     "externalIds": {
       "geoboundaries": "7960031B60952111489537",
       "geonames": "7895273",
       "wikidata": "Q12247090",
       "ochaPcode": "SY100602"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
   },
@@ -17271,14 +19769,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12088,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B37957762942470",
       "geonames": "8609084",
       "wikidata": "Q12247047",
       "ochaPcode": "SY100201"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17330,14 +19838,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8351,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B58023420689959",
       "geonames": "8609080",
       "wikidata": "Q12247142",
       "ochaPcode": "SY100206"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17389,14 +19907,25 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 10024,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "USCB source uses NSO_CODE SY100205; current OpenSyria/OCHA P-code is SY100604."
+    },
     "externalIds": {
       "geoboundaries": "7960031B20858375110612",
       "geonames": "8609081",
       "wikidata": "Q12247070",
       "ochaPcode": "SY100604"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
     "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
   },
@@ -17484,14 +20013,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 28749,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B83962772704253",
       "geonames": "7895196",
       "wikidata": "Q12247331",
       "ochaPcode": "SY100400"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17543,14 +20082,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 13704,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B14620728547536",
       "geonames": "8609076",
       "wikidata": "Q12247188",
       "ochaPcode": "SY100403"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17602,14 +20151,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 8679,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B19784483305264",
       "geonames": "8609074",
       "wikidata": "Q12247169",
       "ochaPcode": "SY100402"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17661,14 +20220,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 9846,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B91611327165301",
       "geonames": "8609075",
       "wikidata": "Q12247157",
       "ochaPcode": "SY100401"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17730,14 +20299,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 7336,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B47826893530682",
       "geonames": "8608850",
       "wikidata": "Q12247005",
       "ochaPcode": "SY100302"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17789,14 +20368,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 12577,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B51422210959330",
       "geonames": "7894732",
       "wikidata": "Q12247355",
       "ochaPcode": "SY100301"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17853,14 +20442,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 19915,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B93367372023198",
       "geonames": "8608852",
       "wikidata": "Q12247193",
       "ochaPcode": "SY100305"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17907,14 +20506,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 60172,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B90189246866027",
       "geonames": "8608718",
       "wikidata": "Q12247336",
       "ochaPcode": "SY100300"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -17966,14 +20575,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 7614,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B32529470591180",
       "geonames": "8608867",
       "wikidata": "Q12247201",
       "ochaPcode": "SY100303"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18025,14 +20644,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 22018,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B811081456347",
       "geonames": "8608851",
       "wikidata": "Q12247058",
       "ochaPcode": "SY100304"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18079,14 +20708,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 4403,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B84078679815757",
       "geonames": "7895287",
       "wikidata": "Q12246997",
       "ochaPcode": "SY100001"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18148,14 +20787,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 20309,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B22438692972343",
       "geonames": "7895319",
       "wikidata": "Q12247031",
       "ochaPcode": "SY100002"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18217,14 +20866,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 17271,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B53794519758495",
       "geonames": "8609085",
       "wikidata": "Q12247097",
       "ochaPcode": "SY100005"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18281,14 +20940,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 22897,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B272749331946",
       "geonames": "8609087",
       "wikidata": "Q12247174",
       "ochaPcode": "SY100003"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18370,14 +21039,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 23416,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B124549879073",
       "geonames": "7894846",
       "wikidata": "Q12247231",
       "ochaPcode": "SY100006"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18479,14 +21158,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 32295,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B48492208153601",
       "geonames": "7894843",
       "wikidata": "Q4144629",
       "ochaPcode": "SY100004"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   },
   {
@@ -18538,14 +21227,24 @@
       "unit": "km2",
       "sourceIds": ["geoboundaries-syr"]
     },
-    "population": null,
+    "population": {
+      "value": 160862,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"]
+    },
     "externalIds": {
       "geoboundaries": "7960031B13386552002932",
       "geonames": "8609086",
       "wikidata": "Q12247339",
       "ochaPcode": "SY100000"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "wikidata", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "geonames-sy",
+      "geoboundaries-syr",
+      "wikidata",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed"
   }
 ]
