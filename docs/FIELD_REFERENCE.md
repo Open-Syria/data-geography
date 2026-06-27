@@ -1,0 +1,166 @@
+# Field Reference
+
+This document gives contributor-facing rules for common fields.
+
+## `id`
+
+Stable OpenSyria identifier.
+
+Rules:
+
+- required,
+- unique within its file,
+- starts with `sy-`,
+- lowercase kebab-case,
+- never changes because a display name changes.
+
+Example:
+
+```json
+"id": "sy-damascus"
+```
+
+## `name`
+
+Canonical display names.
+
+Rules:
+
+- `name.en` is required,
+- `name.ar` is strongly preferred when known,
+- names should not include extra descriptors unless part of the official/common name.
+
+Example:
+
+```json
+"name": {
+  "en": "Damascus",
+  "ar": "\u062f\u0645\u0634\u0642"
+}
+```
+
+## `aliases`
+
+Alternate names, spellings, historical names, or transliterations.
+
+Rules:
+
+- always use an array,
+- use an empty array when there are no aliases,
+- do not duplicate `name.en` or `name.ar`,
+- avoid duplicate aliases within the same record.
+
+Example:
+
+```json
+"aliases": [
+  {
+    "value": "Dimashq",
+    "language": "en",
+    "type": "transliteration"
+  }
+]
+```
+
+## `iso31662`
+
+ISO 3166-2 subdivision code.
+
+Rules:
+
+- governorates only for now,
+- use `null` when not confidently sourced,
+- format must be `SY-XX`.
+
+Example:
+
+```json
+"iso31662": "SY-DI"
+```
+
+## `centroid`
+
+Approximate representative point for a geography record.
+
+Rules:
+
+- use WGS84 latitude and longitude,
+- use `null` when unknown or unsourced,
+- do not infer from a visual map without a reusable source,
+- do not use Google Maps or proprietary map coordinates.
+
+Example:
+
+```json
+"centroid": {
+  "latitude": 33.5138,
+  "longitude": 36.2765
+}
+```
+
+## `externalIds`
+
+Identifiers in reusable external datasets.
+
+Rules:
+
+- always use an object,
+- use an empty object when there are no external IDs,
+- supported keys are `wikidata`, `geonames`, and `geoboundaries`.
+
+Example:
+
+```json
+"externalIds": {
+  "wikidata": "Q3766",
+  "geonames": "170654"
+}
+```
+
+## `sourceIds`
+
+References to `data/sources.json`.
+
+Rules:
+
+- required,
+- must contain at least one source ID,
+- every ID must exist in `data/sources.json`,
+- records may reference only sources with `status: "approved"`.
+
+Example:
+
+```json
+"sourceIds": ["wikidata", "geonames-sy"]
+```
+
+## `sourceStatus`
+
+Record review/release state.
+
+Allowed values:
+
+```text
+pending_release
+seed
+released
+deprecated
+```
+
+Use:
+
+- `pending_release` for prepared records not yet released,
+- `seed` for maintainer-seeded records,
+- `released` after a reviewed public release,
+- `deprecated` when a record is retained for compatibility but no longer current.
+
+## `notes`
+
+Maintainer notes.
+
+Rules:
+
+- optional,
+- not intended as a public long description,
+- should explain uncertainty, source conflicts, or review decisions.
+

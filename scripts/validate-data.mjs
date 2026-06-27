@@ -1,6 +1,7 @@
 import path from 'node:path';
 import {
   districtRecordSchema,
+  ensureAliasQuality,
   ensureKnownSources,
   ensureUnique,
   governorateRecordSchema,
@@ -113,6 +114,10 @@ function validateData(data) {
   ensureKnownSources(data.districts, data.sources, 'district');
   ensureKnownSources(data.subdistricts, data.sources, 'subdistrict');
   ensureKnownSources(data.localities, data.sources, 'locality');
+  ensureAliasQuality(data.governorates, 'governorate');
+  ensureAliasQuality(data.districts, 'district');
+  ensureAliasQuality(data.subdistricts, 'subdistrict');
+  ensureAliasQuality(data.localities, 'locality');
   ensureReferences(data);
 }
 

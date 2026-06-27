@@ -76,6 +76,7 @@
       "sourceIds": {
         "type": "array",
         "items": { "type": "string", "minLength": 1 },
+        "minItems": 1,
         "uniqueItems": true
       },
       "sourceStatus": {

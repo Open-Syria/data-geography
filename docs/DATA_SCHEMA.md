@@ -12,6 +12,7 @@ Release artifacts are generated from canonical records and may contain only the 
 - Coordinates use WGS84 latitude and longitude.
 - Every source-backed record should include `sourceIds`.
 - `sourceStatus` describes the review/release state of the record.
+- Contributors should also read [FIELD_REFERENCE.md](FIELD_REFERENCE.md) before editing records.
 
 ## Source Status
 
@@ -49,7 +50,7 @@ Fields:
 | `externalIds.wikidata` | string | no | Wikidata QID |
 | `externalIds.geonames` | string | no | GeoNames ID |
 | `externalIds.geoboundaries` | string | no | geoBoundaries ID or reference |
-| `sourceIds` | array | yes | Source IDs from `data/sources.json` |
+| `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
@@ -91,4 +92,3 @@ data/localities.json
 Their schemas will be finalized after the governorate seed workflow is stable.
 
 Normal contributors should not introduce fields for these datasets before maintainer approval.
-

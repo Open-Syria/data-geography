@@ -1,0 +1,58 @@
+{
+  "$schema": "https://opensyria.org/schemas/contribution-rules.schema.json",
+  "repository": "data-geography",
+  "maintainerOwned": [
+    "schemas/**",
+    "scripts/**",
+    ".github/workflows/**",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ],
+  "normalContributorEditable": [
+    "data/governorates.json",
+    "data/districts.json",
+    "data/subdistricts.json",
+    "data/localities.json",
+    "data/sources.json",
+    "docs/SOURCES.md"
+  ],
+  "generated": ["dist/**"],
+  "requiredValidationCommands": ["pnpm run validate"],
+  "allowedContributionTypes": [
+    "data-correction",
+    "missing-data",
+    "source-update",
+    "translation",
+    "alias",
+    "transliteration"
+  ],
+  "requiresMaintainerApproval": [
+    "schema-change",
+    "new-field",
+    "id-format-change",
+    "release-pipeline-change",
+    "large-automated-import",
+    "new-dataset-topic"
+  ],
+  "recordSourceRules": {
+    "required": true,
+    "allowedSourceStatuses": ["approved"],
+    "blockedSourceStatuses": ["restricted", "proposed", "rejected"]
+  },
+  "blockedSources": [
+    "Google Maps",
+    "commercial map databases",
+    "proprietary directories",
+    "unclear-license sources",
+    "AI output as source"
+  ],
+  "blockedDataCategories": [
+    "personal data",
+    "private addresses",
+    "military locations",
+    "checkpoints",
+    "surveillance-related data",
+    "security-sensitive data"
+  ]
+}

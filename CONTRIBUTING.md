@@ -4,6 +4,12 @@ Thanks for helping improve OpenSyria geography data.
 
 This repository accepts controlled data contributions. The maintainer owns the dataset scope, schemas, release pipeline, validation rules, and source acceptance policy.
 
+Start with the full contributor guide:
+
+```text
+contributions/README.md
+```
+
 ## Accepted Contributions
 
 You may open pull requests for:
@@ -52,6 +58,7 @@ A proposal should explain:
 
 - Use sources that are public, reusable, and license-compatible.
 - Record source IDs in changed records.
+- Records must reference at least one approved source.
 - Do not use Google Maps, commercial map databases, proprietary directories, or scraped websites as data sources.
 - Do not treat AI output as a source.
 - Do not import OSM-derived data unless the maintainer explicitly approves the ODbL licensing approach.
@@ -72,4 +79,3 @@ pnpm run validate
 - IDs are stable and unique.
 - No personal or sensitive data is added.
 - Validation passes.
-

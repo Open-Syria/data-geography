@@ -14,11 +14,17 @@
 
 - [ ] Every changed record has source IDs.
 - [ ] Sources are listed in `data/sources.json`.
+- [ ] Records reference only sources with `status: "approved"`.
 - [ ] Source licenses allow reuse.
 - [ ] No Google Maps, commercial maps, proprietary directories, or unclear-license sources are used.
 - [ ] No AI output is treated as a source.
 
+## File Review
+
+- [ ] I edited only canonical data files unless a maintainer approved other changes.
+- [ ] I did not edit `dist/` generated output.
+- [ ] I did not introduce new fields or schema changes without approval.
+
 ## Validation
 
 - [ ] `pnpm run validate`
-

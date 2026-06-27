@@ -105,7 +105,7 @@ export const governorateRecordSchema = z.object({
     .nullable(),
   centroid: geographicPointSchema.nullable(),
   externalIds: externalIdsSchema,
-  sourceIds: z.array(z.string().trim().min(1)).default([]),
+  sourceIds: z.array(z.string().trim().min(1)).min(1),
   sourceStatus: sourceStatusSchema,
   notes: z.string().trim().min(1).optional(),
 });
@@ -117,7 +117,7 @@ export const districtRecordSchema = z.object({
   aliases: z.array(aliasSchema).default([]),
   centroid: geographicPointSchema.nullable(),
   externalIds: externalIdsSchema,
-  sourceIds: z.array(z.string().trim().min(1)).default([]),
+  sourceIds: z.array(z.string().trim().min(1)).min(1),
   sourceStatus: sourceStatusSchema,
   notes: z.string().trim().min(1).optional(),
 });
@@ -130,7 +130,7 @@ export const subdistrictRecordSchema = z.object({
   aliases: z.array(aliasSchema).default([]),
   centroid: geographicPointSchema.nullable(),
   externalIds: externalIdsSchema,
-  sourceIds: z.array(z.string().trim().min(1)).default([]),
+  sourceIds: z.array(z.string().trim().min(1)).min(1),
   sourceStatus: sourceStatusSchema,
   notes: z.string().trim().min(1).optional(),
 });
@@ -145,7 +145,7 @@ export const localityRecordSchema = z.object({
   aliases: z.array(aliasSchema).default([]),
   centroid: geographicPointSchema.nullable(),
   externalIds: externalIdsSchema,
-  sourceIds: z.array(z.string().trim().min(1)).default([]),
+  sourceIds: z.array(z.string().trim().min(1)).min(1),
   sourceStatus: sourceStatusSchema,
   notes: z.string().trim().min(1).optional(),
 });
@@ -194,6 +194,31 @@ export function ensureKnownSources(records, sources, label) {
       if (source.status !== 'approved') {
         throw new Error(`${label} ${record.id} references non-approved source: ${sourceId}`);
       }
+    }
+  }
+}
+
+export function ensureAliasQuality(records, label) {
+  for (const record of records) {
+    const canonicalNames = [record.name.en, record.name.ar]
+      .filter(Boolean)
+      .map((value) => value.trim().toLowerCase());
+    const seenAliases = new Set();
+
+    for (const alias of record.aliases) {
+      const normalizedAlias = alias.value.trim().toLowerCase();
+
+      if (canonicalNames.includes(normalizedAlias)) {
+        throw new Error(
+          `${label} ${record.id} repeats a canonical name in aliases: ${alias.value}`,
+        );
+      }
+
+      if (seenAliases.has(normalizedAlias)) {
+        throw new Error(`${label} ${record.id} contains duplicate alias: ${alias.value}`);
+      }
+
+      seenAliases.add(normalizedAlias);
     }
   }
 }

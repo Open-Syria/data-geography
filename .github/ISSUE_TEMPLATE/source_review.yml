@@ -1,0 +1,40 @@
+name: Source Review
+description: Propose or review a reusable source before it is used in records.
+title: 'source: '
+labels:
+  - source-review
+body:
+  - type: input
+    id: source-title
+    attributes:
+      label: Source Title
+      description: Name of the source.
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Source URL
+      description: Link to the source or download page.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: License name or reuse terms.
+    validations:
+      required: true
+  - type: textarea
+    id: intended-use
+    attributes:
+      label: Intended Use
+      description: Which fields would this source support?
+    validations:
+      required: true
+  - type: textarea
+    id: concerns
+    attributes:
+      label: Concerns
+      description: Any licensing, accuracy, or safety concerns?
+

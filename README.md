@@ -55,7 +55,11 @@ scripts/
   build-release.mjs
 docs/
   DATA_SCHEMA.md
+  FIELD_REFERENCE.md
+  REVIEW_PROCESS.md
   SOURCES.md
+contributions/
+  README.md
 ```
 
 ## Data Workflow
@@ -97,6 +101,8 @@ New fields, new dataset topics, ID format changes, validation changes, and relea
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+Detailed contributor workflow lives in [contributions/README.md](contributions/README.md).
+
 ## Source Policy
 
 Every record should be traceable to reusable sources.
@@ -111,7 +117,8 @@ OpenStreetMap data is useful, but OSM-derived data has ODbL share-alike requirem
 
 See [docs/SOURCES.md](docs/SOURCES.md).
 
+Maintainer review rules live in [docs/REVIEW_PROCESS.md](docs/REVIEW_PROCESS.md).
+
 ## License
 
 See [LICENSE.md](LICENSE.md).
-
