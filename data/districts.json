@@ -2275,11 +2275,12 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q4120579",
       "geonames": "8537261",
       "geoboundaries": "27442178B18977709066888",
       "ochaPcode": "SY0705"
     },
-    "sourceIds": ["geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed"
   },
   {

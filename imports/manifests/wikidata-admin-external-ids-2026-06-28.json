@@ -1,0 +1,52 @@
+{
+  "sourceId": "wikidata",
+  "sourceTitle": "Wikidata",
+  "sourceUrl": "https://query.wikidata.org/",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-ariha-district-query.sparql",
+      "sha256": "0cc4d91d8d16cc0cd619cc08aca1da490d12e42ad36abf8461a6b8b0d3d71ba0",
+      "notes": "SPARQL query for remaining Wikidata administrative external ID gaps."
+    },
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-ariha-district-result.json",
+      "sha256": "5deff36ab705d98172c22301df01f4612001c578519e3efb5ca29d3124e668b5",
+      "notes": "Raw Wikidata Query Service JSON result for reviewed administrative external ID candidates."
+    },
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-quneitra-fiq-sabe-byar-subdistricts-query.sparql",
+      "sha256": "495ef47b807fca22fb70c22e25afe4d07c4cb5f7dfe29f03050f5b543daf97cf",
+      "notes": "SPARQL query for remaining Wikidata administrative external ID gaps."
+    },
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-quneitra-fiq-sabe-byar-subdistricts-result.json",
+      "sha256": "43df593eb025bfa2ab60abba11d155ac939352c8094528a48a8c0d24e6956be1",
+      "notes": "Raw Wikidata Query Service JSON result for reviewed administrative external ID candidates."
+    },
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-damascus-subdistrict-check-query.sparql",
+      "sha256": "1d2a7cb4b96702ff7ab632c1b04231d0bef93ccb3a302f4c4db08785be38b7ac",
+      "notes": "SPARQL check for a separate Wikidata Damascus subdistrict item by class and GeoNames ID."
+    },
+    {
+      "name": "imports/raw/2026-06-28-admin-external-ids/wikidata-damascus-subdistrict-check-result.json",
+      "sha256": "29a87eca016a6e574a57e29c5201933377200a3d246a11d22db44527bf85dac2",
+      "notes": "Raw Wikidata Query Service JSON result showing no separate Damascus subdistrict item; only the district-level item was returned."
+    }
+  ],
+  "importedFields": ["externalIds.wikidata"],
+  "targetFiles": ["data/districts.json", "data/subdistricts.json"],
+  "transforms": [
+    "Queried Wikidata for the remaining district and subdistrict external ID gaps by administrative class, label, parent district, and GeoNames ID checks.",
+    "Added a Wikidata ID for Ariha District because the Wikidata item is typed as district of Syria and labelled Ariha District.",
+    "Did not replace the Ariha District GeoNames ID because the Wikidata item currently points to a settlement GeoNames ID while OpenSyria uses the GeoNames ADM2 record.",
+    "Added Wikidata IDs for six remaining Quneitra/Fiq/Sabe Byar subdistrict records where Wikidata items are typed as subdistrict of Syria and linked to the expected parent district.",
+    "Did not add subdistrict GeoNames IDs from Wikidata when those IDs were not present in the current GeoNames Syria dump used by this repository.",
+    "Left Damascus subdistrict without a Wikidata ID because the reviewed query returned only the existing district-level Damascus item, not a separate subdistrict item."
+  ],
+  "reviewNotes": "Filled 1 district Wikidata ID and 6 subdistrict Wikidata IDs. Left 1 subdistrict Wikidata gap for Damascus and 6 subdistrict GeoNames gaps because no safe current-source match was available."
+}
