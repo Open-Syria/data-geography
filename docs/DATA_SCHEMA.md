@@ -19,6 +19,7 @@ Example records live under `examples/`. Test-only fixture records live under `fi
 - Coordinates use WGS84 latitude and longitude.
 - Every source-backed record should include `sourceIds`.
 - `sourceStatus` describes the review/release state of the record.
+- OCHA/HDX P-codes are stored in `externalIds.ochaPcode` when imported from approved HDX/OCHA sources.
 - Unknown fields are rejected. New fields require a maintainer-approved schema proposal first.
 - Contributors should also read [FIELD_REFERENCE.md](FIELD_REFERENCE.md) before editing records.
 

@@ -38,7 +38,7 @@ The coverage analyzer currently checks:
 - missing area values where the schema supports area,
 - missing population values where the schema supports population,
 - missing external IDs such as Wikidata, GeoNames, and geoBoundaries,
-- missing OCHA P-codes for localities,
+- missing OCHA P-codes for HDX/OCHA-backed records,
 - invalid parent relationships,
 - districts without subdistrict records,
 - districts without locality records,

@@ -34,6 +34,9 @@ const fieldChecks = {
     fieldCheck('geoboundaries', 'geoBoundaries ID', 'medium', (record) =>
       Boolean(record.externalIds.geoboundaries),
     ),
+    fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
+      Boolean(record.externalIds.ochaPcode),
+    ),
   ],
   districts: [
     fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
@@ -48,6 +51,9 @@ const fieldChecks = {
     fieldCheck('geoboundaries', 'geoBoundaries ID', 'medium', (record) =>
       Boolean(record.externalIds.geoboundaries),
     ),
+    fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
+      Boolean(record.externalIds.ochaPcode),
+    ),
   ],
   subdistricts: [
     fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
@@ -61,6 +67,9 @@ const fieldChecks = {
     ),
     fieldCheck('geoboundaries', 'geoBoundaries ID', 'low', (record) =>
       Boolean(record.externalIds.geoboundaries),
+    ),
+    fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
+      Boolean(record.externalIds.ochaPcode),
     ),
   ],
   localities: [

@@ -49,10 +49,21 @@
     "centroid",
     "externalIds.ochaPcode"
   ],
-  "targetFiles": ["data/localities.json", "data/sources.json"],
+  "targetFiles": [
+    "data/governorates.json",
+    "data/districts.json",
+    "data/subdistricts.json",
+    "data/localities.json",
+    "data/sources.json"
+  ],
   "transforms": [
     "Downloaded HDX package metadata and XLSX resource.",
     "Parsed the admin1, admin2, admin3, and Location sheets from the XLSX resource.",
+    "Added HDX/OCHA admin1 P-codes to matching governorate records.",
+    "Added HDX/OCHA admin2 P-codes to matching district records where the source admin2 structure aligns with the current district seed.",
+    "Skipped the HDX/OCHA Qadmous admin2 P-code for district records because this source vintage lists Qadmous as admin2 while the current district seed keeps Qadmous under Baniyas.",
+    "Added HDX/OCHA admin3 P-codes to matching subdistrict records.",
+    "Filled missing subdistrict Arabic names from HDX/OCHA admin3 names where the value was previously absent.",
     "Imported only Location rows where location_type is Community.",
     "Deferred Location rows where location_type is Neighbourhood because the current schema does not intentionally model neighbourhood-level records.",
     "Mapped HDX admin P-codes to existing OpenSyria governorate, district, and subdistrict IDs using source names, aliases, and a documented crosswalk for known naming or vintage differences.",
@@ -60,5 +71,5 @@
     "Used HDX Location_Pcode values as OCHA P-code external identifiers.",
     "Compared locality coordinates against current ADM3 polygons as QA while keeping parent relationships based on HDX OCHA admin P-codes."
   ],
-  "reviewNotes": "Seeded 7,593 locality records from HDX Community rows and deferred 414 Neighbourhood rows. Geometry QA found 7,555 records where the coordinate matched the mapped current ADM3 polygon, 37 records outside current ADM3 polygons, and 1 record where geometry and HDX P-code mapping differed. Edge cases are retained with record-level notes because the parent relationship follows the source's explicit OCHA admin P-code."
+  "reviewNotes": "Seeded 7,593 locality records from HDX Community rows and deferred 414 Neighbourhood rows. Added OCHA P-codes to 14 governorates, 61 districts, and 272 subdistricts. Filled 6 missing subdistrict Arabic names from HDX admin3 values. Geometry QA found 7,555 records where the coordinate matched the mapped current ADM3 polygon, 37 records outside current ADM3 polygons, and 1 record where geometry and HDX P-code mapping differed. Edge cases are retained with record-level notes because the parent relationship follows the source's explicit OCHA admin P-code."
 }
