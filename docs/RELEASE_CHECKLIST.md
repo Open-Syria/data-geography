@@ -4,6 +4,8 @@ Use this checklist before publishing a versioned `data-geography` release.
 
 Releases are maintainer-controlled. Contributors should not publish release artifacts directly.
 
+Before the first real seed import, use [PRE_SEED_CHECKLIST.md](PRE_SEED_CHECKLIST.md).
+
 ## Before Building
 
 - Confirm every record is within repository scope.

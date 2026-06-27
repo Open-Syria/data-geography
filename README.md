@@ -81,6 +81,7 @@ docs/
   GENERATED_ARTIFACTS.md
   ID_POLICY.md
   IMPORT_WORKFLOW.md
+  PRE_SEED_CHECKLIST.md
   RELEASE_CHECKLIST.md
   REVIEW_PROCESS.md
   SEED_PLAN.md
@@ -153,6 +154,7 @@ Detailed contributor workflow lives in [contributions/README.md](contributions/R
 
 Before adding real data, maintainers should also use:
 
+- [docs/PRE_SEED_CHECKLIST.md](docs/PRE_SEED_CHECKLIST.md)
 - [docs/SEED_PLAN.md](docs/SEED_PLAN.md)
 - [docs/IMPORT_WORKFLOW.md](docs/IMPORT_WORKFLOW.md)
 - [docs/DATA_QUALITY.md](docs/DATA_QUALITY.md)
