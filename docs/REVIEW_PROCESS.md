@@ -10,6 +10,7 @@ Every pull request should pass these gates before merge.
 | --- | --- |
 | Scope | The PR changes an approved dataset and does not alter schema without approval |
 | Validation | `pnpm run validate` passes |
+| Quality | `pnpm run report:data` reviewed for larger data changes |
 | Source | Every changed record has approved source IDs |
 | License | Sources allow redistribution and reuse |
 | Safety | No personal, private, military, checkpoint, surveillance, or sensitive data |

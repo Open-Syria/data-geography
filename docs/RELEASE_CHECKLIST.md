@@ -14,6 +14,7 @@ Releases are maintainer-controlled. Contributors should not publish release arti
 - Confirm IDs are stable and unique.
 - Confirm parent relationships are valid.
 - Confirm uncertain values are documented in notes or left out.
+- Review `pnpm run report:data` output for coverage gaps and duplicates.
 - Update `CHANGELOG.md` when the release includes public data changes.
 
 ## Validate
@@ -29,6 +30,7 @@ This checks:
 - formatting,
 - canonical data schemas,
 - fixture schemas,
+- published schema metadata,
 - unique IDs,
 - source references,
 - parent references,

@@ -14,11 +14,14 @@
   "scripts": {
     "check": "biome check .",
     "check:fix": "biome check --write .",
+    "validate:schemas": "node scripts/validate-schemas.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "validate:fixtures": "node scripts/validate-data.mjs --data-dir=fixtures/valid-data",
     "release:build": "node scripts/build-release.mjs",
     "release:build:fixtures": "node scripts/build-release.mjs --data-dir=fixtures/valid-data --release-dir=dist/fixture-release",
-    "validate": "pnpm run check && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures",
+    "report:data": "node scripts/report-data.mjs",
+    "report:fixtures": "node scripts/report-data.mjs --data-dir=fixtures/valid-data",
+    "validate": "pnpm run check && pnpm run validate:schemas && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures",
     "prepare": "husky"
   },
   "dependencies": {

@@ -54,16 +54,25 @@ data/
   localities.json
   sources.json
 schemas/
+  README.md
+  sources.schema.json
   governorates.schema.json
+  districts.schema.json
+  subdistricts.schema.json
+  localities.schema.json
+  release-manifest.schema.json
 scripts/
   validate-data.mjs
+  validate-schemas.mjs
   build-release.mjs
+  report-data.mjs
 examples/
   *.example.json
 fixtures/
   valid-data/
 docs/
   DATA_SCHEMA.md
+  DATA_QUALITY.md
   FIELD_REFERENCE.md
   GENERATED_ARTIFACTS.md
   ID_POLICY.md
@@ -93,7 +102,9 @@ Examples live under `examples/`. Machine-validated fake fixture data lives under
 corepack enable pnpm
 pnpm install
 pnpm run validate
+pnpm run validate:schemas
 pnpm run release:build
+pnpm run report:data
 pnpm run validate:fixtures
 pnpm run release:build:fixtures
 ```
@@ -137,6 +148,7 @@ Detailed contributor workflow lives in [contributions/README.md](contributions/R
 Before adding real data, maintainers should also use:
 
 - [docs/SEED_PLAN.md](docs/SEED_PLAN.md)
+- [docs/DATA_QUALITY.md](docs/DATA_QUALITY.md)
 - [docs/ID_POLICY.md](docs/ID_POLICY.md)
 - [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md)
 - [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md)

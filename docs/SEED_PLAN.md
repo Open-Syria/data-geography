@@ -88,6 +88,7 @@ Review gates:
 After each stage:
 
 - run validation,
+- run the data quality report,
 - compare duplicate names,
 - check missing parent relationships,
 - check source coverage,

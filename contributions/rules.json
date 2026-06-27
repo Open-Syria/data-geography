@@ -30,6 +30,7 @@
   "implementedGeneratedFormats": ["json", "ndjson", "csv", "sql", "yaml", "xml"],
   "plannedGeneratedFormats": ["geojson", "sqlite"],
   "requiredValidationCommands": ["pnpm run validate"],
+  "recommendedMaintainerCommands": ["pnpm run report:data"],
   "allowedContributionTypes": [
     "data-correction",
     "missing-data",

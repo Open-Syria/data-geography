@@ -197,7 +197,9 @@ pnpm run validate
 This checks:
 
 - formatting,
+- published schema metadata,
 - schema shape,
+- unknown fields,
 - unique IDs,
 - unique ISO codes,
 - known approved sources,

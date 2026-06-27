@@ -84,7 +84,8 @@
         "enum": ["pending_release", "seed", "released", "deprecated"]
       },
       "notes": {
-        "type": "string"
+        "type": "string",
+        "minLength": 1
       }
     }
   }

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opensyria.org/schemas/data-geography/sources.schema.json",
+  "title": "OpenSyria Geography Sources",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "title", "url", "license", "status", "fields"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "license": {
+        "type": "string",
+        "minLength": 1
+      },
+      "licenseUrl": {
+        "type": "string",
+        "format": "uri"
+      },
+      "status": {
+        "type": "string",
+        "enum": ["approved", "restricted", "proposed", "rejected"]
+      },
+      "fields": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

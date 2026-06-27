@@ -6,6 +6,8 @@ Release artifacts are generated from canonical records and may contain only the 
 
 Generated artifact rules live in [GENERATED_ARTIFACTS.md](GENERATED_ARTIFACTS.md).
 
+Machine-readable JSON Schemas live in [../schemas](../schemas).
+
 Example records live under `examples/`. Test-only fixture records live under `fixtures/valid-data/` and are validated by `pnpm run validate:fixtures`.
 
 ## Common Rules
@@ -17,6 +19,7 @@ Example records live under `examples/`. Test-only fixture records live under `fi
 - Coordinates use WGS84 latitude and longitude.
 - Every source-backed record should include `sourceIds`.
 - `sourceStatus` describes the review/release state of the record.
+- Unknown fields are rejected. New fields require a maintainer-approved schema proposal first.
 - Contributors should also read [FIELD_REFERENCE.md](FIELD_REFERENCE.md) before editing records.
 
 ## Source Status
