@@ -76,7 +76,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 254622,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-areesheh",
@@ -160,7 +167,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30544,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-be-r-al-hulo-al-wardeyyeh",
@@ -244,7 +258,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 40522,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-hole",
@@ -323,7 +344,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 14899,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-markada",
@@ -392,7 +420,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 34745,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-shadadah",
@@ -511,7 +546,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 58916,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-hasakah-tal-tamer",
@@ -590,7 +632,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 50718,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-malikiyah-al-malikeyyeh",
@@ -659,7 +708,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 110327,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-malikiyah-jawadiyah",
@@ -763,7 +819,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 40352,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-malikiyah-ya-robiyah",
@@ -877,7 +940,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38955,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-qamishli-amuda",
@@ -981,7 +1051,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 56006,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-qamishli-qahtaniyyeh",
@@ -1070,7 +1147,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 65685,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-qamishli-quamishli",
@@ -1149,7 +1233,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 232258,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-al-qamishli-tal-hmis",
@@ -1228,7 +1319,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 69419,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-ras-al-ayn-darbasiyah",
@@ -1332,7 +1430,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 55442,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-al-hasakah-ras-al-ayn-ras-al-ain",
@@ -1416,7 +1521,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 121708,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-afrin",
@@ -1490,7 +1602,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 64758,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-bulbul",
@@ -1554,7 +1673,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12573,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-jandairis",
@@ -1638,7 +1764,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32947,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-ma-btali",
@@ -1712,7 +1845,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12359,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-raju",
@@ -1776,7 +1916,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21955,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-sharan",
@@ -1850,7 +1997,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13632,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-afrin-sheikh-el-hadid",
@@ -1919,7 +2073,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13871,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-a-rima",
@@ -2003,7 +2164,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32041,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-al-bab",
@@ -2077,7 +2245,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 112384,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-ar-ra-ee",
@@ -2156,7 +2331,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 15378,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-dayr-hafir",
@@ -2230,7 +2412,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 34366,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-eastern-kwaires",
@@ -2299,7 +2488,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 26729,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-rasm-haram-el-imam",
@@ -2368,7 +2564,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30029,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-bab-tadaf",
@@ -2447,7 +2650,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 41786,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-safira-as-safira",
@@ -2541,7 +2751,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 132658,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-safira-banan",
@@ -2605,7 +2822,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17193,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-safira-hajeb",
@@ -2684,7 +2908,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 10408,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-al-safira-khanaser",
@@ -2758,7 +2989,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 18034,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-ayn-al-arab-ain-al-arab",
@@ -2937,7 +3175,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 78130,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-ayn-al-arab-lower-shyookh",
@@ -3036,7 +3281,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 43861,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-ayn-al-arab-sarin",
@@ -3110,7 +3362,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 70522,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-a-zaz",
@@ -3194,7 +3453,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 47570,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-aghtrin",
@@ -3278,7 +3544,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 39132,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-mare",
@@ -3352,7 +3625,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 39306,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-nabul",
@@ -3426,7 +3706,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 51948,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-suran",
@@ -3500,7 +3787,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30032,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-azaz-tall-refaat",
@@ -3579,7 +3873,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 43781,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-jarabulus-ghandorah",
@@ -3658,7 +3959,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17314,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-jarabulus-jarablus",
@@ -3732,7 +4040,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 41575,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-manbij-abu-qalqal",
@@ -3806,7 +4121,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 46178,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-manbij-al-khafsa",
@@ -3915,7 +4237,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 92368,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-manbij-maskana",
@@ -3989,7 +4318,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 64831,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-manbij-menbij",
@@ -4063,7 +4399,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 204766,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-atareb",
@@ -4147,7 +4490,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 76873,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-daret-azza",
@@ -4221,7 +4571,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38766,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-hadher",
@@ -4300,7 +4657,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19382,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-haritan",
@@ -4369,7 +4733,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 67745,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-jebel-saman",
@@ -4453,7 +4824,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 2181061,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-tall-ed-daman",
@@ -4542,7 +4920,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 48108,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-aleppo-mount-simeon-zarbah",
@@ -4611,7 +4996,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 58816,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-as-suwayda-as-sweida",
@@ -4690,7 +5082,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 147146,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-as-suwayda-mashnaf",
@@ -4759,7 +5158,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17134,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-as-suwayda-mazra-a",
@@ -4873,7 +5279,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16627,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-salkhad-gharyeh",
@@ -4942,7 +5355,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 5923,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-salkhad-milh",
@@ -5026,7 +5446,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13615,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-salkhad-qarayya",
@@ -5095,7 +5522,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 9892,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-salkhad-salkhad",
@@ -5159,7 +5593,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 24045,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-salkhad-thibeen",
@@ -5228,7 +5669,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 6900,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-shahba-ariqa",
@@ -5332,7 +5780,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 11723,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-shahba-little-sura",
@@ -5446,7 +5901,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12720,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-shahba-shahba",
@@ -5510,7 +5972,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 31657,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda-shahba-shaqa",
@@ -5589,7 +6058,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 15849,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-damascus-damascus-damascus",
@@ -5656,7 +6132,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1552161,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-damascus-damascus-markaz-darayya",
@@ -5726,7 +6209,14 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Markaz Darayya is listed under Rural Damascus Darayya; OpenSyria parent relationship follows the current ADM3 boundary seed."
+    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Markaz Darayya is listed under Rural Damascus Darayya; OpenSyria parent relationship follows the current ADM3 boundary seed.",
+    "populationHistory": [
+      {
+        "value": 131501,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-al-sanamayn-as-sanamayn",
@@ -5805,7 +6295,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 113427,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-al-sanamayn-ghabagheb",
@@ -5874,7 +6371,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 45793,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-al-sanamayn-masmiyyeh",
@@ -5973,7 +6477,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 8773,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-ash-shajara",
@@ -6042,7 +6553,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 34206,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-busra-esh-sham",
@@ -6111,7 +6629,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 33839,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-da-el",
@@ -6185,7 +6710,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 43691,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-dar-a",
@@ -6259,7 +6791,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 146481,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-jizeh",
@@ -6338,7 +6877,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21100,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-kherbet-ghazala",
@@ -6407,7 +6953,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44266,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-mseifra",
@@ -6476,7 +7029,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32473,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-daraa-mzeireb",
@@ -6545,7 +7105,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 72625,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-hrak",
@@ -6624,7 +7191,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 40979,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-izra",
@@ -6708,7 +7282,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 56649,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-jasim",
@@ -6772,7 +7353,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 39624,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-nawa",
@@ -6836,7 +7424,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 57404,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-sheikh-miskine",
@@ -6905,7 +7500,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 34370,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-daraa-izra-tassil",
@@ -6974,7 +7576,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17778,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-abu-kamal-abu-kamal",
@@ -7053,7 +7662,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 92031,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-abu-kamal-hajin",
@@ -7117,7 +7733,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 97870,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-abu-kamal-jalaa",
@@ -7201,7 +7824,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 29255,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-abu-kamal-susat",
@@ -7270,7 +7900,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 45986,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-basira",
@@ -7374,7 +8011,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 40236,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-deir-ez-zor",
@@ -7443,7 +8087,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 239196,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-khasham",
@@ -7512,7 +8163,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 28718,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-kisreh",
@@ -7611,7 +8269,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 63226,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-muhasan",
@@ -7675,7 +8340,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 35113,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-sur",
@@ -7774,7 +8446,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 37552,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-deir-ez-zor-tabni",
@@ -7843,7 +8522,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 48393,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-mayadin-al-mayadin",
@@ -7917,7 +8603,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 86091,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-mayadin-ashara",
@@ -8021,7 +8714,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 96001,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor-mayadin-thiban",
@@ -8090,7 +8790,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 65079,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-salamiyah-as-saan",
@@ -8189,7 +8896,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 14366,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-salamiyah-as-salamiyeh",
@@ -8278,7 +8992,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 116086,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-salamiyah-eastern-bari",
@@ -8362,7 +9083,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13767,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-salamiyah-oqeirbat",
@@ -8441,7 +9169,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21004,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-salamiyah-saboura",
@@ -8515,7 +9250,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21900,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-suqaylabiyah-as-suqaylabiyah",
@@ -8594,7 +9336,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 49686,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-suqaylabiyah-madiq-castle",
@@ -8673,7 +9422,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 84780,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-suqaylabiyah-shat-ha",
@@ -8747,7 +9503,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 25273,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-suqaylabiyah-tell-salhib",
@@ -8866,7 +9629,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 41480,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-al-suqaylabiyah-ziyara",
@@ -8945,7 +9715,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38872,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-hama-hama",
@@ -9014,7 +9791,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 467807,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-hama-hamra",
@@ -9098,7 +9882,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32604,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-hama-harbanifse",
@@ -9192,7 +9983,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 52563,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-hama-suran",
@@ -9256,7 +10054,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 91471,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-masyaf-ein-halaqim",
@@ -9335,7 +10140,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16502,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-masyaf-jeb-ramleh",
@@ -9409,7 +10221,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 41843,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-masyaf-masyaf",
@@ -9473,7 +10292,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 67908,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-masyaf-oj",
@@ -9557,7 +10383,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30137,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-masyaf-wadi-el-oyoun",
@@ -9636,7 +10469,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12951,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-mhardeh-kafr-zeita",
@@ -9715,7 +10555,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38749,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-mhardeh-karnaz",
@@ -9784,7 +10631,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 25039,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-hama-mhardeh-muhradah",
@@ -9883,7 +10737,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 80165,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-al-mukharram-al-makhrim",
@@ -9962,7 +10823,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32447,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-al-mukharram-jeb-ej-jarrah",
@@ -10031,7 +10899,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19621,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-al-qusayr-al-qusayr",
@@ -10100,7 +10975,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 108102,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-al-rastan-ar-rastan",
@@ -10169,7 +11051,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 64022,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-al-rastan-talbiseh",
@@ -10238,7 +11127,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 63784,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-ein-elniser",
@@ -10307,7 +11203,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30267,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-farqalas",
@@ -10376,7 +11279,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13506,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-hasyaa",
@@ -10480,7 +11390,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 15195,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-homs",
@@ -10549,7 +11466,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 750501,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-kherbet-tin-noor",
@@ -10648,7 +11572,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 52496,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-mahin",
@@ -10712,7 +11643,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13511,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-qabu",
@@ -10781,7 +11719,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 18636,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-qaryatein",
@@ -10850,7 +11795,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16795,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-raqama",
@@ -10919,7 +11871,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 20602,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-sadad",
@@ -10983,7 +11942,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 4092,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-shin",
@@ -11047,7 +12013,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 27951,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-homs-taldu",
@@ -11156,7 +12129,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 71503,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-tadmur-sokhneh",
@@ -11225,7 +12205,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21880,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-tadmur-tadmor",
@@ -11294,7 +12281,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 55062,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-talkalakh-hadideh",
@@ -11403,7 +12397,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 25998,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-talkalakh-hawash",
@@ -11482,7 +12483,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 24684,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-talkalakh-nasra",
@@ -11581,7 +12589,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16678,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-homs-talkalakh-tall-kalakh",
@@ -11660,7 +12675,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 62069,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-ariha-ariha",
@@ -11734,7 +12756,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 83487,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-ariha-ehsem",
@@ -11833,7 +12862,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 65253,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-ariha-mhambal",
@@ -11907,7 +12943,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 28265,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-armanaz",
@@ -11971,7 +13014,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 28865,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-dana",
@@ -12075,7 +13125,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 60058,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-harim",
@@ -12149,7 +13206,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12894,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-kafr-takharim",
@@ -12213,7 +13277,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13174,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-qourqeena",
@@ -12292,7 +13363,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12552,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-harem-salqin",
@@ -12356,7 +13434,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 47939,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-abul-thohur",
@@ -12445,7 +13530,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38869,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-bennsh",
@@ -12519,7 +13611,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 35166,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-idleb",
@@ -12603,7 +13702,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 126284,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-maaret-tamsrin",
@@ -12712,7 +13818,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 57859,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-saraqab",
@@ -12781,7 +13894,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 86075,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-sarmin",
@@ -12845,7 +13965,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 14530,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-idlib-teftnaz",
@@ -12919,7 +14046,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 24145,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-jisr-al-shughur-badama",
@@ -13008,7 +14142,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 18501,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-jisr-al-shughur-darkosh",
@@ -13082,7 +14223,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21561,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-jisr-al-shughur-janudiyeh",
@@ -13161,7 +14309,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19642,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-jisr-al-shughur-jisr-ash-shugur",
@@ -13240,7 +14395,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 90348,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-heish",
@@ -13314,7 +14476,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 41231,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-kafr-nobol",
@@ -13403,7 +14572,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 67460,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-khan-shaykun",
@@ -13477,7 +14653,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 50469,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-ma-arrat-an-nu-man",
@@ -13561,7 +14744,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 150965,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-sanjar",
@@ -13635,7 +14825,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 33721,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-idlib-maarrat-al-numan-tamanaah",
@@ -13719,7 +14916,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 29114,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-al-haffah-al-haffa",
@@ -13788,7 +14992,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 23347,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-al-haffah-ein-et-teeneh",
@@ -13862,7 +15073,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 6825,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-al-haffah-kansaba",
@@ -13941,7 +15159,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 18250,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-al-haffah-mzair-a",
@@ -14045,7 +15270,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13908,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-al-haffah-salanfa",
@@ -14129,7 +15361,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19518,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-beit-yashout",
@@ -14198,7 +15437,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 10086,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-dalyeh",
@@ -14282,7 +15528,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13608,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-ein-elsharqiyeh",
@@ -14351,7 +15604,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16800,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-ein-shaqaq",
@@ -14425,7 +15685,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16031,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-jablah",
@@ -14489,7 +15756,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 107064,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-jableh-qteilbiyyeh",
@@ -14588,7 +15862,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32582,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-bahlolieh",
@@ -14667,7 +15948,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17532,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-ein-el-bayda",
@@ -14771,7 +16059,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 31166,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-hanadi",
@@ -14840,7 +16135,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 27080,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-kasab",
@@ -14919,7 +16221,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1927,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-lattakia",
@@ -14988,7 +16297,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 424392,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-qastal-maaf",
@@ -15057,7 +16373,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 16577,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-latakia-rabee-a",
@@ -15161,7 +16484,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 8214,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-qardaha-al-qardaha",
@@ -15230,7 +16560,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44510,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-qardaha-fakhura",
@@ -15299,7 +16636,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17722,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-qardaha-harf-elmseitra",
@@ -15368,7 +16712,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 6669,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-latakia-qardaha-jobet-berghal",
@@ -15437,7 +16788,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 5743,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-quneitra-fiq-al-butayhah",
@@ -15507,7 +16865,14 @@
     },
     "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "uscb-syria-population"],
     "sourceStatus": "seed",
-    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
+    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import.",
+    "populationHistory": [
+      {
+        "value": 1947,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-quneitra-quneitra-al-khashniyyeh",
@@ -15544,7 +16909,14 @@
     },
     "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "uscb-syria-population"],
     "sourceStatus": "seed",
-    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
+    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import.",
+    "populationHistory": [
+      {
+        "value": 17382,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-quneitra-quneitra-khan-arnaba",
@@ -15613,7 +16985,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 42980,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-quneitra-quneitra-masaada",
@@ -15683,7 +17062,14 @@
     },
     "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "uscb-syria-population"],
     "sourceStatus": "seed",
-    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
+    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import.",
+    "populationHistory": [
+      {
+        "value": 4318,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-al-thawrah-al-thawrah",
@@ -15772,7 +17158,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 69425,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-al-thawrah-jurneyyeh",
@@ -15866,7 +17259,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 31786,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-al-thawrah-mansura",
@@ -15975,7 +17375,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 58727,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-ar-raqqah-ar-raqqa",
@@ -16054,7 +17461,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 343870,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-ar-raqqah-karama",
@@ -16163,7 +17577,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 71678,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-ar-raqqah-maadan",
@@ -16237,7 +17658,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 42652,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-ar-raqqah-sabka",
@@ -16316,7 +17744,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 48106,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-tell-abyad-ein-issa",
@@ -16395,7 +17830,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 38468,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-tell-abyad-suluk",
@@ -16459,7 +17901,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44131,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-raqqa-tell-abyad-tell-abiad",
@@ -16548,7 +17997,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44671,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-nabk-an-nabk",
@@ -16637,7 +18093,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 50747,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-nabk-deir-attiyeh",
@@ -16711,7 +18174,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 29254,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-qutayfah-al-qutayfah",
@@ -16785,7 +18255,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44820,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-qutayfah-jirud",
@@ -16854,7 +18331,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 31821,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-qutayfah-ma-loula",
@@ -16923,7 +18407,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12192,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-qutayfah-raheiba",
@@ -16992,7 +18483,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 30450,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-tall-at-tall",
@@ -17066,7 +18564,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 85933,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-tall-rankus",
@@ -17130,7 +18635,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 11158,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-tall-sidnaya",
@@ -17199,7 +18711,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 18846,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-zabadani-az-zabdani",
@@ -17268,7 +18787,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 40613,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-zabadani-dimas",
@@ -17337,7 +18863,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 21978,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-zabadani-ein-elfijeh",
@@ -17441,7 +18974,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19584,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-zabadani-madaya",
@@ -17505,7 +19045,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13692,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-al-zabadani-sarghaya",
@@ -17574,7 +19121,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 9475,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-darayya-hajar-aswad",
@@ -17653,7 +19207,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 84948,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-darayya-sahnaya",
@@ -17717,7 +19278,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 44512,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-dhameer",
@@ -17801,7 +19369,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 26192,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-duma",
@@ -17865,7 +19440,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 181934,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-ghizlaniyyeh",
@@ -17934,7 +19516,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 36715,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-haran-al-awameed",
@@ -18003,7 +19592,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 22853,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-harasta",
@@ -18067,7 +19663,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 88816,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-nashabiyeh",
@@ -18136,7 +19739,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 76814,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-douma-sabe-byar",
@@ -18173,7 +19783,14 @@
     },
     "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "uscb-syria-population"],
     "sourceStatus": "seed",
-    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
+    "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import.",
+    "populationHistory": [
+      {
+        "value": 395,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-arbin",
@@ -18247,7 +19864,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 89595,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-babella",
@@ -18357,7 +19981,14 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609456 as the closest name match and preserved alternate point IDs 7895191 as aliases/review context."
+    "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609456 as the closest name match and preserved alternate point IDs 7895191 as aliases/review context.",
+    "populationHistory": [
+      {
+        "value": 341625,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-jaramana",
@@ -18452,7 +20083,14 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609526 as the closest name match and preserved alternate point IDs 7895190 as aliases/review context."
+    "notes": "Multiple GeoNames ADM3 points fell inside this geoBoundaries shape; selected 8609526 as the closest name match and preserved alternate point IDs 7895190 as aliases/review context.",
+    "populationHistory": [
+      {
+        "value": 114363,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-kafr-batna",
@@ -18516,7 +20154,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 123474,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-kisweh",
@@ -18595,7 +20240,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 112095,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-maliha",
@@ -18674,7 +20326,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 56652,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-markaz-rif-dimashq-qudsiya",
@@ -18793,7 +20452,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 64412,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-qatana-bait-jan",
@@ -18892,7 +20558,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 15668,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-qatana-qatana",
@@ -18956,7 +20629,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 146344,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-qatana-sa-sa",
@@ -19025,7 +20705,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 45233,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-yabrud-esal-el-ward",
@@ -19094,7 +20781,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 8766,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq-yabrud-yabroud",
@@ -19163,7 +20857,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 39604,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-al-shaykh-badr-baramanet-elmashayekh",
@@ -19232,7 +20933,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13562,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-al-shaykh-badr-qumseyyeh",
@@ -19311,7 +21019,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 14095,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-al-shaykh-badr-sheikh-badr",
@@ -19410,7 +21125,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 25324,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-anaza",
@@ -19481,7 +21203,15 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
+    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "populationHistory": [
+      {
+        "value": 18446,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "USCB source uses NSO_CODE SY100202; current OpenSyria/OCHA P-code is SY100601."
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-banyas",
@@ -19550,7 +21280,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 96550,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-hamam-wasil",
@@ -19621,7 +21358,15 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
+    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "populationHistory": [
+      {
+        "value": 8522,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "USCB source uses NSO_CODE SY100204; current OpenSyria/OCHA P-code is SY100603."
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-qadmous",
@@ -19692,7 +21437,15 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
+    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "populationHistory": [
+      {
+        "value": 22370,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "USCB source uses NSO_CODE SY100203; current OpenSyria/OCHA P-code is SY100602."
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-rawda",
@@ -19761,7 +21514,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12088,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-taleen",
@@ -19830,7 +21590,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 8351,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-baniyas-tawahin",
@@ -19901,7 +21668,15 @@
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed."
+    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "populationHistory": [
+      {
+        "value": 10024,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "USCB source uses NSO_CODE SY100205; current OpenSyria/OCHA P-code is SY100604."
+      }
+    ]
   },
   {
     "id": "sy-tartus-duraykish-dreikish",
@@ -20005,7 +21780,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 28749,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-duraykish-dweir-raslan",
@@ -20074,7 +21856,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 13704,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-duraykish-hamin",
@@ -20143,7 +21932,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 8679,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-duraykish-jneinet-raslan",
@@ -20212,7 +22008,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 9846,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-bariqiyeh",
@@ -20291,7 +22094,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 7336,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-mashta-elhiu",
@@ -20360,7 +22170,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 12577,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-ras-el-khashufeh",
@@ -20434,7 +22251,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 19915,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-safita",
@@ -20498,7 +22322,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 60172,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-sibbeh",
@@ -20567,7 +22398,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 7614,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-safita-sisniyyeh",
@@ -20636,7 +22474,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 22018,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-arwad",
@@ -20700,7 +22545,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 4403,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-hameidiyyeh",
@@ -20779,7 +22631,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 20309,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-kareemeh",
@@ -20858,7 +22717,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 17271,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-kherbet-elma-aza",
@@ -20932,7 +22798,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 22897,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-safsafa",
@@ -21031,7 +22904,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 23416,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-soda-khawabi",
@@ -21150,7 +23030,14 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 32295,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   },
   {
     "id": "sy-tartus-tartus-tartous",
@@ -21219,6 +23106,13 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed"
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 160862,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"]
+      }
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import {
   districtRecordSchema,
   ensureAliasQuality,
   ensureKnownSources,
+  ensurePopulationHistoryQuality,
   ensureUnique,
   governorateRecordSchema,
   localityRecordSchema,
@@ -133,6 +134,9 @@ function validateData(data) {
   ensureKnownSources(data.districts, data.sources, 'district');
   ensureKnownSources(data.subdistricts, data.sources, 'subdistrict');
   ensureKnownSources(data.localities, data.sources, 'locality');
+  ensurePopulationHistoryQuality(data.governorates, 'governorate');
+  ensurePopulationHistoryQuality(data.districts, 'district');
+  ensurePopulationHistoryQuality(data.subdistricts, 'subdistrict');
   ensureAliasQuality(data.governorates, 'governorate');
   ensureAliasQuality(data.districts, 'district');
   ensureAliasQuality(data.subdistricts, 'subdistrict');

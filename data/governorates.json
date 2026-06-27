@@ -43,9 +43,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1512000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 1621000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q233914",
@@ -53,8 +54,48 @@
       "geoboundaries": "8384693B3351094574159",
       "ochaPcode": "SY08"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1275118,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1477000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1512000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1277000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1621000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-aleppo",
@@ -85,9 +126,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 4868000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 3734000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q214064",
@@ -95,8 +137,48 @@
       "geoboundaries": "8384693B67178658489877",
       "ochaPcode": "SY02"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 4045166,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 4744000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 4868000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 4275000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 3734000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-as-suwayda",
@@ -142,9 +224,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 370000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 509000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q236797",
@@ -152,8 +235,48 @@
       "geoboundaries": "8384693B61807023607014",
       "ochaPcode": "SY13"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 313231,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 364000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 370000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 467000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 509000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-damascus",
@@ -190,9 +313,10 @@
       "notes": "Derived from the geoBoundaries ADM1 polygon using a spherical polygon area calculation."
     },
     "population": {
-      "value": 1754000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 2011000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q2007044",
@@ -200,9 +324,49 @@
       "geoboundaries": "8384693B24866558579919",
       "ochaPcode": "SY01"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
     "sourceStatus": "seed",
-    "notes": "Area is derived from approved boundary geometry because Wikidata did not expose an area statement for this record during the 2026-06-27 seed pass."
+    "notes": "Area is derived from approved boundary geometry because Wikidata did not expose an area statement for this record during the 2026-06-27 seed pass.",
+    "populationHistory": [
+      {
+        "value": 1552161,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1733000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1754000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1849000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 2011000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-daraa",
@@ -243,9 +407,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1027000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 845000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q1689560",
@@ -253,8 +418,48 @@
       "geoboundaries": "8384693B23566608622518",
       "ochaPcode": "SY12"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 843478,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 998000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1027000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 680000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 845000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-deir-ez-zor",
@@ -295,9 +500,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1239000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 1124000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q232387",
@@ -305,8 +511,48 @@
       "geoboundaries": "8384693B56550821124428",
       "ochaPcode": "SY09"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1004747,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1202000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1239000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1234000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1124000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-hama",
@@ -347,9 +593,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1628000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 1976000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q232355",
@@ -357,8 +604,48 @@
       "geoboundaries": "8384693B76753285616287",
       "ochaPcode": "SY05"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1384953,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1593000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1628000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1999000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1976000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-homs",
@@ -399,9 +686,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 2145184,
-      "year": 2012,
-      "sourceIds": ["wikidata"]
+      "value": 1573000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q214094",
@@ -409,8 +697,48 @@
       "geoboundaries": "8384693B93490606690779",
       "ochaPcode": "SY04"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1529402,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1763000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1803000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1370000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1573000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-idlib",
@@ -441,9 +769,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1501000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 1445000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q233218",
@@ -451,8 +780,48 @@
       "geoboundaries": "8384693B38455082445791",
       "ochaPcode": "SY07"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 1258427,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 1464000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1501000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1328000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1445000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-latakia",
@@ -488,9 +857,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 1364985,
-      "year": 2012,
-      "sourceIds": ["wikidata"]
+      "value": 1453000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q233236",
@@ -498,8 +868,48 @@
       "geoboundaries": "8384693B20094101885952",
       "ochaPcode": "SY06"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 879551,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 991000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1008000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1359000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1453000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-quneitra",
@@ -540,9 +950,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 49195,
-      "year": 2013,
-      "sourceIds": ["wikidata"]
+      "value": 81000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q219690",
@@ -550,8 +961,48 @@
       "geoboundaries": "8384693B30882548325909",
       "ochaPcode": "SY14"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 66627,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 87000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 90000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 56000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 81000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-raqqa",
@@ -597,9 +1048,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 944000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 853000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q235563",
@@ -607,8 +1059,48 @@
       "geoboundaries": "8384693B44556209506703",
       "ochaPcode": "SY11"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 793514,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 921000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 944000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 867000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 853000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-rif-dimashq",
@@ -659,9 +1151,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 2836000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 2957000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q232399",
@@ -669,8 +1162,48 @@
       "geoboundaries": "8384693B89451039606890",
       "ochaPcode": "SY03"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 2273074,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 2744000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 2836000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 3180000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 2957000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   },
   {
     "id": "sy-tartus",
@@ -706,9 +1239,10 @@
       "sourceIds": ["wikidata"]
     },
     "population": {
-      "value": 797000,
-      "year": 2011,
-      "sourceIds": ["wikidata"]
+      "value": 1114000,
+      "year": 2016,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
     },
     "externalIds": {
       "wikidata": "Q232382",
@@ -716,7 +1250,47 @@
       "geoboundaries": "8384693B50697642267539",
       "ochaPcode": "SY10"
     },
-    "sourceIds": ["wikidata", "geonames-sy", "geoboundaries-syr", "hdx-syr-populated-places"],
-    "sourceStatus": "seed"
+    "sourceIds": [
+      "wikidata",
+      "geonames-sy",
+      "geoboundaries-syr",
+      "hdx-syr-populated-places",
+      "uscb-syria-population"
+    ],
+    "sourceStatus": "seed",
+    "populationHistory": [
+      {
+        "value": 701395,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2004 census total population from the U.S. Census Bureau Age-Sex sheet."
+      },
+      {
+        "value": 785000,
+        "year": 2011,
+        "date": "2011-01-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "January 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 797000,
+        "year": 2011,
+        "date": "2011-12-01",
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "December 2011 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1041000,
+        "year": 2014,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2014 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      },
+      {
+        "value": 1114000,
+        "year": 2016,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "2016 population estimate from the U.S. Census Bureau Population Estimates sheet."
+      }
+    ]
   }
 ]
