@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sy-example-governorate-example-district",
+    "governorateId": "sy-example-governorate",
+    "name": {
+      "en": "Example District",
+      "ar": "\u0645\u0646\u0637\u0642\u0629 \u0645\u062b\u0627\u0644"
+    },
+    "aliases": [],
+    "centroid": null,
+    "externalIds": {},
+    "sourceIds": ["fixture-source"],
+    "sourceStatus": "seed",
+    "notes": "Fixture record only. Do not copy into canonical data."
+  }
+]

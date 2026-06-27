@@ -53,11 +53,19 @@ schemas/
 scripts/
   validate-data.mjs
   build-release.mjs
+examples/
+  *.example.json
+fixtures/
+  valid-data/
 docs/
   DATA_SCHEMA.md
   FIELD_REFERENCE.md
   GENERATED_ARTIFACTS.md
+  ID_POLICY.md
+  RELEASE_CHECKLIST.md
   REVIEW_PROCESS.md
+  SEED_PLAN.md
+  SOURCE_DECISIONS.md
   SOURCES.md
 contributions/
   README.md
@@ -72,6 +80,8 @@ contributions/
    - `release-manifest.json`
    - files under `artifacts/`
 
+Examples live under `examples/`. Machine-validated fake fixture data lives under `fixtures/valid-data/`.
+
 ## Commands
 
 ```bash
@@ -79,6 +89,7 @@ corepack enable pnpm
 pnpm install
 pnpm run validate
 pnpm run release:build
+pnpm run validate:fixtures
 ```
 
 Generated release files are written to:
@@ -116,6 +127,13 @@ New fields, new dataset topics, ID format changes, validation changes, and relea
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Detailed contributor workflow lives in [contributions/README.md](contributions/README.md).
+
+Before adding real data, maintainers should also use:
+
+- [docs/SEED_PLAN.md](docs/SEED_PLAN.md)
+- [docs/ID_POLICY.md](docs/ID_POLICY.md)
+- [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md)
+- [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md)
 
 ## Source Policy
 

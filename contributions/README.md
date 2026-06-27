@@ -58,7 +58,11 @@ Do not edit schema, scripts, or workflow files unless the maintainer has approve
 schemas/
 scripts/
 .github/workflows/
+examples/
+fixtures/
 ```
+
+Files under `examples/` are documentation examples. Files under `fixtures/` are test-only fake records used by validation. They are not contribution targets for normal data PRs.
 
 ## Contribution Types
 
@@ -137,6 +141,8 @@ sy-rif-dimashq
 sy-aleppo
 ```
 
+See [`../docs/ID_POLICY.md`](../docs/ID_POLICY.md) for the full ID policy.
+
 ## Parent Relationship Rules
 
 Administrative records must reference valid parents:
@@ -168,6 +174,8 @@ Not allowed as record sources:
 - unknown source IDs.
 
 AI may help organize or compare data, but AI output is not a source.
+
+Source decisions are tracked in [`../docs/SOURCE_DECISIONS.md`](../docs/SOURCE_DECISIONS.md).
 
 ## Running Validation
 

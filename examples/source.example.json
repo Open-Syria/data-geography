@@ -1,0 +1,10 @@
+{
+  "id": "approved-source-id",
+  "title": "Example Reusable Source",
+  "url": "https://example.org/source",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "status": "approved",
+  "fields": ["name", "parent", "externalIds"],
+  "notes": "Example only. Real sources must be reviewed for license compatibility before records reference them."
+}

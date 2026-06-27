@@ -16,6 +16,8 @@ Every pull request should pass these gates before merge.
 | Semantics | Names, parent relationships, coordinates, and statuses make sense |
 | Size | The PR is focused enough to review |
 
+Use [ID_POLICY.md](ID_POLICY.md), [SOURCE_DECISIONS.md](SOURCE_DECISIONS.md), and [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) when the PR affects identifiers, sources, or release preparation.
+
 ## Maintainer Review Steps
 
 1. Check the PR type.

@@ -6,10 +6,13 @@ Release artifacts are generated from canonical records and may contain only the 
 
 Generated artifact rules live in [GENERATED_ARTIFACTS.md](GENERATED_ARTIFACTS.md).
 
+Example records live under `examples/`. Test-only fixture records live under `fixtures/valid-data/` and are validated by `pnpm run validate:fixtures`.
+
 ## Common Rules
 
 - IDs must be stable.
 - IDs use lowercase kebab-case and start with `sy-`.
+- ID rules live in [ID_POLICY.md](ID_POLICY.md).
 - Names may include Arabic and English fields.
 - Coordinates use WGS84 latitude and longitude.
 - Every source-backed record should include `sourceIds`.
@@ -91,6 +94,8 @@ data/subdistricts.json
 data/localities.json
 ```
 
-Their schemas will be finalized after the governorate seed workflow is stable.
+Validation schemas already exist for these files, including parent relationship checks.
+
+Release artifacts will start with governorates and expand after the seed workflow is stable.
 
 Normal contributors should not introduce fields for these datasets before maintainer approval.

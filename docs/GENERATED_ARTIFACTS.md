@@ -61,6 +61,8 @@ Contributors should never edit generated files.
 
 If a generated file is wrong, fix the canonical JSON source or the generator script. Generator script changes require maintainer approval.
 
+Generated files should not be included in normal data pull requests unless the maintainer explicitly asks for a release preparation branch.
+
 ## Release Manifest
 
 Every generated release must include:
@@ -82,3 +84,4 @@ The manifest records:
 
 `datasets-api` consumes the release manifest and verified artifacts. It should not read live branches.
 
+Use [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) before publishing generated artifacts.

@@ -12,6 +12,8 @@ data/sources.json
 
 Records reference sources through `sourceIds`.
 
+Maintainer source decisions are tracked in [SOURCE_DECISIONS.md](SOURCE_DECISIONS.md).
+
 ## Initial Source Policy
 
 Preferred sources for the first geography seed:
@@ -51,4 +53,3 @@ For the default seed workflow, OSM may be used for manual review and comparison,
 - Wikidata licensing: https://www.wikidata.org/wiki/Wikidata:Licensing
 - OpenStreetMap copyright: https://www.openstreetmap.org/copyright
 - Open Data Commons ODbL: https://opendatacommons.org/licenses/odbl/1-0/
-

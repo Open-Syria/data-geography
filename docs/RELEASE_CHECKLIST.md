@@ -1,0 +1,91 @@
+# Release Checklist
+
+Use this checklist before publishing a versioned `data-geography` release.
+
+Releases are maintainer-controlled. Contributors should not publish release artifacts directly.
+
+## Before Building
+
+- Confirm every record is within repository scope.
+- Confirm every record references at least one approved source.
+- Confirm source licenses and attribution requirements still allow release.
+- Confirm no restricted source is mixed into default release artifacts.
+- Confirm no personal, private, military, checkpoint, surveillance, or security-sensitive data is present.
+- Confirm IDs are stable and unique.
+- Confirm parent relationships are valid.
+- Confirm uncertain values are documented in notes or left out.
+- Update `CHANGELOG.md` when the release includes public data changes.
+
+## Validate
+
+Run:
+
+```bash
+pnpm run validate
+```
+
+This checks:
+
+- formatting,
+- canonical data schemas,
+- fixture schemas,
+- unique IDs,
+- source references,
+- parent references,
+- generated artifact compatibility.
+
+## Build
+
+Run:
+
+```bash
+pnpm run release:build
+```
+
+Generated files are written to:
+
+```text
+dist/release/
+```
+
+Do not manually edit files under `dist/`.
+
+## Inspect Artifacts
+
+Before publishing, inspect:
+
+- `dist/release/release-manifest.json`,
+- generated artifact names,
+- record counts,
+- SHA-256 checksums,
+- file sizes,
+- source attribution,
+- release status and version,
+- generated timestamp.
+
+## Publish
+
+Recommended maintainer flow:
+
+1. Create a release commit.
+2. Create a version tag.
+3. Build release artifacts from the tagged commit.
+4. Attach `release-manifest.json` and generated artifacts to the GitHub Release.
+5. Publish release notes with known limitations.
+6. Update any `datasets-api` release pointer or checksum configuration after the API integration exists.
+
+## After Publishing
+
+- Confirm release assets are downloadable.
+- Confirm checksums match the manifest.
+- Confirm `datasets-api` can read the manifest in staging before production use.
+- Open follow-up issues for known gaps instead of editing a published release in place.
+
+## Emergency Fixes
+
+If a release contains unsafe or legally incompatible data:
+
+1. Remove or disable the release asset.
+2. Document the issue.
+3. Publish a corrected release.
+4. Keep a clear changelog entry explaining the replacement.

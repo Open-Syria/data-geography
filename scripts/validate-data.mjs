@@ -14,30 +14,49 @@ import {
 
 const root = process.cwd();
 
-async function loadData() {
+function getDataDirectory() {
+  const dataDirArg = process.argv.find((arg) => arg.startsWith('--data-dir='));
+  const dataDirIndex = process.argv.indexOf('--data-dir');
+
+  if (!dataDirArg && dataDirIndex !== -1 && process.argv[dataDirIndex + 1] === undefined) {
+    throw new Error('--data-dir requires a directory path');
+  }
+
+  const dataDirValue =
+    dataDirArg?.slice('--data-dir='.length) ??
+    (dataDirIndex === -1 ? undefined : process.argv[dataDirIndex + 1]);
+
+  if (dataDirValue === '' || dataDirValue?.startsWith('--')) {
+    throw new Error('--data-dir requires a directory path');
+  }
+
+  return path.resolve(root, dataDirValue ?? 'data');
+}
+
+async function loadData(dataDirectory) {
   const sources = parseJsonArray(
     sourceRecordSchema,
-    await readJson(path.join(root, 'data/sources.json')),
+    await readJson(path.join(dataDirectory, 'sources.json')),
     'sources',
   );
   const governorates = parseJsonArray(
     governorateRecordSchema,
-    await readJson(path.join(root, 'data/governorates.json')),
+    await readJson(path.join(dataDirectory, 'governorates.json')),
     'governorates',
   );
   const districts = parseJsonArray(
     districtRecordSchema,
-    await readJson(path.join(root, 'data/districts.json')),
+    await readJson(path.join(dataDirectory, 'districts.json')),
     'districts',
   );
   const subdistricts = parseJsonArray(
     subdistrictRecordSchema,
-    await readJson(path.join(root, 'data/subdistricts.json')),
+    await readJson(path.join(dataDirectory, 'subdistricts.json')),
     'subdistricts',
   );
   const localities = parseJsonArray(
     localityRecordSchema,
-    await readJson(path.join(root, 'data/localities.json')),
+    await readJson(path.join(dataDirectory, 'localities.json')),
     'localities',
   );
 
@@ -121,7 +140,8 @@ function validateData(data) {
   ensureReferences(data);
 }
 
-const data = await loadData();
+const dataDirectory = getDataDirectory();
+const data = await loadData(dataDirectory);
 
 validateData(data);
 
@@ -129,6 +149,7 @@ console.log(
   JSON.stringify(
     {
       ok: true,
+      dataDirectory: path.relative(root, dataDirectory).replaceAll('\\', '/'),
       counts: {
         sources: data.sources.length,
         governorates: data.governorates.length,

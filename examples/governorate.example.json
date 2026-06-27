@@ -1,0 +1,22 @@
+{
+  "id": "sy-example-governorate",
+  "name": {
+    "en": "Example Governorate",
+    "ar": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0645\u062b\u0627\u0644"
+  },
+  "aliases": [
+    {
+      "value": "Example Gov",
+      "language": "en",
+      "type": "alias"
+    }
+  ],
+  "iso31662": null,
+  "centroid": null,
+  "externalIds": {
+    "wikidata": "Q123456"
+  },
+  "sourceIds": ["approved-source-id"],
+  "sourceStatus": "seed",
+  "notes": "Example only. Do not copy placeholder IDs or source IDs into canonical data."
+}

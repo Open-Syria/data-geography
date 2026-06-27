@@ -23,6 +23,8 @@ You may open pull requests for:
 - correcting coordinates when the schema already includes coordinate fields,
 - marking records as deprecated, renamed, merged, uncertain, or replaced when supported by sources.
 
+Record IDs must follow [docs/ID_POLICY.md](docs/ID_POLICY.md).
+
 ## Not Accepted as Normal Pull Requests
 
 Do not open direct PRs for:
@@ -38,6 +40,8 @@ Do not open direct PRs for:
 - personal, private, sensitive, military, checkpoint, surveillance, or security-related data.
 
 These changes require a schema proposal or maintainer approval before implementation.
+
+Generated files under `dist/`, examples under `examples/`, fixtures under `fixtures/`, validation scripts, schemas, and release workflows are maintainer-owned unless the maintainer explicitly asks for changes.
 
 ## Schema Proposals
 
@@ -62,6 +66,8 @@ A proposal should explain:
 - Do not use Google Maps, commercial map databases, proprietary directories, or scraped websites as data sources.
 - Do not treat AI output as a source.
 - Do not import OSM-derived data unless the maintainer explicitly approves the ODbL licensing approach.
+
+Source review decisions are documented in [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md).
 
 ## Validation
 

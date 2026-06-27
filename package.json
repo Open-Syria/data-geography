@@ -15,8 +15,9 @@
     "check": "biome check .",
     "check:fix": "biome check --write .",
     "validate:data": "node scripts/validate-data.mjs",
+    "validate:fixtures": "node scripts/validate-data.mjs --data-dir=fixtures/valid-data",
     "release:build": "node scripts/build-release.mjs",
-    "validate": "pnpm run check && pnpm run validate:data && pnpm run release:build",
+    "validate": "pnpm run check && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build",
     "prepare": "husky"
   },
   "dependencies": {
@@ -35,6 +36,9 @@
     ],
     "data/**/*.json": [
       "pnpm run validate:data"
+    ],
+    "fixtures/**/*.json": [
+      "pnpm run validate:fixtures"
     ]
   }
 }
