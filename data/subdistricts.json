@@ -13526,10 +13526,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247007",
       "geoboundaries": "7960031B48466364189602",
       "ochaPcode": "SY140201"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13559,10 +13560,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247342",
       "geoboundaries": "7960031B93745377766630",
       "ochaPcode": "SY140200"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13592,10 +13594,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247036",
       "geoboundaries": "7960031B31446847075504",
       "ochaPcode": "SY140002"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13684,10 +13687,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247354",
       "geoboundaries": "7960031B69711102671847",
       "ochaPcode": "SY140003"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -13717,10 +13721,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247312",
       "geoboundaries": "7960031B86924644433771",
       "ochaPcode": "SY140000"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
@@ -15883,10 +15888,11 @@
     },
     "population": null,
     "externalIds": {
+      "wikidata": "Q12247053",
       "geoboundaries": "7960031B76622743509288",
       "ochaPcode": "SY030202"
     },
-    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places"],
+    "sourceIds": ["geoboundaries-syr", "hdx-syr-populated-places", "wikidata"],
     "sourceStatus": "seed",
     "notes": "No GeoNames ADM3 point matched this geoBoundaries ADM3 shape during seed import."
   },
