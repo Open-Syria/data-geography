@@ -89,6 +89,17 @@ dist/release/
 
 Generated artifacts are built from canonical JSON files and must not be edited directly. See [docs/GENERATED_ARTIFACTS.md](docs/GENERATED_ARTIFACTS.md).
 
+## Maintainer Tooling
+
+This repository uses:
+
+- Biome for formatting and checks,
+- Husky for local Git hooks,
+- lint-staged for staged-file checks,
+- commitlint for Conventional Commit messages.
+
+Hooks run lightweight checks before commits. CI still runs the full validation workflow.
+
 ## Contribution Model
 
 Contributions are limited to improving approved datasets:
