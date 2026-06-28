@@ -1,22 +1,13 @@
 # OpenSyria Data Geography
 
 [![Validate](https://github.com/Open-Syria/data-geography/actions/workflows/validate.yml/badge.svg)](https://github.com/Open-Syria/data-geography/actions/workflows/validate.yml)
-[![CodeQL](https://github.com/Open-Syria/data-geography/actions/workflows/codeql.yml/badge.svg)](https://github.com/Open-Syria/data-geography/actions/workflows/codeql.yml)
-[![Release](https://img.shields.io/github/v/release/Open-Syria/data-geography?include_prereleases&label=release)](https://github.com/Open-Syria/data-geography/releases)
 [![License](https://img.shields.io/badge/license-see%20LICENSE.md-blue.svg)](LICENSE.md)
 [![Node.js 24+](https://img.shields.io/badge/node-%3E%3D24-339933?logo=node.js&logoColor=white)](package.json)
 [![pnpm 11](https://img.shields.io/badge/pnpm-11-F69220?logo=pnpm&logoColor=white)](package.json)
-[![Stars](https://img.shields.io/github/stars/Open-Syria/data-geography?style=flat&logo=github&label=stars)](https://github.com/Open-Syria/data-geography/stargazers)
-[![Forks](https://img.shields.io/github/forks/Open-Syria/data-geography?style=flat&logo=github&label=forks)](https://github.com/Open-Syria/data-geography/forks)
-[![Issues](https://img.shields.io/github/issues/Open-Syria/data-geography?style=flat&logo=github&label=issues)](https://github.com/Open-Syria/data-geography/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/Open-Syria/data-geography?style=flat&logo=github&label=PRs)](https://github.com/Open-Syria/data-geography/pulls)
-[![Contributors](https://img.shields.io/github/contributors/Open-Syria/data-geography?style=flat&logo=github&label=contributors)](https://github.com/Open-Syria/data-geography/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/Open-Syria/data-geography?style=flat&logo=github&label=last%20commit)](https://github.com/Open-Syria/data-geography/commits/main)
-[![Sponsor](https://img.shields.io/badge/sponsor-OpenSyria-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/Open-Syria)
 
 OpenSyria Data Geography is the canonical repository for public, non-personal Syrian administrative geography data.
 
-This repository will publish versioned release artifacts consumed by [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on stable reference data, not live maps or operational/security information.
+This repository publishes versioned release artifacts consumed by [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on stable reference data, not live maps or operational/security information.
 
 ## Table of Contents
 
@@ -33,7 +24,7 @@ This repository will publish versioned release artifacts consumed by [`datasets-
 
 ## Scope
 
-Planned geography datasets:
+Geography coverage includes:
 
 - governorates,
 - districts,
@@ -56,7 +47,7 @@ Out of scope:
 
 ## Current Status
 
-This repository is in its seed setup phase.
+The first public seed release is `v0.1.0`.
 
 Current seed coverage:
 
@@ -78,7 +69,7 @@ localities
 
 in JSON, NDJSON, CSV, SQL, YAML, and XML formats.
 
-The seed data is maintainer-led and still under review before the first stable public release.
+The seed data is source-backed and maintainer-reviewed. Known gaps are tracked in the data quality and currency documents, and improvements should be made through source-backed follow-up releases.
 
 ## Repository Layout
 
@@ -148,6 +139,7 @@ pnpm install
 pnpm run validate
 pnpm run validate:schemas
 pnpm run validate:imports
+pnpm run release:prepare -- --version v0.1.0
 pnpm run release:build
 pnpm run report:data
 pnpm run coverage:data
@@ -199,7 +191,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Detailed contributor workflow lives in [contributions/README.md](contributions/README.md).
 
-Before adding real data, maintainers should also use:
+Maintainer workflow and review references:
 
 - [docs/PRE_SEED_CHECKLIST.md](docs/PRE_SEED_CHECKLIST.md)
 - [docs/SEED_PLAN.md](docs/SEED_PLAN.md)

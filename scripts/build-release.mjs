@@ -201,7 +201,7 @@ function getArtifactUrl(relativePath) {
     return undefined;
   }
 
-  return `${assetBaseUrl.replace(/\/$/, '')}/${relativePath}`;
+  return `${assetBaseUrl.replace(/\/$/, '')}/${path.posix.basename(relativePath)}`;
 }
 
 function escapeNonAscii(value) {

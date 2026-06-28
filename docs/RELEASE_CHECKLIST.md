@@ -53,7 +53,15 @@ This checks:
 
 ## Build
 
-Run:
+For a publishable release, run:
+
+```bash
+pnpm run release:prepare -- --version v0.1.0
+```
+
+This builds with explicit release metadata, verifies package/version alignment, checks the changelog heading, validates artifact URLs, and rechecks artifact sizes, checksums, and record counts.
+
+For a raw local artifact build, run:
 
 ```bash
 pnpm run release:build
@@ -90,7 +98,7 @@ Recommended maintainer flow:
 3. Build release artifacts from the tagged commit.
 4. Attach `release-manifest.json` and generated artifacts to the GitHub Release.
 5. Publish release notes with known limitations.
-6. Update any `datasets-api` release pointer or checksum configuration after the API integration exists.
+6. Confirm `datasets-api` points at the published dataset tag and can sync the release assets.
 
 ## After Publishing
 

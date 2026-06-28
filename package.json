@@ -1,6 +1,6 @@
 {
   "name": "@opensyria/data-geography",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Canonical OpenSyria administrative geography datasets.",
   "author": "OpenSyria",
   "private": true,
@@ -20,6 +20,7 @@
     "validate:fixtures": "node scripts/validate-data.mjs --data-dir=fixtures/valid-data",
     "release:build": "node scripts/build-release.mjs",
     "release:build:fixtures": "node scripts/build-release.mjs --data-dir=fixtures/valid-data --release-dir=dist/fixture-release",
+    "release:prepare": "node scripts/prepare-release.mjs",
     "report:data": "node scripts/report-data.mjs",
     "report:fixtures": "node scripts/report-data.mjs --data-dir=fixtures/valid-data",
     "coverage:data": "node scripts/analyze-coverage.mjs",
