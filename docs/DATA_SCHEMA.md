@@ -10,6 +10,15 @@ Machine-readable JSON Schemas live in [../schemas](../schemas).
 
 Example records live under `examples/`. Test-only fixture records live under `fixtures/valid-data/` and are validated by `pnpm run validate:fixtures`.
 
+## Table of Contents
+
+- [Common Rules](#common-rules)
+- [Source Status](#source-status)
+- [Governorates](#governorates)
+- [Districts](#districts)
+- [Subdistricts](#subdistricts)
+- [Localities](#localities)
+
 ## Common Rules
 
 - IDs must be stable.
@@ -203,10 +212,11 @@ dist/release/artifacts/subdistricts.xml
 Seed notes:
 
 - Subdistrict records use geoBoundaries ADM3 features as the current structural source.
-- Parent `districtId` relationships are derived by matching ADM3 geometry to ADM2 geometry.
+- Parent `districtId` relationships are derived by matching ADM3 geometry to ADM2 geometry and by reviewing direct HDX/OCHA COD-AB hierarchy where it is newer or more specific than the geoBoundaries mirror.
 - Area values are derived from reusable ADM3 geometry and rounded to three decimal places.
 - GeoNames and Wikidata enrich records with Arabic names, aliases, centroids, and external IDs where they match current ADM3 shapes.
 - Population uses the newest dated U.S. Census Bureau value available at the matching geography level. Governorates currently have 2004 census values plus 2011, 2014, and 2016 estimates; districts and subdistricts currently have 2004 census values. Source sentinel values such as `-999` remain `null`.
+- When current hierarchy differs from older population tables, district population may be derived by summing the current child subdistrict values. Such records must state the method in `population.notes`.
 - National estimates are not imported into governorate, district, or subdistrict records.
 - Records with missing `name.ar`, GeoNames IDs, or Wikidata IDs are valid seed records and should be improved through focused source-backed contributions.
 

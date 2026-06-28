@@ -2,6 +2,16 @@
 
 OpenSyria IDs are stable public identifiers. They should be treated as API-facing contracts, not as display labels.
 
+## Table of Contents
+
+- [Format](#format)
+- [ID Design](#id-design)
+- [What IDs Are Not](#what-ids-are-not)
+- [Renames](#renames)
+- [Deletions and Deprecation](#deletions-and-deprecation)
+- [New Records](#new-records)
+- [Examples and Fixtures](#examples-and-fixtures)
+
 ## Format
 
 All geography record IDs must:

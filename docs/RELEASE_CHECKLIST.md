@@ -6,6 +6,16 @@ Releases are maintainer-controlled. Contributors should not publish release arti
 
 Before the first real seed import, use [PRE_SEED_CHECKLIST.md](PRE_SEED_CHECKLIST.md).
 
+## Table of Contents
+
+- [Before Building](#before-building)
+- [Validate](#validate)
+- [Build](#build)
+- [Inspect Artifacts](#inspect-artifacts)
+- [Publish](#publish)
+- [After Publishing](#after-publishing)
+- [Emergency Fixes](#emergency-fixes)
+
 ## Before Building
 
 - Confirm every record is within repository scope.

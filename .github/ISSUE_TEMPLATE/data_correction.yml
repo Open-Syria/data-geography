@@ -4,24 +4,70 @@ title: 'data: '
 labels:
   - data-correction
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for incorrect existing records in `data-geography`.
+
+        Do not include private, personal, security, military, checkpoint, surveillance, or restricted data.
+  - type: dropdown
+    id: record-type
+    attributes:
+      label: Record Type
+      options:
+        - governorate
+        - district
+        - subdistrict
+        - city
+        - town
+        - village
+        - locality
+        - source
+        - unknown
+    validations:
+      required: true
   - type: input
     id: record-id
     attributes:
       label: Record ID
       description: OpenSyria ID if known.
-      placeholder: sy-example
+      placeholder: sy-damascus
+  - type: textarea
+    id: current-value
+    attributes:
+      label: Current Value
+      description: What does the dataset currently say?
+  - type: textarea
+    id: corrected-value
+    attributes:
+      label: Corrected Value
+      description: What should the value be?
+    validations:
+      required: true
   - type: textarea
     id: problem
     attributes:
-      label: What is incorrect?
-      description: Describe the issue clearly.
+      label: Why It Is Incorrect
+      description: Explain the issue clearly.
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
       label: Sources
-      description: Add URLs or citations that support the correction.
+      description: Add URLs or citations that support the correction and mention reuse/license terms when known.
     validations:
       required: true
-
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I included reviewable sources for this correction.
+          required: true
+        - label: I did not use Google Maps, commercial map data, proprietary directories, or unclear-license sources.
+          required: true
+        - label: I did not use AI output as a source.
+          required: true
+        - label: I did not include private, personal, security, military, checkpoint, surveillance, or restricted data.
+          required: true

@@ -6,6 +6,15 @@ Validation answers: "Is this data structurally allowed?"
 
 Reporting answers: "How complete, sourceable, and reviewable is this data?"
 
+## Table of Contents
+
+- [Commands](#commands)
+- [What Validation Blocks](#what-validation-blocks)
+- [What Reports Show](#what-reports-show)
+- [Pre-Seed Quality Targets](#pre-seed-quality-targets)
+- [Field Completeness](#field-completeness)
+- [Release Review](#release-review)
+
 ## Commands
 
 Run full validation:
@@ -25,6 +34,14 @@ Generate a quality report for test fixtures:
 ```bash
 pnpm run report:fixtures
 ```
+
+Compare canonical ADM1, ADM2, and ADM3 records against the local HDX/OCHA COD-AB workbook:
+
+```bash
+pnpm run compare:hdx-admin
+```
+
+This command is a maintainer QA check. It requires the ignored raw workbook at `imports/raw/2026-06-28-ocha-admin-boundaries/syr_admin_boundaries.xlsx` or a custom path passed with `--source-xlsx`.
 
 ## What Validation Blocks
 
@@ -100,8 +117,9 @@ Before a release, maintainers should compare:
 pnpm run validate
 pnpm run report:data
 pnpm run coverage:data
+pnpm run compare:hdx-admin
 ```
 
-Use the reports to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, unresolved duplicate names, or old but source-backed values.
+Use the reports to decide whether the release notes should mention known gaps such as missing Arabic names, low coordinate coverage, unresolved duplicate names, old but source-backed values, or differences between canonical records and the direct HDX/OCHA COD-AB source.
 
 Data freshness decisions are tracked in [DATA_CURRENCY.md](DATA_CURRENCY.md).

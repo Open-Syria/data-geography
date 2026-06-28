@@ -27,12 +27,14 @@ const fieldChecks = {
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('area', 'Area', 'high', (record) => Boolean(record.area)),
     fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population)),
-    fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
-    fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
-      Boolean(record.externalIds.geonames),
-    ),
-    fieldCheck('geoboundaries', 'geoBoundaries ID', 'medium', (record) =>
-      Boolean(record.externalIds.geoboundaries),
+    sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
+    sourceBackedIdCheck('geonames', 'GeoNames ID', 'medium', 'geonames-sy', 'geonames'),
+    sourceBackedIdCheck(
+      'geoboundaries',
+      'geoBoundaries ID',
+      'medium',
+      'geoboundaries-syr',
+      'geoboundaries',
     ),
     fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
       Boolean(record.externalIds.ochaPcode),
@@ -44,12 +46,14 @@ const fieldChecks = {
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('area', 'Area', 'high', (record) => Boolean(record.area)),
     fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population)),
-    fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
-    fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
-      Boolean(record.externalIds.geonames),
-    ),
-    fieldCheck('geoboundaries', 'geoBoundaries ID', 'medium', (record) =>
-      Boolean(record.externalIds.geoboundaries),
+    sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
+    sourceBackedIdCheck('geonames', 'GeoNames ID', 'medium', 'geonames-sy', 'geonames'),
+    sourceBackedIdCheck(
+      'geoboundaries',
+      'geoBoundaries ID',
+      'medium',
+      'geoboundaries-syr',
+      'geoboundaries',
     ),
     fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
       Boolean(record.externalIds.ochaPcode),
@@ -61,12 +65,14 @@ const fieldChecks = {
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('area', 'Area', 'high', (record) => Boolean(record.area)),
     fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population)),
-    fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
-    fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
-      Boolean(record.externalIds.geonames),
-    ),
-    fieldCheck('geoboundaries', 'geoBoundaries ID', 'low', (record) =>
-      Boolean(record.externalIds.geoboundaries),
+    sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
+    sourceBackedIdCheck('geonames', 'GeoNames ID', 'medium', 'geonames-sy', 'geonames'),
+    sourceBackedIdCheck(
+      'geoboundaries',
+      'geoBoundaries ID',
+      'low',
+      'geoboundaries-syr',
+      'geoboundaries',
     ),
     fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
       Boolean(record.externalIds.ochaPcode),
@@ -74,7 +80,13 @@ const fieldChecks = {
   ],
   localities: [
     fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
-    fieldCheck('aliases', 'Aliases', 'low', (record) => record.aliases.length > 0),
+    fieldCheck(
+      'aliases',
+      'Aliases',
+      'low',
+      (record) => record.aliases.length > 0,
+      hasLocalityAliasOpportunity,
+    ),
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('districtId', 'District relationship', 'medium', (record) =>
       Boolean(record.districtId),
@@ -82,12 +94,16 @@ const fieldChecks = {
     fieldCheck('subdistrictId', 'Subdistrict relationship', 'medium', (record) =>
       Boolean(record.subdistrictId),
     ),
-    fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
+    sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
     fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
       Boolean(record.externalIds.geonames),
     ),
-    fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
-      Boolean(record.externalIds.ochaPcode),
+    sourceBackedIdCheck(
+      'ochaPcode',
+      'OCHA P-code',
+      'medium',
+      'hdx-syr-populated-places',
+      'ochaPcode',
     ),
   ],
 };
@@ -111,13 +127,40 @@ function getCliOption(name) {
   return value;
 }
 
-function fieldCheck(id, label, priority, hasValue) {
+function fieldCheck(id, label, priority, hasValue, isExpected = () => true) {
   return {
     id,
     label,
     priority,
     hasValue,
+    isExpected,
   };
+}
+
+function sourceBackedIdCheck(id, label, priority, sourceId, externalIdKey) {
+  return fieldCheck(
+    id,
+    label,
+    priority,
+    (record) => Boolean(record.externalIds[externalIdKey]),
+    (record) => record.sourceIds.includes(sourceId) || Boolean(record.externalIds[externalIdKey]),
+  );
+}
+
+function hasLocalityAliasOpportunity(record) {
+  if (record.aliases.length > 0) {
+    return true;
+  }
+
+  return hasParentheticalQualifier(record.name.en) || hasDashQualifier(record.name.ar);
+}
+
+function hasParentheticalQualifier(value) {
+  return typeof value === 'string' && /\([^)]+\)/.test(value);
+}
+
+function hasDashQualifier(value) {
+  return typeof value === 'string' && value.includes(' - ');
 }
 
 async function loadData() {
@@ -157,17 +200,19 @@ function analyzeDataset(records, checks) {
     total,
     fields: Object.fromEntries(
       checks.map((check) => {
-        const missingRecords = records.filter((record) => !check.hasValue(record));
-        const present = total - missingRecords.length;
+        const expectedRecords = records.filter((record) => check.isExpected(record));
+        const missingRecords = expectedRecords.filter((record) => !check.hasValue(record));
+        const present = expectedRecords.length - missingRecords.length;
 
         return [
           check.id,
           {
             label: check.label,
             priority: check.priority,
+            expected: expectedRecords.length,
             present,
             missing: missingRecords.length,
-            percent: percent(present, total),
+            percent: percent(present, expectedRecords.length),
             missingRecordIds: missingRecords.map((record) => record.id),
           },
         ];
@@ -465,9 +510,10 @@ function buildMarkdown(report) {
       `### ${toTitle(datasetName)}`,
       '',
       markdownTable(
-        ['Field', 'Present', 'Missing', 'Coverage', 'Missing examples'],
+        ['Field', 'Expected', 'Present', 'Missing', 'Coverage', 'Missing examples'],
         Object.values(dataset.fields).map((field) => [
           field.label,
+          field.expected,
           field.present,
           field.missing,
           coverageCell(field),
@@ -541,17 +587,15 @@ function metricCell(metric) {
     return '-';
   }
 
-  const total = metric.present + metric.missing;
-
-  if (total === 0) {
+  if (metric.expected === 0) {
     return 'n/a';
   }
 
-  return `${metric.present}/${total} (${metric.percent}%)`;
+  return `${metric.present}/${metric.expected} (${metric.percent}%)`;
 }
 
 function coverageCell(metric) {
-  return metric.present + metric.missing === 0 ? 'n/a' : `${metric.percent}%`;
+  return metric.expected === 0 ? 'n/a' : `${metric.percent}%`;
 }
 
 function externalIdSummary(dataset) {
@@ -561,7 +605,11 @@ function externalIdSummary(dataset) {
 
   const metrics = [dataset.fields.wikidata, dataset.fields.geonames, dataset.fields.geoboundaries]
     .filter(Boolean)
-    .map((metric) => `${metric.label}: ${metric.percent}%`);
+    .map((metric) =>
+      metric.expected === 0
+        ? `${metric.label}: n/a`
+        : `${metric.label}: ${metric.present}/${metric.expected} (${metric.percent}%)`,
+    );
 
   return metrics.length === 0 ? '-' : metrics.join('; ');
 }

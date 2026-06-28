@@ -1,0 +1,51 @@
+{
+  "sourceId": "hdx-syr-admin-boundaries",
+  "sourceTitle": "Syrian Arab Republic - Subnational Administrative Boundaries",
+  "sourceUrl": "https://data.humdata.org/dataset/cod-ab-syr",
+  "license": "CC BY 3.0 IGO",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-ocha-admin-boundaries/hdx-cod-ab-syr-package.json",
+      "sha256": "1c677f3f75724b7e50fea81f4dcd7040561549326cc7d6e30e431a6fca8a0d28",
+      "notes": "HDX CKAN package metadata for Syrian Arab Republic COD-AB administrative boundaries."
+    },
+    {
+      "name": "imports/raw/2026-06-28-ocha-admin-boundaries/syr_admin_boundaries.xlsx",
+      "sha256": "78f16d96071f6d25ba11f3cb5fe6d4a210382f2ada0209c4d4db0b7edd6001ec",
+      "notes": "Original XLSX resource downloaded from the HDX/OCHA COD-AB package."
+    }
+  ],
+  "importedFields": [
+    "districtId",
+    "subdistrictId",
+    "name.en",
+    "name.ar",
+    "aliases",
+    "centroid",
+    "area",
+    "population",
+    "externalIds.ochaPcode",
+    "sourceIds",
+    "notes"
+  ],
+  "targetFiles": [
+    "data/districts.json",
+    "data/subdistricts.json",
+    "data/localities.json",
+    "data/sources.json"
+  ],
+  "transforms": [
+    "Compared the current OpenSyria Tartus district hierarchy against the direct HDX/OCHA COD-AB package.",
+    "Added Qadmous as a current ADM2 district under Tartus with OCHA P-code SY1006.",
+    "Updated Baniyas district area, centroid, population, and notes so it represents the current OCHA Baniyas ADM2 area excluding Qadmous.",
+    "Moved Anaza, Hamam Wasil, Qadmous, and Tawahin subdistrict records from Baniyas to the new Qadmous district.",
+    "Renamed the moved subdistrict and locality IDs from the old Baniyas parent path to the current Qadmous parent path while preserving the terminal locality slugs and OCHA P-codes.",
+    "Moved Markaz Darayya and its child locality IDs from Damascus to Rural Damascus Darayya because the direct HDX/OCHA ADM3 P-code hierarchy places SY030900 under SY0309.",
+    "Derived current Baniyas and Qadmous 2004 population values by summing their current child ADM3 population values from the approved USCB source because the USCB ADM2 table predates this split.",
+    "Added direct HDX/OCHA COD-AB source attribution for area, centroid, hierarchy, and P-code decisions."
+  ],
+  "reviewNotes": "Aligned the canonical hierarchy with the current direct HDX/OCHA COD-AB structure where Qadmous is a separate ADM2 district and Markaz Darayya belongs under Rural Damascus Darayya. The package metadata reports 14 governorates, 62 districts, and 272 subdistricts; the repository now matches those counts while retaining dated population methodology notes for the older USCB population source."
+}

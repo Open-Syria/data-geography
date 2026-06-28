@@ -15,26 +15,46 @@ body:
     id: source-url
     attributes:
       label: Source URL
-      description: Link to the source or download page.
+      description: Link to the source, landing page, or download page.
     validations:
       required: true
   - type: input
+    id: publisher
+    attributes:
+      label: Publisher
+      description: Who publishes or maintains the source?
+  - type: input
     id: license
     attributes:
-      label: License
-      description: License name or reuse terms.
+      label: License or Reuse Terms
+      description: License name, public domain status, terms URL, or reuse statement.
     validations:
       required: true
   - type: textarea
     id: intended-use
     attributes:
       label: Intended Use
-      description: Which fields would this source support?
+      description: Which datasets and fields would this source support?
     validations:
       required: true
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Attribution Requirements
+      description: What attribution is required if this source is used?
   - type: textarea
     id: concerns
     attributes:
       label: Concerns
-      description: Any licensing, accuracy, or safety concerns?
-
+      description: Any licensing, accuracy, age, safety, ODbL, or redistribution concerns?
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I included a source URL and reuse/license information.
+          required: true
+        - label: This is not Google Maps, a commercial map database, or a proprietary directory.
+          required: true
+        - label: This source will not be used for private, personal, security, military, checkpoint, surveillance, or restricted data.
+          required: true

@@ -4,6 +4,12 @@ title: 'missing: '
 labels:
   - missing-data
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for missing records within the approved geography scope.
+
+        New dataset topics or new fields should use the schema proposal form instead.
   - type: dropdown
     id: record-type
     attributes:
@@ -19,12 +25,17 @@ body:
     validations:
       required: true
   - type: input
-    id: name
+    id: name-en
     attributes:
-      label: Name
-      description: Name of the missing record.
+      label: English Name
+      description: English or transliterated name of the missing record.
     validations:
       required: true
+  - type: input
+    id: name-ar
+    attributes:
+      label: Arabic Name
+      description: Arabic name if known.
   - type: textarea
     id: parent
     attributes:
@@ -34,12 +45,32 @@ body:
     id: coverage-target
     attributes:
       label: Coverage Report Target
-      description: Optional area or record ID from dist/coverage/COVERAGE.md.
-      placeholder: districts.population or sy-idlib-ariha
+      description: Optional area, field, or record ID from the generated coverage report.
+      placeholder: localities.parentHierarchy or sy-idlib-ariha
   - type: textarea
     id: sources
     attributes:
       label: Sources
-      description: Add URLs or citations that support the missing record.
+      description: Add URLs or citations that support the missing record and mention reuse/license terms when known.
     validations:
       required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add aliases, coordinates, source conflicts, or uncertainty if useful.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This record is within the approved geography scope.
+          required: true
+        - label: I included reviewable sources for this missing record.
+          required: true
+        - label: I did not use Google Maps, commercial map data, proprietary directories, or unclear-license sources.
+          required: true
+        - label: I did not use AI output as a source.
+          required: true
+        - label: I did not include private, personal, security, military, checkpoint, surveillance, or restricted data.
+          required: true

@@ -6,6 +6,15 @@ The source registry in `data/sources.json` is the machine-readable source of tru
 
 This is not legal advice. Before a large import or public release, the maintainer should re-check source terms, attribution requirements, and access dates.
 
+## Table of Contents
+
+- [Decision States](#decision-states)
+- [Current Registry Decisions](#current-registry-decisions)
+- [Approving a Source](#approving-a-source)
+- [Restricted Sources](#restricted-sources)
+- [Rejected Sources](#rejected-sources)
+- [Source Notes in Pull Requests](#source-notes-in-pull-requests)
+
 ## Decision States
 
 | Status | Meaning |
@@ -22,6 +31,7 @@ This is not legal advice. Before a large import or public release, the maintaine
 | `geoboundaries-syr` | `approved` | Administrative boundary, derived area, and geography cross-checking. | May be used when attribution and imported fields are recorded. |
 | `geonames-sy` | `approved` | Place-name, feature, alternate-name, and coordinate cross-checking. | May be used when attribution and imported fields are recorded. |
 | `wikidata` | `approved` | Public identifiers, aliases, multilingual names, area, population, and cross-checking. | May be used when imported fields are traceable. |
+| `hdx-syr-admin-boundaries` | `approved` | Current OCHA COD-AB administrative hierarchy, P-codes, centroids, and area values. | May be used when OCHA/HDX attribution and import manifests record the selected boundary version and fields. |
 | `hdx-syr-populated-places` | `approved` | Locality names, coordinates, administrative relationships, external IDs, and P-codes. | May be used when the import keeps OCHA attribution and records the selected locality level. |
 | `uscb-syria-population` | `approved` | Dated governorate, district, and subdistrict population measurements from U.S. Census Bureau tables distributed through HDX. | May be used for dated population measurements when sentinel or missing values are not imported as real values. Use the newest measurement available for the same geography level as the quick-access `population` value. |
 | `openstreetmap` | `restricted` | Review, matching, and potential future ODbL-compatible exports. | Do not use in default records unless the maintainer approves the ODbL approach. |

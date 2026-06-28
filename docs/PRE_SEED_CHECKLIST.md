@@ -2,6 +2,16 @@
 
 Use this checklist before adding the first real geography records.
 
+## Table of Contents
+
+- [Repository Setup](#repository-setup)
+- [Source Readiness](#source-readiness)
+- [Import Readiness](#import-readiness)
+- [Data Readiness](#data-readiness)
+- [Quality Gates](#quality-gates)
+- [Release Dry Run](#release-dry-run)
+- [First Seed Order](#first-seed-order)
+
 ## Repository Setup
 
 - `pnpm install` completes with the committed lockfile.

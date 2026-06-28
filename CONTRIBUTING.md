@@ -10,6 +10,15 @@ Start with the full contributor guide:
 contributions/README.md
 ```
 
+## Table of Contents
+
+- [Accepted Contributions](#accepted-contributions)
+- [Not Accepted as Normal Pull Requests](#not-accepted-as-normal-pull-requests)
+- [Schema Proposals](#schema-proposals)
+- [Source Rules](#source-rules)
+- [Validation](#validation)
+- [Pull Request Checklist](#pull-request-checklist)
+
 ## Accepted Contributions
 
 You may open pull requests for:

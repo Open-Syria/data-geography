@@ -4,6 +4,12 @@ title: 'schema: '
 labels:
   - schema-proposal
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Schema changes require maintainer approval before implementation.
+
+        Do not open a data PR for a new field until the proposal has been accepted.
   - type: textarea
     id: proposal
     attributes:
@@ -26,10 +32,37 @@ body:
     validations:
       required: true
   - type: textarea
+    id: validation
+    attributes:
+      label: Validation Rules
+      description: How should values be typed, constrained, normalized, and checked?
+    validations:
+      required: true
+  - type: textarea
+    id: migration
+    attributes:
+      label: Migration Plan
+      description: Should existing records be backfilled? Is the field required or optional?
+    validations:
+      required: true
+  - type: textarea
+    id: api-impact
+    attributes:
+      label: API and Release Impact
+      description: Should generated artifacts or `datasets-api` expose this field?
+  - type: textarea
     id: safety
     attributes:
       label: Safety and Licensing
       description: Explain why this field is safe and legal to publish.
     validations:
       required: true
-
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I understand this is a proposal and not approval to implement the field.
+          required: true
+        - label: The proposal does not include private, personal, security, military, checkpoint, surveillance, or restricted data.
+          required: true

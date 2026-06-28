@@ -42,6 +42,23 @@
     "notes": "Useful for public identifiers and cross-checking."
   },
   {
+    "id": "hdx-syr-admin-boundaries",
+    "title": "Syrian Arab Republic - Subnational Administrative Boundaries",
+    "url": "https://data.humdata.org/dataset/cod-ab-syr",
+    "license": "CC BY 3.0 IGO",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/igo/",
+    "status": "approved",
+    "fields": [
+      "boundaries",
+      "administrativeRelationships",
+      "names",
+      "coordinates",
+      "area",
+      "pCodes"
+    ],
+    "notes": "Direct HDX/OCHA COD-AB source for Syria ADM0-ADM3 boundaries. Used when the direct OCHA package is newer or more specific than the geoBoundaries mirror."
+  },
+  {
     "id": "hdx-syr-populated-places",
     "title": "Syrian Arab Republic: Populated Places",
     "url": "https://data.humdata.org/dataset/syrian-arab-republic-pop-places",

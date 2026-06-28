@@ -4,6 +4,14 @@ Coverage analysis helps maintainers and contributors find the next useful data i
 
 It is not a legal review, source review, or guarantee of real-world completeness. It is a structured report over the current canonical JSON files and the relationships that already exist in the schema.
 
+## Table of Contents
+
+- [Command](#command)
+- [What It Checks](#what-it-checks)
+- [Contributor Use](#contributor-use)
+- [Maintainer Use](#maintainer-use)
+- [Interpreting Gaps](#interpreting-gaps)
+
 ## Command
 
 Run:
@@ -78,6 +86,9 @@ Examples:
 
 - Missing population values require dated and reusable statistical sources.
 - Missing coordinates require a source that can be redistributed.
+- Missing source-specific IDs are checked against records where that source is already used or already has an ID. For example, an admin record sourced only from direct HDX/OCHA COD-AB is not treated as missing a geoBoundaries ID unless it is also tied to `geoboundaries-syr`, and a GeoNames-only locality is not treated as missing an OCHA P-code.
+- Missing locality aliases are reported only when the canonical name suggests a shorter source-backed alias, such as a parenthetical English qualifier or Arabic text split by ` - `. Empty aliases are acceptable when no alternate name is known.
+- Missing locality Wikidata IDs are source-aware. They are tracked when a record already cites Wikidata or already has a Wikidata ID, because many villages and localities may not have reliable Wikidata items.
 - Missing localities may require deciding whether the record should be a city, town, village, or generic locality.
 - Missing parent relationships should be fixed only when the relationship is supported by a source.
 

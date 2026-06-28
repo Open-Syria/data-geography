@@ -4,6 +4,15 @@ This workflow is for maintainer-led seed imports.
 
 Normal contributors should not run large imports or add new source-derived batches without maintainer approval.
 
+## Table of Contents
+
+- [1. Review the Source](#1-review-the-source)
+- [2. Keep Raw Files Local](#2-keep-raw-files-local)
+- [3. Create an Import Manifest](#3-create-an-import-manifest)
+- [4. Transform Into Canonical JSON](#4-transform-into-canonical-json)
+- [5. Validate and Report](#5-validate-and-report)
+- [6. Review Before Release](#6-review-before-release)
+
 ## 1. Review the Source
 
 Before importing records:
