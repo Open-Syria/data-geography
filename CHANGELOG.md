@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## v0.1.3 - 2026-06-28
+
+- Add 225 Arabic article-insensitive one-to-one GeoNames locality matches within 2 km.
+- Improve the reusable GeoNames locality matcher with Arabic article-insensitive variants.
+- Add a reviewed import manifest for the Arabic article-insensitive GeoNames locality match pass.
+- Improve locality GeoNames ID coverage from 4,049 to 4,274 records.
+
 ## v0.1.2 - 2026-06-28
 
 - Add 281 widened-radius one-to-one GeoNames locality matches using exact normalized names and same-governorate checks.

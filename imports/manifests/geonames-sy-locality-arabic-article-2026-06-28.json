@@ -1,0 +1,33 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-sy-populated-place-records.tsv",
+      "sha256": "9dac5e0b79847da18c844ef1e46a94a0586db37a213c87560b310fa9c9863636",
+      "notes": "Filtered SY.txt rows where feature class is P and the feature code represents a populated-place candidate."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-locality-arabic-article-report-2026-06-28.json",
+      "sha256": "b06263ec3fe407f0419beb533a859a74f847f9b5b418a3be62fe90e5fec2ec0d",
+      "notes": "Arabic article-insensitive exact-name locality match report for records still missing GeoNames IDs after earlier passes."
+    }
+  ],
+  "importedFields": ["externalIds.geonames", "sourceIds"],
+  "targetFiles": ["data/localities.json"],
+  "transforms": [
+    "Reviewed existing locality records that still lacked GeoNames IDs after the strict, manual, close-match, and widened-radius review passes.",
+    "Matched only against unused GeoNames populated-place rows from the same Syria extract.",
+    "Required the GeoNames admin1 code to resolve to the same OpenSyria governorate when present.",
+    "Normalized Arabic and Latin names by removing diacritics, punctuation, apostrophe variants, duplicate spacing, and selected article/transliteration variants.",
+    "Accepted a match only when the locality had exactly one normalized article-insensitive name match within 2 km and the selected GeoNames ID was not selected for any other locality in this pass.",
+    "Added only GeoNames external identifiers and the geonames-sy source reference.",
+    "Did not add aliases, change locality kind, create new locality records, or infer names from unmatched candidates."
+  ],
+  "reviewNotes": "Accepted 225 Arabic article-insensitive one-to-one GeoNames locality matches. Left 3,331 locality GeoNames IDs unresolved for future manual or stronger source-backed review."
+}

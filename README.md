@@ -47,7 +47,7 @@ Out of scope:
 
 ## Current Status
 
-The latest public seed release is `v0.1.2`. The first public seed release was `v0.1.0`.
+The latest public seed release is `v0.1.3`. The first public seed release was `v0.1.0`.
 
 Current seed coverage:
 
@@ -140,7 +140,7 @@ pnpm install
 pnpm run validate
 pnpm run validate:schemas
 pnpm run validate:imports
-pnpm run release:prepare -- --version v0.1.2
+pnpm run release:prepare -- --version v0.1.3
 pnpm run release:build
 pnpm run report:data
 pnpm run coverage:data

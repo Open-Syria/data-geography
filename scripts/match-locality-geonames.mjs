@@ -120,7 +120,7 @@ const report = {
     governorateConstraint:
       'GeoNames admin1 code must resolve to the same OpenSyria governorate when the code is present',
     requiredNameMatch:
-      'at least one normalized canonical name or alias must match a normalized GeoNames name, ASCII name, or alternate name',
+      'at least one normalized canonical name or alias must match a normalized GeoNames name, ASCII name, or alternate name, including selected article-insensitive variants',
     acceptanceRule:
       'single candidate per locality and one locality per GeoNames ID inside this widened-radius pass',
     importPolicy:
@@ -428,6 +428,14 @@ function addName(names, value, source) {
 
   if (/^[a-z0-9 ]+$/.test(normalized) && normalized.startsWith('al ')) {
     addNormalizedName(names, normalized.slice(3), `${source}:without-article`);
+  }
+
+  if (/^[\u0600-\u06FF0-9 ]+$/.test(normalized) && normalized.startsWith('\u0627\u0644')) {
+    const withoutArticle = normalized.slice(2);
+
+    if (withoutArticle.length > 2) {
+      addNormalizedName(names, withoutArticle, `${source}:without-article`);
+    }
   }
 }
 
