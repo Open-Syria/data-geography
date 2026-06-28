@@ -98,8 +98,12 @@ const fieldChecks = {
     fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
       Boolean(record.externalIds.geonames),
     ),
-    fieldCheck('ochaPcode', 'OCHA P-code', 'medium', (record) =>
-      Boolean(record.externalIds.ochaPcode),
+    sourceBackedIdCheck(
+      'ochaPcode',
+      'OCHA P-code',
+      'medium',
+      'hdx-syr-populated-places',
+      'ochaPcode',
     ),
   ],
 };

@@ -1,0 +1,41 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-sy-populated-place-records.tsv",
+      "sha256": "9dac5e0b79847da18c844ef1e46a94a0586db37a213c87560b310fa9c9863636",
+      "notes": "GeoNames populated-place rows used to find candidate localities in empty Quneitra subdistrict polygons."
+    },
+    {
+      "name": "imports/raw/2026-06-28-subdistricts/geoboundaries-syr-adm3.geojson",
+      "sha256": "d99c89ca4944520bf5ac4e4db6239b89b7ab37818cbdae9939c13c94b70b51bd",
+      "notes": "geoBoundaries ADM3 polygons used for point-in-polygon parent assignment."
+    }
+  ],
+  "importedFields": [
+    "id",
+    "name",
+    "aliases",
+    "kind",
+    "centroid",
+    "externalIds.geonames",
+    "sourceIds",
+    "notes"
+  ],
+  "targetFiles": ["data/localities.json"],
+  "transforms": [
+    "Selected GeoNames populated-place records whose coordinates fall inside the Al-Butayhah or Masaada geoBoundaries ADM3 polygons.",
+    "Created locality records for two subdistricts that had no HDX/OCHA populated-place children.",
+    "Used GeoNames asciiName as canonical English name and kept diacritic GeoNames names as English alternate-spelling aliases when useful.",
+    "Added Arabic names only when GeoNames alternate names provided Arabic text.",
+    "Mapped GeoNames PPLA3 to town and other included populated-place feature codes to locality.",
+    "Skipped the duplicate Majdal Shams GeoNames row that had no alternate-name detail."
+  ],
+  "reviewNotes": "Added 12 GeoNames-seeded locality records: 3 under Al-Butayhah and 9 under Masaada. Parent assignment is based on point-in-polygon checks against the current geoBoundaries ADM3 shapes. The HDX/OCHA populated-places source still has no child locality records for these two subdistricts."
+}
