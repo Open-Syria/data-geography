@@ -78,6 +78,7 @@ Examples:
 
 - Missing population values require dated and reusable statistical sources.
 - Missing coordinates require a source that can be redistributed.
+- Missing source-specific admin IDs are checked against records where that source is already used or already has an ID. For example, an admin record sourced only from direct HDX/OCHA COD-AB is not treated as missing a geoBoundaries ID unless it is also tied to `geoboundaries-syr`.
 - Missing localities may require deciding whether the record should be a city, town, village, or generic locality.
 - Missing parent relationships should be fixed only when the relationship is supported by a source.
 
