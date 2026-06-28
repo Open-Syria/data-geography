@@ -80,7 +80,13 @@ const fieldChecks = {
   ],
   localities: [
     fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
-    fieldCheck('aliases', 'Aliases', 'low', (record) => record.aliases.length > 0),
+    fieldCheck(
+      'aliases',
+      'Aliases',
+      'low',
+      (record) => record.aliases.length > 0,
+      hasLocalityAliasOpportunity,
+    ),
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('districtId', 'District relationship', 'medium', (record) =>
       Boolean(record.districtId),
@@ -88,7 +94,7 @@ const fieldChecks = {
     fieldCheck('subdistrictId', 'Subdistrict relationship', 'medium', (record) =>
       Boolean(record.subdistrictId),
     ),
-    fieldCheck('wikidata', 'Wikidata ID', 'low', (record) => Boolean(record.externalIds.wikidata)),
+    sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
     fieldCheck('geonames', 'GeoNames ID', 'medium', (record) =>
       Boolean(record.externalIds.geonames),
     ),
@@ -135,6 +141,22 @@ function sourceBackedIdCheck(id, label, priority, sourceId, externalIdKey) {
     (record) => Boolean(record.externalIds[externalIdKey]),
     (record) => record.sourceIds.includes(sourceId) || Boolean(record.externalIds[externalIdKey]),
   );
+}
+
+function hasLocalityAliasOpportunity(record) {
+  if (record.aliases.length > 0) {
+    return true;
+  }
+
+  return hasParentheticalQualifier(record.name.en) || hasDashQualifier(record.name.ar);
+}
+
+function hasParentheticalQualifier(value) {
+  return typeof value === 'string' && /\([^)]+\)/.test(value);
+}
+
+function hasDashQualifier(value) {
+  return typeof value === 'string' && value.includes(' - ');
 }
 
 async function loadData() {
@@ -579,7 +601,11 @@ function externalIdSummary(dataset) {
 
   const metrics = [dataset.fields.wikidata, dataset.fields.geonames, dataset.fields.geoboundaries]
     .filter(Boolean)
-    .map((metric) => `${metric.label}: ${metric.present}/${metric.expected} (${metric.percent}%)`);
+    .map((metric) =>
+      metric.expected === 0
+        ? `${metric.label}: n/a`
+        : `${metric.label}: ${metric.present}/${metric.expected} (${metric.percent}%)`,
+    );
 
   return metrics.length === 0 ? '-' : metrics.join('; ');
 }
