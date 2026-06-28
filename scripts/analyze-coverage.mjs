@@ -14,6 +14,10 @@ const root = process.cwd();
 const dataDirectory = path.resolve(root, getCliOption('--data-dir') ?? 'data');
 const outputDirectory = path.resolve(root, getCliOption('--out-dir') ?? 'dist/coverage');
 const maxItems = Number.parseInt(getCliOption('--max-items') ?? '25', 10);
+const sentinelPopulationSubdistrictIds = new Set([
+  'sy-quneitra-fiq-al-butayhah',
+  'sy-quneitra-quneitra-masaada',
+]);
 
 if (!Number.isInteger(maxItems) || maxItems < 1) {
   throw new Error('--max-items must be a positive integer');
@@ -64,7 +68,9 @@ const fieldChecks = {
     fieldCheck('aliases', 'Aliases', 'low', (record) => record.aliases.length > 0),
     fieldCheck('centroid', 'Centroid', 'high', (record) => Boolean(record.centroid)),
     fieldCheck('area', 'Area', 'high', (record) => Boolean(record.area)),
-    fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population)),
+    fieldCheck('population', 'Population', 'medium', (record) => Boolean(record.population), {
+      knownMissingReason: knownSubdistrictPopulationGapReason,
+    }),
     sourceBackedIdCheck('wikidata', 'Wikidata ID', 'low', 'wikidata', 'wikidata'),
     sourceBackedIdCheck('geonames', 'GeoNames ID', 'medium', 'geonames-sy', 'geonames'),
     sourceBackedIdCheck(
@@ -79,7 +85,9 @@ const fieldChecks = {
     ),
   ],
   localities: [
-    fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar)),
+    fieldCheck('arabicName', 'Arabic name', 'medium', (record) => Boolean(record.name.ar), {
+      knownMissingReason: knownLocalityArabicNameGapReason,
+    }),
     fieldCheck(
       'aliases',
       'Aliases',
@@ -127,13 +135,18 @@ function getCliOption(name) {
   return value;
 }
 
-function fieldCheck(id, label, priority, hasValue, isExpected = () => true) {
+function fieldCheck(id, label, priority, hasValue, options = {}) {
+  const isExpected = typeof options === 'function' ? options : (options.isExpected ?? (() => true));
+  const knownMissingReason =
+    typeof options === 'function' ? () => null : (options.knownMissingReason ?? (() => null));
+
   return {
     id,
     label,
     priority,
     hasValue,
     isExpected,
+    knownMissingReason,
   };
 }
 
@@ -161,6 +174,32 @@ function hasParentheticalQualifier(value) {
 
 function hasDashQualifier(value) {
   return typeof value === 'string' && value.includes(' - ');
+}
+
+function knownSubdistrictPopulationGapReason(record) {
+  if (!sentinelPopulationSubdistrictIds.has(record.id)) {
+    return null;
+  }
+
+  return 'USCB source row uses the -999 missing-data sentinel; keep null until a same-level reusable population value is found.';
+}
+
+function knownLocalityArabicNameGapReason(record) {
+  if (!isQuneitraGeoNamesPointFill(record)) {
+    return null;
+  }
+
+  return 'GeoNames point-fill row has no Arabic alternate name; do not infer Arabic from transliteration.';
+}
+
+function isQuneitraGeoNamesPointFill(record) {
+  return (
+    record.governorateId === 'sy-quneitra' &&
+    record.sourceIds.includes('geonames-sy') &&
+    record.sourceIds.includes('geoboundaries-syr') &&
+    !record.sourceIds.includes('hdx-syr-populated-places') &&
+    record.notes?.includes('HDX/OCHA populated-places source has no child locality records')
+  );
 }
 
 async function loadData() {
@@ -202,6 +241,15 @@ function analyzeDataset(records, checks) {
       checks.map((check) => {
         const expectedRecords = records.filter((record) => check.isExpected(record));
         const missingRecords = expectedRecords.filter((record) => !check.hasValue(record));
+        const knownMissing = missingRecords.flatMap((record) => {
+          const reason = check.knownMissingReason(record);
+
+          return reason ? [{ recordId: record.id, reason }] : [];
+        });
+        const knownMissingIds = new Set(knownMissing.map((item) => item.recordId));
+        const actionableMissingRecords = missingRecords.filter(
+          (record) => !knownMissingIds.has(record.id),
+        );
         const present = expectedRecords.length - missingRecords.length;
 
         return [
@@ -212,8 +260,12 @@ function analyzeDataset(records, checks) {
             expected: expectedRecords.length,
             present,
             missing: missingRecords.length,
+            knownMissing: knownMissing.length,
+            actionableMissing: actionableMissingRecords.length,
             percent: percent(present, expectedRecords.length),
             missingRecordIds: missingRecords.map((record) => record.id),
+            knownMissingRecords: knownMissing,
+            actionableMissingRecordIds: actionableMissingRecords.map((record) => record.id),
           },
         ];
       }),
@@ -410,7 +462,7 @@ function buildContributionFocus(report) {
 
   for (const [datasetName, dataset] of Object.entries(report.datasets)) {
     for (const [fieldId, field] of Object.entries(dataset.fields)) {
-      if (field.missing === 0 || dataset.total === 0) {
+      if (field.actionableMissing === 0 || dataset.total === 0) {
         continue;
       }
 
@@ -418,8 +470,8 @@ function buildContributionFocus(report) {
         priority: field.priority,
         area: `${datasetName}.${fieldId}`,
         title: `Improve ${field.label.toLowerCase()} coverage for ${datasetName}`,
-        count: field.missing,
-        recordIds: field.missingRecordIds,
+        count: field.actionableMissing,
+        recordIds: field.actionableMissingRecordIds,
         action: buildFieldAction(datasetName, field.label),
       });
     }
@@ -510,14 +562,25 @@ function buildMarkdown(report) {
       `### ${toTitle(datasetName)}`,
       '',
       markdownTable(
-        ['Field', 'Expected', 'Present', 'Missing', 'Coverage', 'Missing examples'],
+        [
+          'Field',
+          'Expected',
+          'Present',
+          'Missing',
+          'Known gaps',
+          'Actionable missing',
+          'Coverage',
+          'Actionable examples',
+        ],
         Object.values(dataset.fields).map((field) => [
           field.label,
           field.expected,
           field.present,
           field.missing,
+          knownGapCell(field),
+          field.actionableMissing,
           coverageCell(field),
-          sampleIds(field.missingRecordIds),
+          sampleIds(field.actionableMissingRecordIds),
         ]),
       ),
       '',
@@ -596,6 +659,25 @@ function metricCell(metric) {
 
 function coverageCell(metric) {
   return metric.expected === 0 ? 'n/a' : `${metric.percent}%`;
+}
+
+function knownGapCell(metric) {
+  if (!metric.knownMissingRecords || metric.knownMissingRecords.length === 0) {
+    return '-';
+  }
+
+  const reasons = new Map();
+
+  for (const item of metric.knownMissingRecords) {
+    const recordIds = reasons.get(item.reason) ?? [];
+    recordIds.push(item.recordId);
+    reasons.set(item.reason, recordIds);
+  }
+
+  return [...reasons.entries()]
+    .map(([reason, recordIds]) => `${reason} (${sampleIds(recordIds)})`)
+    .slice(0, maxItems)
+    .join('; ');
 }
 
 function externalIdSummary(dataset) {

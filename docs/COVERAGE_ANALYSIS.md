@@ -53,6 +53,10 @@ The coverage analyzer currently checks:
 - subdistricts without locality records,
 - record counts by governorate.
 
+The report separates missing values into regular missing fields, documented known gaps, and
+actionable missing fields. Known gaps remain visible, but they are not listed as contribution
+focus items until a reusable same-level source is found.
+
 ## Contributor Use
 
 Contributors can use `dist/coverage/COVERAGE.md` to pick focused work.
@@ -85,6 +89,10 @@ A missing value does not always mean a contributor should add it immediately.
 Examples:
 
 - Missing population values require dated and reusable statistical sources.
+- Known gaps can be intentional. For example, the USCB workbook uses `-999` sentinel values
+  for two Quneitra ADM3 population rows, and GeoNames point-fill rows for empty Quneitra
+  locality parents sometimes have no Arabic alternate name. Those records should stay visible
+  in coverage output without becoming contributor tasks to infer values.
 - Missing coordinates require a source that can be redistributed.
 - Missing source-specific IDs are checked against records where that source is already used or already has an ID. For example, an admin record sourced only from direct HDX/OCHA COD-AB is not treated as missing a geoBoundaries ID unless it is also tied to `geoboundaries-syr`, and a GeoNames-only locality is not treated as missing an OCHA P-code.
 - Missing locality aliases are reported only when the canonical name suggests a shorter source-backed alias, such as a parenthetical English qualifier or Arabic text split by ` - `. Empty aliases are acceptable when no alternate name is known.
