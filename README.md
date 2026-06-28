@@ -47,7 +47,7 @@ Out of scope:
 
 ## Current Status
 
-The latest public seed release is `v0.1.1`. The first public seed release was `v0.1.0`.
+The latest public seed release is `v0.1.2`. The first public seed release was `v0.1.0`.
 
 Current seed coverage:
 
@@ -95,6 +95,7 @@ scripts/
   build-release.mjs
   report-data.mjs
   analyze-coverage.mjs
+  match-locality-geonames.mjs
 imports/
   README.md
   manifests/
@@ -139,10 +140,11 @@ pnpm install
 pnpm run validate
 pnpm run validate:schemas
 pnpm run validate:imports
-pnpm run release:prepare -- --version v0.1.1
+pnpm run release:prepare -- --version v0.1.2
 pnpm run release:build
 pnpm run report:data
 pnpm run coverage:data
+pnpm run match:geonames-localities -- --max-distance-km=5
 pnpm run validate:fixtures
 pnpm run release:build:fixtures
 ```

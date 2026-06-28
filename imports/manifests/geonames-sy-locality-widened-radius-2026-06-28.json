@@ -1,0 +1,33 @@
+{
+  "sourceId": "geonames-sy",
+  "sourceTitle": "GeoNames Syrian Arab Republic Gazetteer Extract",
+  "sourceUrl": "https://download.geonames.org/export/dump/SY.zip",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "accessedAt": "2026-06-28T00:00:00Z",
+  "status": "reviewed",
+  "rawFiles": [
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-sy-populated-place-records.tsv",
+      "sha256": "9dac5e0b79847da18c844ef1e46a94a0586db37a213c87560b310fa9c9863636",
+      "notes": "Filtered SY.txt rows where feature class is P and the feature code represents a populated-place candidate."
+    },
+    {
+      "name": "imports/raw/2026-06-28-localities/geonames-locality-widened-radius-report-2026-06-28.json",
+      "sha256": "48842d214b8a8a7f93146629820d831f6375269d558095b2bba2548590c7ebda",
+      "notes": "Widened-radius exact-name locality match report for records still missing GeoNames IDs after earlier strict passes."
+    }
+  ],
+  "importedFields": ["externalIds.geonames", "sourceIds"],
+  "targetFiles": ["data/localities.json"],
+  "transforms": [
+    "Reviewed existing locality records that still lacked GeoNames IDs after the strict automated, manual, and close-match review passes.",
+    "Matched only against unused GeoNames populated-place rows from the same Syria extract.",
+    "Required the GeoNames admin1 code to resolve to the same OpenSyria governorate when present.",
+    "Normalized Arabic and Latin names by removing diacritics, punctuation, apostrophe variants, duplicate spacing, and selected article/transliteration variants.",
+    "Accepted a match only when the locality had exactly one normalized name match within 5 km and the selected GeoNames ID was not selected for any other locality in this pass.",
+    "Added only GeoNames external identifiers and the geonames-sy source reference.",
+    "Did not add aliases, change locality kind, create new locality records, or infer names from unmatched candidates."
+  ],
+  "reviewNotes": "Accepted 281 widened-radius one-to-one GeoNames locality matches. Left 3,556 locality GeoNames IDs unresolved for future manual or stronger source-backed review."
+}

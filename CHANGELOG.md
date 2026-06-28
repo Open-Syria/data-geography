@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## v0.1.2 - 2026-06-28
+
+- Add 281 widened-radius one-to-one GeoNames locality matches using exact normalized names and same-governorate checks.
+- Add a reusable GeoNames locality matching script with dry-run and apply modes.
+- Add a reviewed import manifest for the widened-radius GeoNames locality match pass.
+- Improve locality GeoNames ID coverage from 3,768 to 4,049 records.
+
 ## v0.1.1 - 2026-06-28
 
 - Add 15 close one-to-one GeoNames locality matches from a conservative final review pass.
