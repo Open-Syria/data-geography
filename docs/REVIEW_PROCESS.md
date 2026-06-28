@@ -2,6 +2,14 @@
 
 This document defines how maintainers should review data changes.
 
+## Table of Contents
+
+- [Review Gates](#review-gates)
+- [Maintainer Review Steps](#maintainer-review-steps)
+- [When to Request Changes](#when-to-request-changes)
+- [When to Close](#when-to-close)
+- [Schema Proposal Review](#schema-proposal-review)
+
 ## Review Gates
 
 Every pull request should pass these gates before merge.

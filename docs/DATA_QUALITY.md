@@ -6,6 +6,15 @@ Validation answers: "Is this data structurally allowed?"
 
 Reporting answers: "How complete, sourceable, and reviewable is this data?"
 
+## Table of Contents
+
+- [Commands](#commands)
+- [What Validation Blocks](#what-validation-blocks)
+- [What Reports Show](#what-reports-show)
+- [Pre-Seed Quality Targets](#pre-seed-quality-targets)
+- [Field Completeness](#field-completeness)
+- [Release Review](#release-review)
+
 ## Commands
 
 Run full validation:

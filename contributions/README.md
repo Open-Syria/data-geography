@@ -6,6 +6,17 @@ The goal is to make contributions easy to review without letting the dataset sch
 
 The same rules are summarized for future automation in [`rules.json`](rules.json).
 
+## Table of Contents
+
+- [What You Can Contribute](#what-you-can-contribute)
+- [Files Contributors Should Edit](#files-contributors-should-edit)
+- [Contribution Types](#contribution-types)
+- [ID Rules](#id-rules)
+- [Parent Relationship Rules](#parent-relationship-rules)
+- [Source Rules](#source-rules)
+- [Running Validation](#running-validation)
+- [Review Flow](#review-flow)
+
 ## What You Can Contribute
 
 Accepted as normal data pull requests:

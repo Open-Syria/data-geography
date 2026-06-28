@@ -2,6 +2,14 @@
 
 OpenSyria Data Geography should only use sources that are legally reusable, documented, and practical to review.
 
+## Table of Contents
+
+- [Source Registry](#source-registry)
+- [Initial Source Policy](#initial-source-policy)
+- [Rejected or Restricted Sources](#rejected-or-restricted-sources)
+- [OpenStreetMap Note](#openstreetmap-note)
+- [Source Links](#source-links)
+
 ## Source Registry
 
 Source metadata is stored in:

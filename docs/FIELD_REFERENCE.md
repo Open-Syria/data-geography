@@ -2,6 +2,20 @@
 
 This document gives contributor-facing rules for common fields.
 
+## Table of Contents
+
+- [`id`](#id)
+- [`name`](#name)
+- [`aliases`](#aliases)
+- [`iso31662`](#iso31662)
+- [`centroid`](#centroid)
+- [`area`](#area)
+- [`population` and `populationHistory`](#population-and-populationhistory)
+- [`externalIds`](#externalids)
+- [`sourceIds`](#sourceids)
+- [`sourceStatus`](#sourcestatus)
+- [`notes`](#notes)
+
 ## `id`
 
 Stable OpenSyria identifier.

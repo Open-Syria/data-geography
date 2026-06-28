@@ -6,6 +6,15 @@ The source registry in `data/sources.json` is the machine-readable source of tru
 
 This is not legal advice. Before a large import or public release, the maintainer should re-check source terms, attribution requirements, and access dates.
 
+## Table of Contents
+
+- [Decision States](#decision-states)
+- [Current Registry Decisions](#current-registry-decisions)
+- [Approving a Source](#approving-a-source)
+- [Restricted Sources](#restricted-sources)
+- [Rejected Sources](#rejected-sources)
+- [Source Notes in Pull Requests](#source-notes-in-pull-requests)
+
 ## Decision States
 
 | Status | Meaning |

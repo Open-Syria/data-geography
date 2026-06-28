@@ -10,6 +10,15 @@ Machine-readable JSON Schemas live in [../schemas](../schemas).
 
 Example records live under `examples/`. Test-only fixture records live under `fixtures/valid-data/` and are validated by `pnpm run validate:fixtures`.
 
+## Table of Contents
+
+- [Common Rules](#common-rules)
+- [Source Status](#source-status)
+- [Governorates](#governorates)
+- [Districts](#districts)
+- [Subdistricts](#subdistricts)
+- [Localities](#localities)
+
 ## Common Rules
 
 - IDs must be stable.

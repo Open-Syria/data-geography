@@ -4,6 +4,14 @@ This document records the freshness status of the canonical geography data. It i
 
 The main rule is simple: use the newest reusable source available at the same geography level. A national 2026 estimate cannot safely replace a governorate, district, subdistrict, or locality value unless the source also publishes that value at the same level.
 
+## Table of Contents
+
+- [Policy](#policy)
+- [Current Audit](#current-audit)
+- [Population Guidance](#population-guidance)
+- [Release Gate](#release-gate)
+- [Sources Checked](#sources-checked)
+
 ## Policy
 
 - Prefer current, reusable, sourceable data when it exists at the exact record level.

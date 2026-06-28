@@ -4,6 +4,15 @@ Canonical data lives in JSON files under `data/`.
 
 Generated artifacts are built from those canonical JSON files and must not be edited by contributors.
 
+## Table of Contents
+
+- [Source of Truth](#source-of-truth)
+- [Generated Output](#generated-output)
+- [Format Notes](#format-notes)
+- [Fixture Release Build](#fixture-release-build)
+- [Contributor Rule](#contributor-rule)
+- [Release Manifest](#release-manifest)
+
 ## Source of Truth
 
 ```text

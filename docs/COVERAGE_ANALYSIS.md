@@ -4,6 +4,14 @@ Coverage analysis helps maintainers and contributors find the next useful data i
 
 It is not a legal review, source review, or guarantee of real-world completeness. It is a structured report over the current canonical JSON files and the relationships that already exist in the schema.
 
+## Table of Contents
+
+- [Command](#command)
+- [What It Checks](#what-it-checks)
+- [Contributor Use](#contributor-use)
+- [Maintainer Use](#maintainer-use)
+- [Interpreting Gaps](#interpreting-gaps)
+
 ## Command
 
 Run:

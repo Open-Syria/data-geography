@@ -4,6 +4,13 @@ This document describes the maintainer-led plan for creating the first usable ge
 
 The goal is to publish a small, verified, legally reusable foundation before opening broader data corrections.
 
+## Table of Contents
+
+- [Principles](#principles)
+- [Seed Order](#seed-order)
+- [Automation](#automation)
+- [Initial Non-Goals](#initial-non-goals)
+
 ## Principles
 
 - Seed from reusable sources only.
