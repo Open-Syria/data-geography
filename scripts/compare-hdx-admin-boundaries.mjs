@@ -344,7 +344,15 @@ function decodeXml(value) {
 }
 
 function stripTags(value) {
-  return value.replace(/<[^>]+>/g, '');
+  let sanitized = value;
+  let previous;
+
+  do {
+    previous = sanitized;
+    sanitized = sanitized.replace(/<[^>]+>/g, '');
+  } while (sanitized !== previous);
+
+  return sanitized;
 }
 
 function cellColumnIndex(cellReference) {
