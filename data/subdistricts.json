@@ -6142,9 +6142,9 @@
     ]
   },
   {
-    "id": "sy-damascus-damascus-markaz-darayya",
-    "governorateId": "sy-damascus",
-    "districtId": "sy-damascus-damascus",
+    "id": "sy-rif-dimashq-darayya-markaz-darayya",
+    "governorateId": "sy-rif-dimashq",
+    "districtId": "sy-rif-dimashq-darayya",
     "name": {
       "en": "Markaz Darayya",
       "ar": "مركز داريا"
@@ -6205,11 +6205,12 @@
       "geonames-sy",
       "geoboundaries-syr",
       "wikidata",
+      "hdx-syr-admin-boundaries",
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Markaz Darayya is listed under Rural Damascus Darayya; OpenSyria parent relationship follows the current ADM3 boundary seed.",
+    "notes": "Parent relationship follows direct HDX/OCHA COD-AB, where Markaz Darayya is listed under Rural Damascus Darayya.",
     "populationHistory": [
       {
         "value": 131501,

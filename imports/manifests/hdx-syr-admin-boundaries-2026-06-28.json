@@ -43,8 +43,9 @@
     "Updated Baniyas district area, centroid, population, and notes so it represents the current OCHA Baniyas ADM2 area excluding Qadmous.",
     "Moved Anaza, Hamam Wasil, Qadmous, and Tawahin subdistrict records from Baniyas to the new Qadmous district.",
     "Renamed the moved subdistrict and locality IDs from the old Baniyas parent path to the current Qadmous parent path while preserving the terminal locality slugs and OCHA P-codes.",
+    "Moved Markaz Darayya and its child locality IDs from Damascus to Rural Damascus Darayya because the direct HDX/OCHA ADM3 P-code hierarchy places SY030900 under SY0309.",
     "Derived current Baniyas and Qadmous 2004 population values by summing their current child ADM3 population values from the approved USCB source because the USCB ADM2 table predates this split.",
     "Added direct HDX/OCHA COD-AB source attribution for area, centroid, hierarchy, and P-code decisions."
   ],
-  "reviewNotes": "Aligned the canonical Tartus hierarchy with the current direct HDX/OCHA COD-AB structure where Qadmous is a separate ADM2 district. The package metadata reports 14 governorates, 62 districts, and 272 subdistricts; the repository now matches that district count while retaining dated population methodology notes for the older USCB population source."
+  "reviewNotes": "Aligned the canonical hierarchy with the current direct HDX/OCHA COD-AB structure where Qadmous is a separate ADM2 district and Markaz Darayya belongs under Rural Damascus Darayya. The package metadata reports 14 governorates, 62 districts, and 272 subdistricts; the repository now matches those counts while retaining dated population methodology notes for the older USCB population source."
 }

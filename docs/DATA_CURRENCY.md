@@ -60,6 +60,7 @@ Before the first public geography release:
    pnpm run validate
    pnpm run report:data
    pnpm run coverage:data
+   pnpm run compare:hdx-admin
    ```
 
 5. Mention any still-old but source-backed values in release notes.
