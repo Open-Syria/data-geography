@@ -3550,38 +3550,100 @@
       }
     ],
     "centroid": {
-      "latitude": 35.13698,
-      "longitude": 36.07864
+      "latitude": 35.149841,
+      "longitude": 36.001354
     },
     "area": {
-      "value": 581.322,
+      "value": 212.259,
       "unit": "km2",
-      "sourceIds": ["geoboundaries-syr"]
+      "sourceIds": ["hdx-syr-admin-boundaries"],
+      "notes": "Direct HDX/OCHA COD-AB ADM2 area for current Baniyas district, excluding Qadmous district."
     },
     "population": {
-      "value": 176351,
+      "value": 116989,
       "year": 2004,
-      "sourceIds": ["uscb-syria-population"]
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "Derived by summing USCB 2004 ADM3 population for current OCHA Baniyas child subdistricts: Banyas, Rawda, and Taleen."
     },
     "externalIds": {
       "wikidata": "Q4120504",
       "geonames": "171829",
-      "geoboundaries": "27442178B62310236233952",
       "ochaPcode": "SY1002"
     },
     "sourceIds": [
       "geonames-sy",
-      "geoboundaries-syr",
       "wikidata",
+      "hdx-syr-admin-boundaries",
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
     "sourceStatus": "seed",
     "populationHistory": [
       {
-        "value": 176351,
+        "value": 116989,
         "year": 2004,
-        "sourceIds": ["uscb-syria-population"]
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "Derived by summing USCB 2004 ADM3 population for current OCHA Baniyas child subdistricts: Banyas, Rawda, and Taleen."
+      }
+    ],
+    "notes": "Direct HDX/OCHA COD-AB treats Qadmous as a separate ADM2 district. Baniyas area, centroid, and 2004 population are aligned to that current split."
+  },
+  {
+    "id": "sy-tartus-qadmous",
+    "governorateId": "sy-tartus",
+    "name": {
+      "en": "Qadmous",
+      "ar": "القدموس"
+    },
+    "aliases": [
+      {
+        "value": "Qadmous District",
+        "language": "en",
+        "type": "formal"
+      },
+      {
+        "value": "Qadmus",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "Al-Qadmous",
+        "language": "en",
+        "type": "alternate_spelling"
+      },
+      {
+        "value": "منطقة القدموس",
+        "language": "ar",
+        "type": "formal"
+      }
+    ],
+    "centroid": {
+      "latitude": 35.147774,
+      "longitude": 36.168034
+    },
+    "area": {
+      "value": 369.041,
+      "unit": "km2",
+      "sourceIds": ["hdx-syr-admin-boundaries"]
+    },
+    "population": {
+      "value": 59362,
+      "year": 2004,
+      "sourceIds": ["uscb-syria-population"],
+      "notes": "Derived by summing USCB 2004 ADM3 population for current OCHA Qadmous child subdistricts: Anaza, Hamam Wasil, Qadmous, and Tawahin."
+    },
+    "externalIds": {
+      "ochaPcode": "SY1006"
+    },
+    "sourceIds": ["hdx-syr-admin-boundaries", "hdx-syr-populated-places", "uscb-syria-population"],
+    "sourceStatus": "seed",
+    "notes": "Added from direct HDX/OCHA COD-AB admin boundaries where Qadmous is listed as an ADM2 district. The 2004 population is derived from child subdistricts because the USCB ADM2 source predates this current split.",
+    "populationHistory": [
+      {
+        "value": 59362,
+        "year": 2004,
+        "sourceIds": ["uscb-syria-population"],
+        "notes": "Derived by summing USCB 2004 ADM3 population for current OCHA Qadmous child subdistricts: Anaza, Hamam Wasil, Qadmous, and Tawahin."
       }
     ]
   },

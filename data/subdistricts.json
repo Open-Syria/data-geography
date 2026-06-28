@@ -21161,9 +21161,9 @@
     ]
   },
   {
-    "id": "sy-tartus-baniyas-anaza",
+    "id": "sy-tartus-qadmous-anaza",
     "governorateId": "sy-tartus",
-    "districtId": "sy-tartus-baniyas",
+    "districtId": "sy-tartus-qadmous",
     "name": {
       "en": "Anaza",
       "ar": "العنازة"
@@ -21201,13 +21201,13 @@
       }
     ],
     "centroid": {
-      "latitude": 35.20652,
-      "longitude": 36.1404
+      "latitude": 35.206592,
+      "longitude": 36.132513
     },
     "area": {
-      "value": 101.268,
+      "value": 101.265,
       "unit": "km2",
-      "sourceIds": ["geoboundaries-syr"]
+      "sourceIds": ["hdx-syr-admin-boundaries"]
     },
     "population": {
       "value": 18446,
@@ -21226,10 +21226,11 @@
       "geoboundaries-syr",
       "wikidata",
       "hdx-syr-populated-places",
-      "uscb-syria-population"
+      "uscb-syria-population",
+      "hdx-syr-admin-boundaries"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "notes": "Parent relationship follows direct HDX/OCHA COD-AB, where Qadmous is an ADM2 district.",
     "populationHistory": [
       {
         "value": 18446,
@@ -21316,9 +21317,9 @@
     ]
   },
   {
-    "id": "sy-tartus-baniyas-hamam-wasil",
+    "id": "sy-tartus-qadmous-hamam-wasil",
     "governorateId": "sy-tartus",
-    "districtId": "sy-tartus-baniyas",
+    "districtId": "sy-tartus-qadmous",
     "name": {
       "en": "Hamam Wasil",
       "ar": "حمام واصل"
@@ -21356,13 +21357,13 @@
       }
     ],
     "centroid": {
-      "latitude": 35.07616,
-      "longitude": 36.06484
+      "latitude": 35.077475,
+      "longitude": 36.073873
     },
     "area": {
-      "value": 45.221,
+      "value": 45.218,
       "unit": "km2",
-      "sourceIds": ["geoboundaries-syr"]
+      "sourceIds": ["hdx-syr-admin-boundaries"]
     },
     "population": {
       "value": 8522,
@@ -21381,10 +21382,11 @@
       "geoboundaries-syr",
       "wikidata",
       "hdx-syr-populated-places",
-      "uscb-syria-population"
+      "uscb-syria-population",
+      "hdx-syr-admin-boundaries"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "notes": "Parent relationship follows direct HDX/OCHA COD-AB, where Qadmous is an ADM2 district.",
     "populationHistory": [
       {
         "value": 8522,
@@ -21395,9 +21397,9 @@
     ]
   },
   {
-    "id": "sy-tartus-baniyas-qadmous",
+    "id": "sy-tartus-qadmous-qadmous",
     "governorateId": "sy-tartus",
-    "districtId": "sy-tartus-baniyas",
+    "districtId": "sy-tartus-qadmous",
     "name": {
       "en": "Qadmous",
       "ar": "القدموس"
@@ -21435,13 +21437,13 @@
       }
     ],
     "centroid": {
-      "latitude": 35.1049,
-      "longitude": 36.15809
+      "latitude": 35.110237,
+      "longitude": 36.17237
     },
     "area": {
-      "value": 136.41,
+      "value": 136.404,
       "unit": "km2",
-      "sourceIds": ["geoboundaries-syr"]
+      "sourceIds": ["hdx-syr-admin-boundaries"]
     },
     "population": {
       "value": 22370,
@@ -21460,10 +21462,11 @@
       "geoboundaries-syr",
       "wikidata",
       "hdx-syr-populated-places",
-      "uscb-syria-population"
+      "uscb-syria-population",
+      "hdx-syr-admin-boundaries"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "notes": "Parent relationship follows direct HDX/OCHA COD-AB, where Qadmous is an ADM2 district.",
     "populationHistory": [
       {
         "value": 22370,
@@ -21626,9 +21629,9 @@
     ]
   },
   {
-    "id": "sy-tartus-baniyas-tawahin",
+    "id": "sy-tartus-qadmous-tawahin",
     "governorateId": "sy-tartus",
-    "districtId": "sy-tartus-baniyas",
+    "districtId": "sy-tartus-qadmous",
     "name": {
       "en": "Tawahin",
       "ar": "الطواحين"
@@ -21666,13 +21669,13 @@
       }
     ],
     "centroid": {
-      "latitude": 35.16126,
-      "longitude": 36.20457
+      "latitude": 35.164671,
+      "longitude": 36.193659
     },
     "area": {
-      "value": 86.156,
+      "value": 86.153,
       "unit": "km2",
-      "sourceIds": ["geoboundaries-syr"]
+      "sourceIds": ["hdx-syr-admin-boundaries"]
     },
     "population": {
       "value": 10024,
@@ -21691,10 +21694,11 @@
       "geoboundaries-syr",
       "wikidata",
       "hdx-syr-populated-places",
-      "uscb-syria-population"
+      "uscb-syria-population",
+      "hdx-syr-admin-boundaries"
     ],
     "sourceStatus": "seed",
-    "notes": "HDX/OCHA admin3 P-code comes from a source vintage where Qadmous is listed as an admin2; OpenSyria parent relationship follows the current district seed.",
+    "notes": "Parent relationship follows direct HDX/OCHA COD-AB, where Qadmous is an ADM2 district.",
     "populationHistory": [
       {
         "value": 10024,
