@@ -39,19 +39,5 @@
     "@commitlint/config-conventional": "^21.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8"
-  },
-  "lint-staged": {
-    "*.{js,mjs,json,jsonc,md,yml,yaml}": [
-      "biome check --write --no-errors-on-unmatched"
-    ],
-    "data/**/*.json": [
-      "pnpm run validate:data"
-    ],
-    "fixtures/**/*.json": [
-      "pnpm run validate:fixtures"
-    ],
-    "imports/manifests/**/*.json": [
-      "pnpm run validate:imports"
-    ]
   }
 }
