@@ -125,6 +125,11 @@ function run(command, args, options = {}) {
 }
 
 function runPnpm(args) {
+  if (process.platform === 'win32') {
+    run(process.env.ComSpec ?? 'cmd.exe', ['/d', '/s', '/c', 'pnpm', ...args]);
+    return;
+  }
+
   run('pnpm', args);
 }
 

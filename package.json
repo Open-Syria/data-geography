@@ -20,6 +20,7 @@
     "validate:fixtures": "node scripts/validate-data.mjs --data-dir=fixtures/valid-data",
     "release:build": "node scripts/build-release.mjs",
     "release:build:fixtures": "node scripts/build-release.mjs --data-dir=fixtures/valid-data --release-dir=dist/fixture-release",
+    "release:publish:github": "node scripts/publish-github-release.mjs",
     "release:prepare": "node scripts/prepare-release.mjs",
     "report:data": "node scripts/report-data.mjs",
     "report:fixtures": "node scripts/report-data.mjs --data-dir=fixtures/valid-data",
