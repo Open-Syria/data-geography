@@ -13,6 +13,8 @@
   ],
   "iso31662": null,
   "centroid": null,
+  "area": null,
+  "population": null,
   "externalIds": {
     "wikidata": "Q123456"
   },

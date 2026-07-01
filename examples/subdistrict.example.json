@@ -8,6 +8,8 @@
   },
   "aliases": [],
   "centroid": null,
+  "area": null,
+  "population": null,
   "externalIds": {},
   "sourceIds": ["approved-source-id"],
   "sourceStatus": "seed",
