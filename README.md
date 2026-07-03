@@ -202,6 +202,7 @@ Maintainer workflow and review references:
 - [docs/DATA_QUALITY.md](docs/DATA_QUALITY.md)
 - [docs/ID_POLICY.md](docs/ID_POLICY.md)
 - [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md)
+- [docs/releases.md](docs/releases.md)
 - [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md)
 
 ## Source Policy
@@ -235,6 +236,7 @@ Maintainer review rules live in [docs/REVIEW_PROCESS.md](docs/REVIEW_PROCESS.md)
 - [Coverage analysis](docs/COVERAGE_ANALYSIS.md)
 - [Generated artifacts](docs/GENERATED_ARTIFACTS.md)
 - [Import workflow](docs/IMPORT_WORKFLOW.md)
+- [Release process](docs/releases.md)
 - [Release checklist](docs/RELEASE_CHECKLIST.md)
 - [Support](SUPPORT.md)
 - [Security policy](SECURITY.md)

@@ -25,7 +25,7 @@ Use Node 24+ and pnpm 11+. Before handing off changes, run the smallest relevant
 - When adding, removing, or reclassifying sources, source fields, source licenses, source access dates, or source decision rationale, update `data/sources.json`, `docs/SOURCES.md`, `docs/SOURCE_DECISIONS.md`, import manifests, and any affected source references in canonical records.
 - When changing import inputs, normalized outputs, source manifests, import retention policy, or importer scripts, update `imports/README.md`, `imports/manifests/README.md`, `docs/IMPORT_WORKFLOW.md`, `docs/PRE_SEED_CHECKLIST.md`, and `docs/SEED_PLAN.md`.
 - When data quality, coverage, currency, review status, blockers, or readiness changes, update `docs/DATA_QUALITY.md`, `docs/COVERAGE_ANALYSIS.md`, `docs/DATA_CURRENCY.md`, `docs/REVIEW_PROCESS.md`, and relevant checklist entries.
-- When release build output, manifest fields, artifact names/formats, checksums, publication steps, or GitHub release process changes, update `docs/GENERATED_ARTIFACTS.md`, `docs/RELEASE_CHECKLIST.md`, `schemas/release-manifest.schema.json`, and coordinate any pinned release changes in `datasets-api/dataset-releases.json` and website dataset metadata.
+- When release build output, manifest fields, artifact names/formats, checksums, publication steps, or GitHub release process changes, update `docs/releases.md`, `docs/GENERATED_ARTIFACTS.md`, `docs/RELEASE_CHECKLIST.md`, `schemas/release-manifest.schema.json`, and coordinate any pinned release changes in `datasets-api/dataset-releases.json` and website dataset metadata.
 
 ## Local Skill Selection
 
