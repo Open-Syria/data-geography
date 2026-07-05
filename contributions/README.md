@@ -8,6 +8,7 @@ The same rules are summarized for future automation in [`rules.json`](rules.json
 
 ## Table of Contents
 
+- [Contributor Quick Start](#contributor-quick-start)
 - [What You Can Contribute](#what-you-can-contribute)
 - [Files Contributors Should Edit](#files-contributors-should-edit)
 - [Contribution Types](#contribution-types)
@@ -15,7 +16,18 @@ The same rules are summarized for future automation in [`rules.json`](rules.json
 - [Parent Relationship Rules](#parent-relationship-rules)
 - [Source Rules](#source-rules)
 - [Running Validation](#running-validation)
+- [Before Opening a Pull Request](#before-opening-a-pull-request)
 - [Review Flow](#review-flow)
+- [Reference Links](#reference-links)
+
+## Contributor Quick Start
+
+1. Choose one focused change: a correction, a missing approved record, source attribution, names, aliases, coordinates, area, or population.
+2. Check the field rules in [`../docs/FIELD_REFERENCE.md`](../docs/FIELD_REFERENCE.md) and the ID rules in [`../docs/ID_POLICY.md`](../docs/ID_POLICY.md).
+3. Confirm the source is public, reusable, and either already approved in [`../data/sources.json`](../data/sources.json) or suitable to propose there.
+4. Edit the relevant canonical file under [`../data/`](../data/).
+5. Run `pnpm run validate`; use `pnpm run coverage:data` when looking for focused missing-data opportunities.
+6. Open a focused pull request that lists the changed files, source IDs, source URLs, and any uncertainty or source conflict.
 
 ## What You Can Contribute
 
@@ -249,6 +261,19 @@ This checks:
 
 Generated artifact rules are documented in [`../docs/GENERATED_ARTIFACTS.md`](../docs/GENERATED_ARTIFACTS.md).
 
+## Before Opening a Pull Request
+
+Include these details in the pull request:
+
+- which records changed,
+- which files changed,
+- source IDs from `data/sources.json`,
+- source URLs or source titles for new or corrected evidence,
+- whether any values are uncertain or conflict across sources,
+- which validation command you ran.
+
+Keep unrelated corrections out of the pull request. Separate small, source-backed changes are easier to review and merge.
+
 ## Review Flow
 
 1. Contributor opens a focused PR.
@@ -259,3 +284,15 @@ Generated artifact rules are documented in [`../docs/GENERATED_ARTIFACTS.md`](..
 6. Merged data is included in a future maintainer-controlled release.
 
 Passing CI does not guarantee acceptance. Source quality, licensing, safety, and scope still matter.
+
+## Reference Links
+
+- [Repository contribution policy](../CONTRIBUTING.md)
+- [Data schema](../docs/DATA_SCHEMA.md)
+- [Field reference](../docs/FIELD_REFERENCE.md)
+- [ID policy](../docs/ID_POLICY.md)
+- [Source policy](../docs/SOURCES.md)
+- [Source decisions](../docs/SOURCE_DECISIONS.md)
+- [Review process](../docs/REVIEW_PROCESS.md)
+- [Coverage analysis](../docs/COVERAGE_ANALYSIS.md)
+- [Generated artifacts](../docs/GENERATED_ARTIFACTS.md)

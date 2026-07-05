@@ -12,12 +12,25 @@ contributions/README.md
 
 ## Table of Contents
 
+- [Contributor Quick Start](#contributor-quick-start)
 - [Accepted Contributions](#accepted-contributions)
 - [Not Accepted as Normal Pull Requests](#not-accepted-as-normal-pull-requests)
+- [Files and Reference Docs](#files-and-reference-docs)
 - [Schema Proposals](#schema-proposals)
 - [Source Rules](#source-rules)
 - [Validation](#validation)
 - [Pull Request Checklist](#pull-request-checklist)
+
+## Contributor Quick Start
+
+For a normal data correction or missing-record pull request:
+
+1. Read the detailed workflow in [contributions/README.md](contributions/README.md).
+2. Pick one focused change, such as one missing source, one hierarchy correction, or one small group of related records.
+3. Edit only the canonical JSON files under `data/` unless a maintainer approved broader work.
+4. Confirm every changed value is backed by an approved reusable source in `data/sources.json`.
+5. Run `corepack enable pnpm`, `pnpm install`, and `pnpm run validate`.
+6. Open a pull request that lists the changed files, source IDs, source URLs, and any uncertainty or conflict.
 
 ## Accepted Contributions
 
@@ -52,6 +65,26 @@ These changes require a schema proposal or maintainer approval before implementa
 
 Generated files under `dist/`, examples under `examples/`, fixtures under `fixtures/`, validation scripts, schemas, and release workflows are maintainer-owned unless the maintainer explicitly asks for changes.
 
+## Files and Reference Docs
+
+Normal data pull requests usually edit:
+
+| Need | File or doc |
+| --- | --- |
+| Governorate records | [data/governorates.json](data/governorates.json) |
+| District records | [data/districts.json](data/districts.json) |
+| Subdistrict records | [data/subdistricts.json](data/subdistricts.json) |
+| Locality records | [data/localities.json](data/localities.json) |
+| Source registry | [data/sources.json](data/sources.json) |
+| Field rules | [docs/FIELD_REFERENCE.md](docs/FIELD_REFERENCE.md) |
+| Stable ID rules | [docs/ID_POLICY.md](docs/ID_POLICY.md) |
+| Source policy | [docs/SOURCES.md](docs/SOURCES.md) |
+| Source decisions | [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md) |
+| Review process | [docs/REVIEW_PROCESS.md](docs/REVIEW_PROCESS.md) |
+| Coverage targets | [docs/COVERAGE_ANALYSIS.md](docs/COVERAGE_ANALYSIS.md) |
+
+Do not edit generated release or coverage output under `dist/` for a normal data contribution.
+
 ## Schema Proposals
 
 New fields are possible, but they must be proposed first.
@@ -79,6 +112,13 @@ A proposal should explain:
 Source review decisions are documented in [docs/SOURCE_DECISIONS.md](docs/SOURCE_DECISIONS.md).
 
 ## Validation
+
+Install dependencies:
+
+```bash
+corepack enable pnpm
+pnpm install
+```
 
 Run:
 
@@ -108,3 +148,4 @@ Coverage output is generated and should not be committed in normal data pull req
 - IDs are stable and unique.
 - No personal or sensitive data is added.
 - Validation passes.
+- The pull request describes the changed files, source IDs, source URLs, and any uncertainty.

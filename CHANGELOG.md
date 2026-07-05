@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Clarify contributor quick-start steps, editable files, validation commands, and reference links for normal data pull requests.
+
 ## v0.1.3 - 2026-06-28
 
 - Add 225 Arabic article-insensitive one-to-one GeoNames locality matches within 2 km.

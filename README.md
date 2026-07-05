@@ -193,6 +193,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Detailed contributor workflow lives in [contributions/README.md](contributions/README.md).
 
+For a normal data pull request:
+
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [contributions/README.md](contributions/README.md).
+2. Edit only the relevant canonical files under `data/` unless a maintainer approved broader work.
+3. Check [docs/FIELD_REFERENCE.md](docs/FIELD_REFERENCE.md), [docs/ID_POLICY.md](docs/ID_POLICY.md), and [docs/SOURCES.md](docs/SOURCES.md).
+4. Run `pnpm run validate`.
+5. Explain the changed files, source IDs, source URLs, and any uncertainty in the pull request.
+
 Maintainer workflow and review references:
 
 - [docs/PRE_SEED_CHECKLIST.md](docs/PRE_SEED_CHECKLIST.md)
