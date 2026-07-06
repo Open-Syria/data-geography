@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Clarify contributor quick-start steps, editable files, validation commands, and reference links for normal data pull requests.
+- Group automated npm dependency updates into one weekly Dependabot pull request to keep lockfile validation stable.
 
 ## v0.1.3 - 2026-06-28
 

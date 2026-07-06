@@ -140,6 +140,16 @@ dist/coverage/COVERAGE.md
 
 Coverage output is generated and should not be committed in normal data pull requests.
 
+## Dependency Updates
+
+Dependabot groups npm updates into one weekly pull request so `package.json` and
+`pnpm-lock.yaml` stay synchronized. Merge automated dependency updates only
+after the validation workflow passes with `pnpm install --frozen-lockfile`.
+
+If dependency pull requests are manually combined, regenerate the lockfile with
+the pinned pnpm version before merging. A manifest-only bump will fail CI and
+should not be pushed to `main`.
+
 ## Pull Request Checklist
 
 - The change is within the approved schema.
