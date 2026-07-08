@@ -52,6 +52,7 @@ Validation fails on:
 - missing required fields,
 - duplicate IDs,
 - duplicate source IDs on one record,
+- missing or mismatched record-level `sourceReferences`,
 - records that reference unknown sources,
 - records that reference non-approved sources,
 - invalid parent relationships,
@@ -107,6 +108,7 @@ Completeness targets vary by field.
 | `populationHistory` | Optional; use when multiple dated measurements are available for the same record. |
 | `externalIds` | Empty object when none are known. |
 | `sourceIds` | Required and approved. |
+| `sourceReferences` | Required, dated, and aligned one-for-one with `sourceIds`. |
 | `notes` | Use for uncertainty and maintainer review context. |
 
 ## Release Review

@@ -88,6 +88,18 @@ export const externalIdsSchema = z
   })
   .strict();
 
+export const sourceReferenceSchema = z
+  .object({
+    sourceId: z.string().trim().min(1),
+    sourceRecordId: z.string().trim().min(1).optional(),
+    sourceRecordDate: z
+      .string()
+      .regex(/^[0-9]{4}(?:-[0-9]{2}(?:-[0-9]{2})?)?$/)
+      .optional(),
+    accessedAt: z.string().datetime(),
+  })
+  .strict();
+
 export const sourceRecordSchema = z
   .object({
     id: z.string().trim().min(1),
@@ -204,6 +216,7 @@ export const governorateRecordSchema = z
     populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
     sourceStatus: sourceStatusSchema,
     notes: z.string().trim().min(1).optional(),
   })
@@ -221,6 +234,7 @@ export const districtRecordSchema = z
     populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
     sourceStatus: sourceStatusSchema,
     notes: z.string().trim().min(1).optional(),
   })
@@ -239,6 +253,7 @@ export const subdistrictRecordSchema = z
     populationHistory: populationHistorySchema,
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
     sourceStatus: sourceStatusSchema,
     notes: z.string().trim().min(1).optional(),
   })
@@ -256,6 +271,7 @@ export const localityRecordSchema = z
     centroid: geographicPointSchema.nullable(),
     externalIds: externalIdsSchema,
     sourceIds: z.array(z.string().trim().min(1)).min(1),
+    sourceReferences: z.array(sourceReferenceSchema).min(1),
     sourceStatus: sourceStatusSchema,
     notes: z.string().trim().min(1).optional(),
   })
@@ -305,6 +321,33 @@ export function ensureKnownSources(records, sources, label) {
       seenSourceIds.add(sourceId);
 
       ensureApprovedSource(sourceById, sourceId, `${label} ${record.id}`);
+    }
+
+    const referencedSourceIds = new Set();
+
+    for (const reference of record.sourceReferences) {
+      if (referencedSourceIds.has(reference.sourceId)) {
+        throw new Error(
+          `${label} ${record.id} contains duplicate source reference: ${reference.sourceId}`,
+        );
+      }
+
+      referencedSourceIds.add(reference.sourceId);
+      ensureApprovedSource(sourceById, reference.sourceId, `${label} ${record.id}`);
+
+      if (!seenSourceIds.has(reference.sourceId)) {
+        throw new Error(
+          `${label} ${record.id} sourceReferences contains source not listed in sourceIds: ${reference.sourceId}`,
+        );
+      }
+    }
+
+    for (const sourceId of record.sourceIds) {
+      if (!referencedSourceIds.has(sourceId)) {
+        throw new Error(
+          `${label} ${record.id} sourceIds contains source without sourceReferences entry: ${sourceId}`,
+        );
+      }
     }
 
     const measurementSourceIds = [

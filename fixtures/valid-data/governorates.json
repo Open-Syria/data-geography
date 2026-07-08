@@ -3,7 +3,7 @@
     "id": "sy-example-governorate",
     "name": {
       "en": "Example Governorate",
-      "ar": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0645\u062b\u0627\u0644"
+      "ar": "محافظة مثال"
     },
     "aliases": [
       {
@@ -29,7 +29,13 @@
     },
     "externalIds": {},
     "sourceIds": ["fixture-source"],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "fixture-source",
+        "accessedAt": "2026-01-01T00:00:00.000Z"
+      }
+    ],
+    "sourceStatus": "released",
     "notes": "Fixture record only. Do not copy into canonical data."
   }
 ]

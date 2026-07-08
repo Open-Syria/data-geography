@@ -3,7 +3,7 @@
   "governorateId": "sy-example-governorate",
   "name": {
     "en": "Example District",
-    "ar": "\u0645\u0646\u0637\u0642\u0629 \u0645\u062b\u0627\u0644"
+    "ar": "منطقة مثال"
   },
   "aliases": [],
   "centroid": null,
@@ -11,6 +11,12 @@
   "population": null,
   "externalIds": {},
   "sourceIds": ["approved-source-id"],
-  "sourceStatus": "seed",
+  "sourceReferences": [
+    {
+      "sourceId": "approved-source-id",
+      "accessedAt": "2026-06-27T00:00:00.000Z"
+    }
+  ],
+  "sourceStatus": "released",
   "notes": "Example only. District IDs usually include enough parent context to avoid collisions."
 }

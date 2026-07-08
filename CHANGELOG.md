@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## v0.1.4 - 2026-07-08
+
+- Add dated record-level `sourceReferences` to governorate, district, subdistrict, and locality records.
+- Mark canonical records as `released` and make release builds default to released status.
+- Add source reference columns to generated CSV and SQL artifacts.
 - Clarify contributor quick-start steps, editable files, validation commands, and reference links for normal data pull requests.
 - Group automated npm dependency updates into one weekly Dependabot pull request to keep lockfile validation stable.
 

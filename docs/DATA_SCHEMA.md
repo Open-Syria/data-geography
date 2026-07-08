@@ -27,6 +27,7 @@ Example records live under `examples/`. Test-only fixture records live under `fi
 - Names may include Arabic and English fields.
 - Coordinates use WGS84 latitude and longitude.
 - Every source-backed record should include `sourceIds`.
+- Every public record must include `sourceReferences` with one dated reference for each `sourceIds` entry.
 - `sourceStatus` describes the review/release state of the record.
 - OCHA/HDX P-codes are stored in `externalIds.ochaPcode` when imported from approved HDX/OCHA sources.
 - Unknown fields are rejected. New fields require a maintainer-approved schema proposal first.
@@ -78,6 +79,7 @@ Fields:
 | `externalIds.geoboundaries` | string | no | geoBoundaries ID or reference |
 | `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceReferences` | array | yes | Dated source evidence for each `sourceIds` entry |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
@@ -116,7 +118,13 @@ The generated JSON artifact exposes public records and omits maintainer-only `no
       "population": null,
       "externalIds": {},
       "sourceIds": ["approved-source-id"],
-      "sourceStatus": "seed"
+      "sourceReferences": [
+        {
+          "sourceId": "approved-source-id",
+          "accessedAt": "2026-06-27T00:00:00.000Z"
+        }
+      ],
+      "sourceStatus": "released"
     }
   ]
 }
@@ -151,6 +159,7 @@ Fields:
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
 | `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceReferences` | array | yes | Dated source evidence for each `sourceIds` entry |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
@@ -195,6 +204,7 @@ Fields:
 | `externalIds.geoboundaries` | string | no | geoBoundaries shape ID |
 | `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceReferences` | array | yes | Dated source evidence for each `sourceIds` entry |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 
@@ -247,6 +257,7 @@ Fields:
 | `externalIds.geoboundaries` | string | no | geoBoundaries reference when applicable |
 | `externalIds.ochaPcode` | string | no | OCHA/HDX P-code |
 | `sourceIds` | array | yes | At least one approved source ID from `data/sources.json` |
+| `sourceReferences` | array | yes | Dated source evidence for each `sourceIds` entry |
 | `sourceStatus` | enum | yes | Review/release state |
 | `notes` | string | no | Maintainer notes; not necessarily exposed by the API |
 

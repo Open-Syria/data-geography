@@ -13,6 +13,7 @@ This document gives contributor-facing rules for common fields.
 - [`population` and `populationHistory`](#population-and-populationhistory)
 - [`externalIds`](#externalids)
 - [`sourceIds`](#sourceids)
+- [`sourceReferences`](#sourcereferences)
 - [`sourceStatus`](#sourcestatus)
 - [`notes`](#notes)
 
@@ -211,6 +212,36 @@ Example:
 
 ```json
 "sourceIds": ["wikidata", "geonames-sy"]
+```
+
+## `sourceReferences`
+
+Dated source evidence for each source listed in `sourceIds`.
+
+Rules:
+
+- required on public records,
+- must contain one entry for each `sourceIds` value,
+- `sourceReferences[].sourceId` must match an approved source ID on the record,
+- `sourceReferences[].accessedAt` stores when the source data was accessed or reviewed,
+- `sourceReferences[].sourceRecordId` stores source-row identifiers such as Wikidata QIDs, GeoNames IDs, OCHA P-codes, or geoBoundaries IDs when available,
+- `sourceReferences[].sourceRecordDate` stores source-provided row dates when available, using `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`.
+
+Example:
+
+```json
+"sourceReferences": [
+  {
+    "sourceId": "wikidata",
+    "sourceRecordId": "Q3766",
+    "accessedAt": "2026-06-28T00:00:00.000Z"
+  },
+  {
+    "sourceId": "geonames-sy",
+    "sourceRecordId": "170654",
+    "accessedAt": "2026-06-28T00:00:00.000Z"
+  }
+]
 ```
 
 ## `sourceStatus`

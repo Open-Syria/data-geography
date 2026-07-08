@@ -84,6 +84,10 @@ JSON remains the canonical input format even after generated formats exist.
 
 Generated JSON, NDJSON, YAML, and XML preserve nested record shape. CSV and SQL use flattened columns.
 
+CSV and SQL artifacts include `source_references_json`,
+`latest_source_accessed_at`, and `latest_source_record_date` columns derived
+from each record's `sourceReferences`.
+
 ## Fixture Release Build
 
 The validation workflow builds both:

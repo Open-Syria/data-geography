@@ -18,6 +18,7 @@ The main rule is simple: use the newest reusable source available at the same ge
 - Store dated measurements instead of overwriting history when multiple years are available.
 - Use `population` for the latest accepted measurement for that record.
 - Use `populationHistory` for older accepted measurements for the same record.
+- Use `sourceReferences[].accessedAt` to inspect when a source was reviewed or imported, and `sourceReferences[].sourceRecordDate` when the source row carries a date.
 - Treat old same-level data as acceptable when no newer reusable source is confirmed, but keep the year, source, and method explicit.
 - Do not downscale, interpolate, or infer subnational population from national estimates.
 - Do not treat AI output as a source for freshness decisions.

@@ -47,9 +47,9 @@ Out of scope:
 
 ## Current Status
 
-The latest public seed release is `v0.1.3`. The first public seed release was `v0.1.0`.
+The latest public release is `v0.1.4`. The first public seed release was `v0.1.0`.
 
-Current seed coverage:
+Current released coverage:
 
 | Dataset | Records |
 | --- | ---: |
@@ -69,7 +69,7 @@ localities
 
 in JSON, NDJSON, CSV, SQL, YAML, and XML formats.
 
-The seed data is source-backed and maintainer-reviewed. Known gaps are tracked in the data quality and currency documents, and improvements should be made through source-backed follow-up releases.
+The released data is source-backed and maintainer-reviewed. Public records include `sourceIds`, dated `sourceReferences`, and `sourceStatus` so API and artifact consumers can inspect provenance consistently across OpenSyria datasets. Known gaps are tracked in the data quality and currency documents, and improvements should be made through source-backed follow-up releases.
 
 ## Repository Layout
 

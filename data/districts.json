@@ -60,7 +60,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173812"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B13029247631939"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4702479"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0800"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-hasakah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 484966,
@@ -120,7 +148,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170665"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B99216687489351"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4702792"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0803"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-malikiyah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 189634,
@@ -185,7 +241,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173378"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B53577550578456"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q129497"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0802"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-al-qamishli",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 423368,
@@ -245,7 +329,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "7895146"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B16567144851356"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q129494"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0804"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-al-hasakah-ras-al-ayn",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 177150,
@@ -305,7 +417,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173857"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B95231031847739"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2278356"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0603"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-al-haffah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 81848,
@@ -365,7 +505,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169303"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B5090378365720"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115831"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0602"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-jableh",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 196171,
@@ -430,7 +598,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173577"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B94813764709421"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2229628"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0600"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-latakia",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 526888,
@@ -490,7 +686,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173365"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B45607569668873"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2611794"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0604"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-latakia-qardaha",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 74644,
@@ -550,7 +774,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172039"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B98358455064560"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118374"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1402"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-quneitra-fiq",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 1947,
@@ -615,7 +867,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173335"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B38649296158741"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118367"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1400"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-quneitra-quneitra",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 64680,
@@ -680,7 +960,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276864"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B46572819209410"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4703291"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1103"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-raqqa-al-thawrah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 159938,
@@ -750,7 +1058,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172956"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B57458390277946"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4703126"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1101"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-raqqa-ar-raqqah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 506306,
@@ -815,7 +1151,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "7905857"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B34075692761550"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q7697373"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1102"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-raqqa-tell-abyad",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 127270,
@@ -885,7 +1249,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172409"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B49241886307156"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q3266216"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1300"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-as-suwayda-as-suwayda",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 180907,
@@ -940,7 +1332,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "164916"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B39967895671995"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q3265272"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1302"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-as-suwayda-salkhad",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 60375,
@@ -995,7 +1415,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "164625"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B615257865565"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q3265263"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1303"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-as-suwayda-shahba",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 71949,
@@ -1055,7 +1503,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276863"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B3893178613366"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115585"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1202"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-al-sanamayn",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 167993,
@@ -1120,7 +1596,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170904"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B67726505950673"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115583"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1200"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-daraa",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 428681,
@@ -1185,7 +1689,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169339"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B99944519185371"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q3235210"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1203"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-daraa-izra",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 246804,
@@ -1245,7 +1777,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "174447"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B22276011833046"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4670245"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0902"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-deir-ez-zor-abu-kamal",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 265142,
@@ -1310,7 +1870,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170793"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B9541206135539"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q152237"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0901"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-deir-ez-zor-deir-ez-zor",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 492434,
@@ -1370,7 +1958,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173481"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B96470480022323"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q6796790"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0903"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-deir-ez-zor-mayadin",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 247171,
@@ -1430,7 +2046,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173194"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B81131748986773"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118363"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0306"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-al-nabk",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 80001,
@@ -1490,7 +2134,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173313"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B63021739925615"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118370"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0303"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-al-qutayfah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 119283,
@@ -1550,7 +2222,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172350"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B63006606807907"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120570"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0304"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-al-tall",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 115937,
@@ -1610,7 +2310,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172060"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B59833257068654"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120510"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0307"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-al-zabadani",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 105342,
@@ -1665,7 +2393,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276862"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B13792068888358"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118372"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0309"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-darayya",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 260961,
@@ -1725,7 +2481,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170590"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B16442606574703"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q986780"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0302"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-douma",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 433719,
@@ -1790,7 +2574,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8540234"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B80699161134092"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118382"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0301"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-markaz-rif-dimashq",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 902216,
@@ -1845,7 +2657,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "165928"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B63011141740515"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120498"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0308"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-qatana",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 207245,
@@ -1905,7 +2745,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "7895152"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B56496530106269"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118379"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0305"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-rif-dimashq-yabrud",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 48370,
@@ -1960,7 +2828,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "174184"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B88911382861768"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120569"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0203"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-afrin",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 172095,
@@ -2025,7 +2921,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "174019"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B24628051118006"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118360"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0202"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-al-bab",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 292713,
@@ -2090,7 +3014,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276861"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B22464389911891"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2022892"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0207"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-al-safira",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 178293,
@@ -2160,7 +3112,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172255"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B6640625460328"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q260014"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0206"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-ayn-al-arab",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 192513,
@@ -2220,7 +3200,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172081"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B26836039619487"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118348"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0204"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-azaz",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 251769,
@@ -2280,7 +3288,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169178"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B60985416821817"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120552"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0208"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-jarabulus",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 58889,
@@ -2340,7 +3376,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "167355"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B68936835306318"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120577"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0205"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-manbij",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 408143,
@@ -2405,7 +3469,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169326"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B96508006833869"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120574"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0200"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-aleppo-mount-simeon",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 2490751,
@@ -2470,7 +3562,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "164946"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B43082534172912"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118483"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0503"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-al-salamiyah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 187123,
@@ -2550,7 +3670,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173885"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B45767266881892"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q576132"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0502"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-al-suqaylabiyah",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "notes": "GeoNames and geoBoundaries identify this ADM2 feature as Al-Suqaylabiyah/As-Suqaylabiyah; Wikidata labels the matching GeoNames ID as Al-Ghab.",
     "populationHistory": [
       {
@@ -2611,7 +3759,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170016"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B84195179221003"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2856152"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0501"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-hama",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 644445,
@@ -2666,7 +3842,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "167044"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B31990643139600"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2586299"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0504"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-masyaf",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 169341,
@@ -2731,7 +3935,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276860"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B78133098408237"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q75488"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0505"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-hama-mhardeh",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 143953,
@@ -2791,7 +4023,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173435"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B17685723948764"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120567"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0406"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-al-mukharram",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 52068,
@@ -2846,7 +4106,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "173324"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B51656539269606"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115829"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0402"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-al-qusayr",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 108102,
@@ -2906,7 +4194,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "172947"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B10190550865888"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115828"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0404"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-al-rastan",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 127806,
@@ -2966,7 +4282,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169576"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B91557549439519"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4115826"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0401"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-homs",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 1035055,
@@ -3026,7 +4370,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "7895145"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B76261641700856"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120562"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0405"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-tadmur",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 76942,
@@ -3086,7 +4458,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "163532"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B60418009452869"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120513"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0403"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-homs-talkalakh",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 129429,
@@ -3141,7 +4541,35 @@
       "wikidata",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8537261"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B18977709066888"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0705"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120579"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-idlib-ariha",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 177005,
@@ -3201,7 +4629,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169865"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B79082810780972"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118364"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0703"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-idlib-harem",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 175482,
@@ -3276,7 +4732,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169388"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B9567094438554"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q504657"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0700"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-idlib-idlib",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 382928,
@@ -3336,7 +4820,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "169022"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B84192320308694"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q2332351"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0704"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-idlib-jisr-al-shughur",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 150052,
@@ -3401,7 +4913,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "167610"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B71280190344240"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4118375"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0702"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-idlib-maarrat-al-numan",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 372960,
@@ -3456,7 +4996,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "170653"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B22471987034404"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q21587079"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY0100"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-damascus-damascus",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 1552161,
@@ -3516,7 +5084,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276859"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B44438051869980"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120564"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1005"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-al-shaykh-badr",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 52981,
@@ -3577,7 +5173,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "171829"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120504"
+      },
+      {
+        "sourceId": "hdx-syr-admin-boundaries",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1002"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1002"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-baniyas",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 116989,
@@ -3636,7 +5260,25 @@
       "ochaPcode": "SY1006"
     },
     "sourceIds": ["hdx-syr-admin-boundaries", "hdx-syr-populated-places", "uscb-syria-population"],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "hdx-syr-admin-boundaries",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1006"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1006"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-qadmous",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "notes": "Added from direct HDX/OCHA COD-AB admin boundaries where Qadmous is listed as an ADM2 district. The 2004 population is derived from child subdistricts because the USCB ADM2 source predates this current split.",
     "populationHistory": [
       {
@@ -3698,7 +5340,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "8276858"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B79430829635583"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120568"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1004"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-duraykish",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 60978,
@@ -3753,7 +5423,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "165059"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B1888341304206"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120580"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1003"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-safita",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 129632,
@@ -3813,7 +5511,35 @@
       "hdx-syr-populated-places",
       "uscb-syria-population"
     ],
-    "sourceStatus": "seed",
+    "sourceReferences": [
+      {
+        "sourceId": "geonames-sy",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "163343"
+      },
+      {
+        "sourceId": "geoboundaries-syr",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "27442178B78381061793998"
+      },
+      {
+        "sourceId": "wikidata",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "Q4120507"
+      },
+      {
+        "sourceId": "hdx-syr-populated-places",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "SY1000"
+      },
+      {
+        "sourceId": "uscb-syria-population",
+        "accessedAt": "2026-06-28T00:00:00.000Z",
+        "sourceRecordId": "sy-tartus-tartus",
+        "sourceRecordDate": "2004"
+      }
+    ],
+    "sourceStatus": "released",
     "populationHistory": [
       {
         "value": 281453,

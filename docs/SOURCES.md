@@ -18,7 +18,8 @@ Source metadata is stored in:
 data/sources.json
 ```
 
-Records reference sources through `sourceIds`.
+Records reference sources through `sourceIds` and carry dated evidence in
+`sourceReferences`.
 
 Maintainer source decisions are tracked in [SOURCE_DECISIONS.md](SOURCE_DECISIONS.md).
 

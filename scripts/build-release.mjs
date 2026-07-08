@@ -18,7 +18,7 @@ const dataDirectory = path.resolve(root, getCliOption('--data-dir') ?? 'data');
 const releaseDirectory = path.resolve(root, getCliOption('--release-dir') ?? 'dist/release');
 const packageJson = await readJson(path.join(root, 'package.json'));
 const releaseVersion = process.env.RELEASE_VERSION ?? `v${packageJson.version}`;
-const releaseStatus = datasetReleaseStatusSchema.parse(process.env.RELEASE_STATUS ?? 'seed');
+const releaseStatus = datasetReleaseStatusSchema.parse(process.env.RELEASE_STATUS ?? 'released');
 const releasePublishedAt = process.env.RELEASE_PUBLISHED_AT ?? null;
 const assetBaseUrl = process.env.RELEASE_ASSET_BASE_URL;
 
@@ -48,6 +48,9 @@ const datasetConfigs = [
       'geoboundaries_id',
       'ocha_pcode',
       'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
       'source_status',
     ],
   },
@@ -76,6 +79,9 @@ const datasetConfigs = [
       'geoboundaries_id',
       'ocha_pcode',
       'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
       'source_status',
     ],
   },
@@ -105,6 +111,9 @@ const datasetConfigs = [
       'geoboundaries_id',
       'ocha_pcode',
       'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
       'source_status',
     ],
   },
@@ -129,6 +138,9 @@ const datasetConfigs = [
       'geoboundaries_id',
       'ocha_pcode',
       'source_ids_json',
+      'source_references_json',
+      'latest_source_accessed_at',
+      'latest_source_record_date',
       'source_status',
     ],
   },
@@ -235,6 +247,7 @@ function toPublicRecord(record) {
     populationHistory: record.populationHistory,
     externalIds: record.externalIds,
     sourceIds: record.sourceIds,
+    sourceReferences: record.sourceReferences,
     sourceStatus: record.sourceStatus,
   });
 }
@@ -270,8 +283,31 @@ function toFlatRow(record) {
     geoboundaries_id: record.externalIds.geoboundaries ?? null,
     ocha_pcode: record.externalIds.ochaPcode ?? null,
     source_ids_json: stringifyCompactJson(record.sourceIds),
+    source_references_json: stringifyCompactJson(record.sourceReferences),
+    latest_source_accessed_at: latestSourceAccessedAt(record),
+    latest_source_record_date: latestSourceRecordDate(record),
     source_status: record.sourceStatus,
   };
+}
+
+function latestSourceAccessedAt(record) {
+  return latestStringValue(record.sourceReferences.map((reference) => reference.accessedAt));
+}
+
+function latestSourceRecordDate(record) {
+  return latestStringValue(
+    record.sourceReferences
+      .map((reference) => reference.sourceRecordDate)
+      .filter((value) => value !== undefined),
+  );
+}
+
+function latestStringValue(values) {
+  if (values.length === 0) {
+    return null;
+  }
+
+  return values.toSorted().at(-1);
 }
 
 function formatTextArtifact(content) {

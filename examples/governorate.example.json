@@ -2,7 +2,7 @@
   "id": "sy-example-governorate",
   "name": {
     "en": "Example Governorate",
-    "ar": "\u0645\u062d\u0627\u0641\u0638\u0629 \u0645\u062b\u0627\u0644"
+    "ar": "محافظة مثال"
   },
   "aliases": [
     {
@@ -19,6 +19,12 @@
     "wikidata": "Q123456"
   },
   "sourceIds": ["approved-source-id"],
-  "sourceStatus": "seed",
+  "sourceReferences": [
+    {
+      "sourceId": "approved-source-id",
+      "accessedAt": "2026-06-27T00:00:00.000Z"
+    }
+  ],
+  "sourceStatus": "released",
   "notes": "Example only. Do not copy placeholder IDs or source IDs into canonical data."
 }
