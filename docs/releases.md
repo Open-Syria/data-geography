@@ -14,10 +14,15 @@ Pushing a version tag such as `v0.1.3` runs `.github/workflows/release.yml`.
 The release workflow:
 
 1. Installs dependencies.
-2. Runs `pnpm run release:prepare -- --version "$GITHUB_REF_NAME"`.
+2. Runs `pnpm run release:prepare -- --version "$GITHUB_REF_NAME" --skip-qa`.
 3. Rebuilds `dist/release`.
 4. Verifies `release-manifest.json`.
 5. Publishes `release-manifest.json` and generated artifacts to the GitHub Release.
+
+The tagged GitHub workflow skips maintainer-local QA that depends on ignored raw
+source files, such as the HDX administrative boundary workbook. Maintainers
+should run the full local `release:prepare` command before tagging; the workflow
+then rebuilds and verifies the release from committed, reproducible inputs.
 
 Generated artifacts include JSON, NDJSON, CSV, SQL, YAML, and XML files for:
 

@@ -61,6 +61,11 @@ pnpm run release:prepare -- --version v0.1.0
 
 This builds with explicit release metadata, verifies package/version alignment, checks the changelog heading, validates artifact URLs, and rechecks artifact sizes, checksums, and record counts.
 
+The GitHub tag workflow runs the same release preparation with `--skip-qa`
+because repository-local raw source files are intentionally not committed. Run
+the full command locally before tagging so maintainer-only QA remains part of
+the release decision.
+
 For a raw local artifact build, run:
 
 ```bash

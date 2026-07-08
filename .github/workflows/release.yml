@@ -38,7 +38,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Prepare release artifacts
-        run: pnpm run release:prepare -- --version "${GITHUB_REF_NAME}"
+        run: pnpm run release:prepare -- --version "${GITHUB_REF_NAME}" --skip-qa
 
       - name: Publish GitHub Release
         run: pnpm run release:publish:github -- --tag "${GITHUB_REF_NAME}"
