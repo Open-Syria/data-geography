@@ -4046,17 +4046,17 @@
       },
       {
         "value": "kwbanێ",
-        "language": "ar",
+        "language": "und",
         "type": "alias"
       },
       {
         "value": "kۆbany",
-        "language": "ar",
+        "language": "und",
         "type": "alias"
       },
       {
         "value": "kۆbanێ",
-        "language": "ar",
+        "language": "und",
         "type": "alias"
       },
       {
@@ -6591,11 +6591,6 @@
         "value": "ناحية مركز السويداء",
         "language": "ar",
         "type": "formal"
-      },
-      {
-        "value": "البخشان",
-        "language": "en",
-        "type": "alternate_spelling"
       },
       {
         "value": "Nāḩiyat Markaz as Suwaydā’",

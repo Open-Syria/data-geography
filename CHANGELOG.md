@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## v0.1.5 - 2026-07-19
+
+- Remove an invalid As-Sweida subdistrict alias that is not present in the current GeoNames record.
+- Correct language tags for one Al-Bab district alias and three mixed-script Kobani subdistrict aliases.
+
 ## v0.1.4 - 2026-07-08
 
 - Add dated record-level `sourceReferences` to governorate, district, subdistrict, and locality records.

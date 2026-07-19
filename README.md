@@ -47,7 +47,7 @@ Out of scope:
 
 ## Current Status
 
-The latest public release is `v0.1.4`. The first public seed release was `v0.1.0`.
+The latest public release is `v0.1.5`. The first public seed release was `v0.1.0`.
 
 Current released coverage:
 
