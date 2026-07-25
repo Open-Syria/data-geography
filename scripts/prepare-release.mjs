@@ -23,6 +23,7 @@ Usage:
 Options:
   --version <tag>                 Release tag. "v" prefix is optional.
   --status <status>               planned, seed, released, or deprecated. Default: released.
+  --generated-at <iso>            Manifest generation timestamp. Defaults to now.
   --published-at <iso>            Release timestamp. Defaults to now for released status.
   --asset-base-url <url>          Public release asset URL prefix.
   --data-dir <path>               Canonical data directory. Default: data.
@@ -320,9 +321,11 @@ async function main() {
     );
   }
 
+  const releaseGeneratedAt = options.get('generated-at') ?? new Date().toISOString();
   const releasePublishedAt =
-    options.get('published-at') ?? (releaseStatus === 'released' ? new Date().toISOString() : null);
+    options.get('published-at') ?? (releaseStatus === 'released' ? releaseGeneratedAt : null);
 
+  assertValidDateTime(releaseGeneratedAt, '--generated-at');
   if (releasePublishedAt) {
     assertValidDateTime(releasePublishedAt, '--published-at');
   }
@@ -339,6 +342,7 @@ async function main() {
   const releaseEnv = {
     ...process.env,
     RELEASE_ASSET_BASE_URL: assetBaseUrl,
+    RELEASE_GENERATED_AT: releaseGeneratedAt,
     RELEASE_STATUS: releaseStatus,
     RELEASE_VERSION: releaseVersion,
   };

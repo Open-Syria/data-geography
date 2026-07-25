@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Make tag-driven release manifests reproducible from the tagged commit timestamp.
+- Prevent release workflow reruns from replacing published assets; matching assets are retained and changed bytes require a new version.
+- Honor `[skip ci]` consistently in validation and CodeQL push workflows.
+- Audit the complete dependency graph during validation and pin the patched `fast-uri` release.
+
 ## v0.1.5 - 2026-07-19
 
 - Remove an invalid As-Sweida subdistrict alias that is not present in the current GeoNames record.

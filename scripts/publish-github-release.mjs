@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
@@ -166,10 +167,15 @@ async function collectReleaseAssets(releaseDirectory, manifest) {
   return assets;
 }
 
-async function deleteExistingAsset(repository, asset) {
-  await githubRequest(`https://api.github.com/repos/${repository}/releases/assets/${asset.id}`, {
-    method: 'DELETE',
-  });
+async function assertExistingAssetMatches(existingAsset, asset) {
+  const buffer = await readFile(asset.filePath);
+  const digest = `sha256:${createHash('sha256').update(buffer).digest('hex')}`;
+
+  if (existingAsset.size !== buffer.byteLength || existingAsset.digest !== digest) {
+    throw new Error(
+      `Refusing to replace immutable release asset ${asset.name}. Publish a new version tag instead.`,
+    );
+  }
 }
 
 async function uploadAsset(release, asset) {
@@ -235,15 +241,20 @@ async function main() {
   const existingRelease = await getReleaseByTag(repository, tag);
   const release = existingRelease ?? (await createRelease(repository, tag, manifest));
   const existingAssetsByName = new Map((release.assets ?? []).map((asset) => [asset.name, asset]));
+  let retainedAssets = 0;
+  let uploadedAssets = 0;
 
   for (const asset of assets) {
     const existingAsset = existingAssetsByName.get(asset.name);
 
     if (existingAsset) {
-      await deleteExistingAsset(repository, existingAsset);
+      await assertExistingAssetMatches(existingAsset, asset);
+      retainedAssets += 1;
+      continue;
     }
 
     await uploadAsset(release, asset);
+    uploadedAssets += 1;
   }
 
   console.log(
@@ -253,6 +264,8 @@ async function main() {
         tag,
         releaseUrl: release.html_url,
         assets: assets.length,
+        retainedAssets,
+        uploadedAssets,
       },
       null,
       2,

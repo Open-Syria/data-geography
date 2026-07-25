@@ -130,6 +130,8 @@ contributions/
    - `release-manifest.json`
    - files under `artifacts/`
 
+Published version assets are immutable; corrections require a new version tag.
+
 Examples live under `examples/`. Machine-validated fake fixture data lives under `fixtures/valid-data/`.
 
 ## Commands

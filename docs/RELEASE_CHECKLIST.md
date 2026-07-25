@@ -102,8 +102,10 @@ Recommended maintainer flow:
 2. Create a version tag.
 3. Push the version tag.
 4. Let the `Release` workflow build release artifacts from the tagged commit and attach `release-manifest.json` plus generated artifacts to the GitHub Release.
-5. Review the published release notes and add known limitations when needed.
-6. Confirm `datasets-api` points at the published dataset tag and can sync the release assets.
+5. If the workflow is rerun, confirm it retains the byte-identical published
+   assets. Never replace changed assets under an existing version tag.
+6. Review the published release notes and add known limitations when needed.
+7. Confirm `datasets-api` points at the published dataset tag and can sync the release assets.
 
 ## After Publishing
 

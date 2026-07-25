@@ -1,7 +1,9 @@
+overrides:
+  fast-uri: 3.1.4
+
 minimumReleaseAge: 1440
 strictDepBuilds: true
 dangerouslyAllowAllBuilds: false
 verifyDepsBeforeRun: install
 onlyBuiltDependencies:
   - '@biomejs/biome'
-

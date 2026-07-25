@@ -19,6 +19,7 @@ const releaseDirectory = path.resolve(root, getCliOption('--release-dir') ?? 'di
 const packageJson = await readJson(path.join(root, 'package.json'));
 const releaseVersion = process.env.RELEASE_VERSION ?? `v${packageJson.version}`;
 const releaseStatus = datasetReleaseStatusSchema.parse(process.env.RELEASE_STATUS ?? 'released');
+const releaseGeneratedAt = process.env.RELEASE_GENERATED_AT ?? new Date().toISOString();
 const releasePublishedAt = process.env.RELEASE_PUBLISHED_AT ?? null;
 const assetBaseUrl = process.env.RELEASE_ASSET_BASE_URL;
 
@@ -586,7 +587,7 @@ for (const config of datasetConfigs) {
 
 const manifest = {
   schemaVersion: '1.0',
-  generatedAt: new Date().toISOString(),
+  generatedAt: releaseGeneratedAt,
   dataset: {
     id: 'opensyria-geography',
     slug: 'geography',

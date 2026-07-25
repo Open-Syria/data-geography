@@ -26,9 +26,10 @@
     "report:fixtures": "node scripts/report-data.mjs --data-dir=fixtures/valid-data",
     "coverage:data": "node scripts/analyze-coverage.mjs",
     "coverage:fixtures": "node scripts/analyze-coverage.mjs --data-dir=fixtures/valid-data --out-dir=dist/fixture-coverage",
+    "audit:dependencies": "pnpm audit",
     "match:geonames-localities": "node scripts/match-locality-geonames.mjs",
     "compare:hdx-admin": "node scripts/compare-hdx-admin-boundaries.mjs",
-    "validate": "pnpm run check && pnpm run validate:schemas && pnpm run validate:imports && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures && pnpm run coverage:data && pnpm run coverage:fixtures",
+    "validate": "pnpm run check && pnpm run validate:schemas && pnpm run validate:imports && pnpm run validate:data && pnpm run validate:fixtures && pnpm run release:build && pnpm run release:build:fixtures && pnpm run coverage:data && pnpm run coverage:fixtures && pnpm run audit:dependencies",
     "prepare": "husky"
   },
   "dependencies": {

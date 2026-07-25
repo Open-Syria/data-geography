@@ -130,6 +130,11 @@ The manifest records:
 - record counts,
 - source attribution.
 
+Tag-driven builds derive `generatedAt` and `publishedAt` from the tagged commit,
+so a workflow rerun produces the same manifest. Published release assets are
+immutable: identical assets are retained, while changed bytes require a new
+version tag.
+
 `datasets-api` consumes the release manifest and verified artifacts. It should not read live branches.
 
 Use [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md) before publishing generated artifacts.
