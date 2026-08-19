@@ -7,6 +7,8 @@
 
 OpenSyria Data Geography is the canonical repository for public, non-personal Syrian administrative geography data.
 
+**Canonical public dataset page:** [Syrian Cities, Governorates and Localities Data](https://opensyria.org/datasets/geography)
+
 This repository publishes versioned release artifacts consumed by [`datasets-api`](https://github.com/Open-Syria/datasets-api). It is focused on stable reference data, not live maps or operational/security information.
 
 ## Table of Contents
